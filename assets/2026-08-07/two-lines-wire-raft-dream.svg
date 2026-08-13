@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-label="Two Lines: tightrope walker between twin towers and Kon-Tiki raft on the Pacific">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="55%" stop-color="#1a2740"/>
+      <stop offset="100%" stop-color="#243b55"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0e3a4a"/>
+      <stop offset="100%" stop-color="#062028"/>
+    </linearGradient>
+    <linearGradient id="wireglow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f6d365" stop-opacity="0.15"/>
+      <stop offset="50%" stop-color="#fda085" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#f6d365" stop-opacity="0.15"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
+  </defs>
+
+  <!-- Sky / city half -->
+  <rect width="960" height="540" fill="url(#sky)"/>
+
+  <!-- Stars -->
+  <g fill="#cfe8ff" opacity="0.75">
+    <circle cx="80" cy="48" r="1.2"/>
+    <circle cx="140" cy="90" r="0.9"/>
+    <circle cx="220" cy="36" r="1.1"/>
+    <circle cx="310" cy="72" r="0.8"/>
+    <circle cx="420" cy="40" r="1.0"/>
+    <circle cx="520" cy="58" r="0.9"/>
+    <circle cx="610" cy="30" r="1.2"/>
+    <circle cx="700" cy="78" r="0.8"/>
+    <circle cx="780" cy="44" r="1.0"/>
+    <circle cx="860" cy="66" r="0.9"/>
+    <circle cx="900" cy="28" r="1.1"/>
+  </g>
+
+  <!-- Twin towers silhouette (left-center) -->
+  <g fill="#101826" stroke="#6f87a8" stroke-width="1.5">
+    <rect x="210" y="90" width="78" height="250" rx="2"/>
+    <rect x="318" y="78" width="78" height="262" rx="2"/>
+    <!-- antenna -->
+    <line x1="249" y1="90" x2="249" y2="58" stroke="#9eb6d4" stroke-width="2"/>
+    <line x1="357" y1="78" x2="357" y2="48" stroke="#9eb6d4" stroke-width="2"/>
+    <!-- window grid hints -->
+    <g stroke="#2b3d58" stroke-width="0.8" opacity="0.7">
+      <path d="M220 120 H278 M220 150 H278 M220 180 H278 M220 210 H278 M220 240 H278 M220 270 H278 M220 300 H278"/>
+      <path d="M328 110 H388 M328 140 H388 M328 170 H388 M328 200 H388 M328 230 H388 M328 260 H388 M328 290 H388"/>
+    </g>
+  </g>
+
+  <!-- Wire between towers -->
+  <path d="M288 100 C300 108, 306 112, 318 100" fill="none" stroke="url(#wireglow)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M288 100 C300 108, 306 112, 318 100" fill="none" stroke="#fff2c8" stroke-width="1.2" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- Walker on wire -->
+  <g transform="translate(303,98)" fill="none" stroke="#ffe7b3" stroke-width="2" stroke-linecap="round">
+    <!-- pole -->
+    <line x1="-28" y1="2" x2="28" y2="-2" stroke="#fda085" stroke-width="2.4"/>
+    <!-- body -->
+    <circle cx="0" cy="-10" r="4" fill="#ffe7b3" stroke="none"/>
+    <line x1="0" y1="-6" x2="0" y2="10"/>
+    <line x1="0" y1="2" x2="-7" y2="14"/>
+    <line x1="0" y1="2" x2="8" y2="12"/>
+    <line x1="0" y1="10" x2="-5" y2="22"/>
+    <line x1="0" y1="10" x2="6" y2="22"/>
+  </g>
+
+  <!-- City base / void -->
+  <rect x="0" y="340" width="480" height="200" fill="#0a1018"/>
+  <g fill="#152033" opacity="0.9">
+    <rect x="40" y="300" width="40" height="50"/>
+    <rect x="95" y="280" width="55" height="70"/>
+    <rect x="420" y="290" width="45" height="60"/>
+  </g>
+
+  <!-- Divider / same ridiculous sky seam -->
+  <line x1="480" y1="0" x2="480" y2="540" stroke="#6f87a8" stroke-width="1" stroke-dasharray="4 6" opacity="0.45"/>
+
+  <!-- Pacific half -->
+  <rect x="480" y="280" width="480" height="260" fill="url(#sea)"/>
+  <!-- horizon glow -->
+  <ellipse cx="720" cy="280" rx="220" ry="28" fill="#f6d365" opacity="0.12" filter="url(#soft)"/>
+
+  <!-- Waves -->
+  <g fill="none" stroke="#7ec8c8" stroke-width="1.4" opacity="0.55">
+    <path d="M500 340 Q560 328 620 342 T740 340 T900 345"/>
+    <path d="M510 380 Q570 368 640 382 T780 378 T940 385"/>
+    <path d="M505 430 Q580 416 660 432 T820 428 T950 435"/>
+    <path d="M520 480 Q600 468 690 482 T860 478"/>
+  </g>
+
+  <!-- Kon-Tiki raft -->
+  <g transform="translate(700,390)">
+    <!-- logs -->
+    <g fill="#8b5a2b" stroke="#5a3a1a" stroke-width="1">
+      <ellipse cx="-50" cy="18" rx="18" ry="8"/>
+      <ellipse cx="-20" cy="20" rx="18" ry="8"/>
+      <ellipse cx="10" cy="20" rx="18" ry="8"/>
+      <ellipse cx="40" cy="18" rx="18" ry="8"/>
+      <rect x="-62" y="8" width="124" height="16" rx="4" fill="#a56b35"/>
+    </g>
+    <!-- mast + sail -->
+    <line x1="0" y1="8" x2="0" y2="-70" stroke="#d9c3a0" stroke-width="3"/>
+    <path d="M4 -66 L48 -20 L4 -12 Z" fill="#f7efe0" stroke="#d7c4a0" stroke-width="1.2" opacity="0.92"/>
+    <!-- Kon-Tiki glyph hint -->
+    <circle cx="18" cy="-34" r="5" fill="none" stroke="#c45c26" stroke-width="1.5"/>
+    <path d="M14 -34 h8 M18 -38 v8" stroke="#c45c26" stroke-width="1.2"/>
+    <!-- figure -->
+    <g stroke="#ffe7b3" stroke-width="1.8" fill="none" stroke-linecap="round">
+      <circle cx="-18" cy="-8" r="3.5" fill="#ffe7b3" stroke="none"/>
+      <line x1="-18" y1="-4" x2="-18" y2="10"/>
+      <line x1="-18" y1="0" x2="-28" y2="6"/>
+      <line x1="-18" y1="0" x2="-8" y2="4"/>
+    </g>
+    <!-- reef splash / landfall foam -->
+    <g fill="#e8fff8" opacity="0.7">
+      <ellipse cx="70" cy="28" rx="22" ry="7"/>
+      <ellipse cx="92" cy="34" rx="14" ry="5"/>
+      <ellipse cx="55" cy="36" rx="10" ry="4"/>
+    </g>
+    <!-- reef rocks -->
+    <g fill="#3d4f4a">
+      <ellipse cx="95" cy="42" rx="28" ry="10"/>
+      <ellipse cx="118" cy="48" rx="16" ry="7"/>
+    </g>
+  </g>
+
+  <!-- Labels -->
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#e8f0ff">
+    <text x="248" y="370" font-size="18" letter-spacing="1.5">WIRE</text>
+    <text x="210" y="392" font-size="12" fill="#9eb6d4">Petit · 7 Aug 1974</text>
+    <text x="210" y="410" font-size="11" fill="#7f95b0">balance pole · no net</text>
+
+    <text x="690" y="520" font-size="18" letter-spacing="1.5" text-anchor="middle">RAFT</text>
+    <text x="690" y="500" font-size="12" fill="#9eb6d4" text-anchor="middle">Kon-Tiki · 7 Aug 1947</text>
+  </g>
+
+  <text x="480" y="34" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#f6d365" letter-spacing="2">TWO LINES</text>
+  <text x="480" y="56" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#9eb6d4">same ridiculous sky · two ways across the gap</text>
+</svg>

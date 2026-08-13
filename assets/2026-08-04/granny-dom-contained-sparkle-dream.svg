@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" role="img" aria-label="Granny Dom Contained Sparkle Dream — champagne bottle and sea-anemone jar under shared glass light">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1020"/>
+      <stop offset="45%" stop-color="#241828"/>
+      <stop offset="100%" stop-color="#0c0812"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d8ecf4" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#8ec4d4" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#4a7080" stop-opacity="0.35"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f2d78a"/>
+      <stop offset="100%" stop-color="#b8862e"/>
+    </linearGradient>
+    <linearGradient id="wine" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f7e7a8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#c9a14a" stop-opacity="0.55"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7fd0c8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#2a6a72" stop-opacity="0.75"/>
+    </linearGradient>
+    <radialGradient id="jarGlow" cx="68%" cy="48%" r="28%">
+      <stop offset="0%" stop-color="#9ef0e0" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#9ef0e0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="corkGlow" cx="32%" cy="28%" r="22%">
+      <stop offset="0%" stop-color="#f0d080" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#f0d080" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="960" height="640" fill="url(#bg)"/>
+  <circle cx="300" cy="180" r="160" fill="url(#corkGlow)"/>
+  <circle cx="660" cy="310" r="190" fill="url(#jarGlow)"/>
+
+  <!-- table / shelf -->
+  <ellipse cx="480" cy="530" rx="360" ry="36" fill="#120c18" opacity="0.75"/>
+  <path d="M120 520 Q480 560 840 520" stroke="#3a2a48" stroke-width="3" fill="none" opacity="0.5"/>
+
+  <!-- champagne bottle (left) -->
+  <g filter="url(#soft)">
+    <path d="M250 470 L250 300 Q250 250 280 220 L300 160 L320 160 L340 220 Q370 250 370 300 L370 470 Z" fill="url(#glass)" stroke="#cfe8f0" stroke-width="2"/>
+    <path d="M262 455 L262 310 Q262 270 288 245 L305 185 L315 185 L332 245 Q358 270 358 310 L358 455 Z" fill="url(#wine)"/>
+    <rect x="298" y="118" width="24" height="48" rx="4" fill="url(#gold)"/>
+    <rect x="292" y="108" width="36" height="18" rx="6" fill="#8b5a2b"/>
+    <path d="M292 116 Q310 96 328 116" stroke="#d4a85a" stroke-width="3" fill="none"/>
+    <!-- bubbles in bottle -->
+    <circle cx="300" cy="360" r="4" fill="#fff8d0" opacity="0.7"/>
+    <circle cx="325" cy="390" r="3" fill="#fff8d0" opacity="0.55"/>
+    <circle cx="310" cy="420" r="5" fill="#fff8d0" opacity="0.45"/>
+    <circle cx="335" cy="340" r="2.5" fill="#fff8d0" opacity="0.65"/>
+    <circle cx="295" cy="400" r="2" fill="#fff8d0" opacity="0.5"/>
+  </g>
+
+  <!-- rising foam / cork path -->
+  <g opacity="0.85">
+    <circle cx="310" cy="95" r="6" fill="#f7e7a8"/>
+    <circle cx="330" cy="78" r="4" fill="#f7e7a8" opacity="0.7"/>
+    <circle cx="290" cy="70" r="3" fill="#f7e7a8" opacity="0.55"/>
+    <circle cx="345" cy="100" r="3.5" fill="#f7e7a8" opacity="0.45"/>
+    <circle cx="275" cy="100" r="2.5" fill="#f7e7a8" opacity="0.4"/>
+  </g>
+
+  <!-- anemone jar (right) -->
+  <g filter="url(#soft)">
+    <path d="M560 470 L560 250 Q560 210 600 200 L720 200 Q760 210 760 250 L760 470 Z" fill="url(#glass)" stroke="#cfe8f0" stroke-width="2"/>
+    <path d="M575 455 L575 265 Q575 235 605 228 L715 228 Q745 235 745 265 L745 455 Z" fill="url(#sea)"/>
+    <ellipse cx="660" cy="210" rx="95" ry="18" fill="#d8ecf4" opacity="0.35" stroke="#cfe8f0" stroke-width="2"/>
+    <rect x="555" y="468" width="210" height="18" rx="4" fill="#2a2030" opacity="0.8"/>
+    <!-- Granny anemone -->
+    <ellipse cx="660" cy="390" rx="48" ry="28" fill="#e87890"/>
+    <ellipse cx="660" cy="385" rx="34" ry="18" fill="#f0a0b0"/>
+    <!-- tentacles -->
+    <path d="M630 375 Q610 330 620 290" stroke="#f2b0c0" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M645 368 Q640 320 655 285" stroke="#f6c4d0" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M660 365 Q665 315 660 278" stroke="#f2b0c0" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M675 368 Q680 322 690 288" stroke="#f6c4d0" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M690 375 Q715 335 705 295" stroke="#f2b0c0" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M620 385 Q595 360 600 340" stroke="#e890a4" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M700 385 Q725 360 720 338" stroke="#e890a4" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- jar bubbles -->
+    <circle cx="610" cy="300" r="4" fill="#dff8f4" opacity="0.55"/>
+    <circle cx="700" cy="320" r="3" fill="#dff8f4" opacity="0.45"/>
+    <circle cx="640" cy="250" r="2.5" fill="#dff8f4" opacity="0.5"/>
+    <circle cx="680" cy="270" r="3.5" fill="#dff8f4" opacity="0.4"/>
+  </g>
+
+  <!-- shared foam arc between vessels -->
+  <g opacity="0.55">
+    <circle cx="430" cy="300" r="5" fill="#f0e0b0"/>
+    <circle cx="470" cy="270" r="4" fill="#d0f0e8"/>
+    <circle cx="510" cy="295" r="6" fill="#f0e0b0"/>
+    <circle cx="450" cy="340" r="3" fill="#d0f0e8"/>
+    <circle cx="500" cy="330" r="3.5" fill="#f0e0b0"/>
+    <circle cx="480" cy="250" r="2.5" fill="#ffffff" opacity="0.5"/>
+  </g>
+
+  <!-- labels -->
+  <text x="310" y="555" text-anchor="middle" fill="#d8c8a0" font-family="Georgia, serif" font-size="18" letter-spacing="1">DOM</text>
+  <text x="660" y="555" text-anchor="middle" fill="#a8d8d0" font-family="Georgia, serif" font-size="18" letter-spacing="1">GRANNY</text>
+  <text x="480" y="60" text-anchor="middle" fill="#e8d8b8" font-family="Georgia, serif" font-size="28" letter-spacing="2">CONTAINED SPARKLE</text>
+  <text x="480" y="92" text-anchor="middle" fill="#9a8a78" font-family="Georgia, serif" font-size="14" letter-spacing="3">JAR LIGHT · CORK POP · BOTH LEAVE ONLY FOAM</text>
+</svg>

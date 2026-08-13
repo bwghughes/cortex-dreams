@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Lammas Loaf Oven Dream — stone oven, first harvest loaf glowing, embers, grain cut at the threshold, calendar moon over the crust">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#120c1c"/>
+      <stop offset="40%" stop-color="#1c1428"/>
+      <stop offset="72%" stop-color="#2a1830"/>
+      <stop offset="100%" stop-color="#0e0a12"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a2018"/>
+      <stop offset="100%" stop-color="#0c0806"/>
+    </linearGradient>
+    <linearGradient id="stone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5a5048"/>
+      <stop offset="45%" stop-color="#3a342e"/>
+      <stop offset="100%" stop-color="#1a1612"/>
+    </linearGradient>
+    <linearGradient id="stoneRim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8a7a68"/>
+      <stop offset="50%" stop-color="#4a4038"/>
+      <stop offset="100%" stop-color="#2a2218"/>
+    </linearGradient>
+    <radialGradient id="mouthGlow" cx="50%" cy="55%" r="55%">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="0.95"/>
+      <stop offset="35%" stop-color="#f09030" stop-opacity="0.75"/>
+      <stop offset="70%" stop-color="#a03010" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#200808" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="loafGlow" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#fff2c0" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#e8a040" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#401808" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ember" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffe080" stop-opacity="1"/>
+      <stop offset="40%" stop-color="#ff6020" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#600800" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="crust" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0c878"/>
+      <stop offset="40%" stop-color="#c87828"/>
+      <stop offset="100%" stop-color="#6a3010"/>
+    </linearGradient>
+    <linearGradient id="grain" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d8b050"/>
+      <stop offset="100%" stop-color="#8a6020"/>
+    </linearGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <filter id="soft2" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <filter id="tiny" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.5"/>
+    </filter>
+  </defs>
+
+  <!-- night field -->
+  <rect width="1200" height="800" fill="url(#sky)"/>
+  <!-- harvest moon -->
+  <circle cx="980" cy="120" r="54" fill="#f0e0b0" opacity="0.18" filter="url(#soft2)"/>
+  <circle cx="980" cy="120" r="34" fill="#f8ecd0" opacity="0.92"/>
+  <circle cx="968" cy="112" r="10" fill="#d8c8a0" opacity="0.35"/>
+  <!-- stars -->
+  <g fill="#f0e8d0" opacity="0.55">
+    <circle cx="120" cy="70" r="1.4"/>
+    <circle cx="210" cy="110" r="1.1"/>
+    <circle cx="340" cy="55" r="1.3"/>
+    <circle cx="480" cy="90" r="1.0"/>
+    <circle cx="620" cy="48" r="1.2"/>
+    <circle cx="760" cy="80" r="1.1"/>
+    <circle cx="880" cy="40" r="1.0"/>
+    <circle cx="1080" cy="95" r="1.3"/>
+    <circle cx="150" cy="160" r="0.9"/>
+    <circle cx="1050" cy="180" r="1.0"/>
+  </g>
+
+  <!-- floor -->
+  <path d="M0 560 L1200 560 L1200 800 L0 800 Z" fill="url(#floor)"/>
+  <path d="M0 560 Q600 520 1200 560" fill="none" stroke="#3a3020" stroke-width="2" opacity="0.4"/>
+
+  <!-- stone oven body -->
+  <ellipse cx="600" cy="560" rx="280" ry="48" fill="#1a1410" opacity="0.55"/>
+  <path d="M340 520
+           C340 360 400 250 600 230
+           C800 250 860 360 860 520
+           L820 560 L380 560 Z" fill="url(#stone)"/>
+  <path d="M360 515
+           C360 370 415 270 600 252
+           C785 270 840 370 840 515
+           L810 548 L390 548 Z" fill="url(#stoneRim)" opacity="0.35"/>
+
+  <!-- arch mouth -->
+  <path d="M430 530
+           C430 390 480 320 600 310
+           C720 320 770 390 770 530
+           L740 545 L460 545 Z" fill="#0a0604"/>
+  <ellipse cx="600" cy="470" rx="150" ry="120" fill="url(#mouthGlow)" filter="url(#soft)"/>
+  <path d="M455 525
+           C455 400 500 335 600 325
+           C700 335 745 400 745 525
+           Z" fill="#180c08" opacity="0.55"/>
+
+  <!-- first loaf inside oven -->
+  <ellipse cx="600" cy="470" rx="88" ry="38" fill="url(#loafGlow)" filter="url(#soft)"/>
+  <ellipse cx="600" cy="468" rx="72" ry="30" fill="url(#crust)"/>
+  <ellipse cx="600" cy="455" rx="58" ry="18" fill="#f8d890" opacity="0.55"/>
+  <!-- score lines on loaf -->
+  <path d="M555 460 Q600 445 645 460" fill="none" stroke="#6a3810" stroke-width="2.2" opacity="0.55"/>
+  <path d="M560 472 Q600 458 640 472" fill="none" stroke="#6a3810" stroke-width="1.8" opacity="0.4"/>
+  <path d="M565 482 Q600 470 635 482" fill="none" stroke="#6a3810" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- embers on floor of mouth -->
+  <g filter="url(#tiny)">
+    <circle cx="540" cy="515" r="7" fill="url(#ember)"/>
+    <circle cx="575" cy="522" r="5" fill="url(#ember)"/>
+    <circle cx="610" cy="518" r="8" fill="url(#ember)"/>
+    <circle cx="645" cy="524" r="4.5" fill="url(#ember)"/>
+    <circle cx="670" cy="516" r="6" fill="url(#ember)"/>
+    <circle cx="520" cy="508" r="3.5" fill="url(#ember)"/>
+    <circle cx="690" cy="510" r="3.8" fill="url(#ember)"/>
+  </g>
+  <!-- rising sparks -->
+  <g fill="#ffc060" opacity="0.75">
+    <circle cx="560" cy="400" r="2.2"/>
+    <circle cx="590" cy="360" r="1.6"/>
+    <circle cx="625" cy="385" r="2.0"/>
+    <circle cx="655" cy="345" r="1.4"/>
+    <circle cx="580" cy="320" r="1.2"/>
+    <circle cx="640" cy="300" r="1.5"/>
+  </g>
+
+  <!-- cut grain sheaf left of oven -->
+  <g transform="translate(210,470)">
+    <ellipse cx="40" cy="90" rx="48" ry="14" fill="#1a1208" opacity="0.45"/>
+    <g stroke="url(#grain)" stroke-width="3.2" stroke-linecap="round" fill="none">
+      <path d="M40 90 C38 50 20 20 12 0"/>
+      <path d="M40 90 C42 48 40 18 40 -8"/>
+      <path d="M40 90 C48 52 62 22 70 2"/>
+      <path d="M40 90 C30 55 10 30 0 12"/>
+      <path d="M40 90 C52 55 78 32 88 14"/>
+    </g>
+    <g fill="#e0b848">
+      <ellipse cx="12" cy="-2" rx="7" ry="3.5" transform="rotate(-25 12 -2)"/>
+      <ellipse cx="40" cy="-12" rx="8" ry="3.8"/>
+      <ellipse cx="70" cy="0" rx="7" ry="3.5" transform="rotate(22 70 0)"/>
+      <ellipse cx="0" cy="10" rx="6" ry="3" transform="rotate(-35 0 10)"/>
+      <ellipse cx="88" cy="12" rx="6" ry="3" transform="rotate(30 88 12)"/>
+    </g>
+  </g>
+
+  <!-- single blessed loaf on stone before oven -->
+  <g transform="translate(880,520)">
+    <ellipse cx="50" cy="48" rx="58" ry="16" fill="#120c08" opacity="0.5"/>
+    <ellipse cx="50" cy="28" rx="52" ry="22" fill="url(#crust)"/>
+    <ellipse cx="50" cy="18" rx="40" ry="12" fill="#f0d080" opacity="0.45"/>
+    <path d="M20 24 Q50 10 80 24" fill="none" stroke="#6a3810" stroke-width="2" opacity="0.5"/>
+    <!-- tiny tithe mark / cross score -->
+    <path d="M50 10 L50 36 M38 22 L62 22" fill="none" stroke="#ffe8a0" stroke-width="1.6" opacity="0.55"/>
+  </g>
+
+  <!-- calendar tick marks under moon: solstice → lammas → equinox -->
+  <g transform="translate(860,200)" opacity="0.7">
+    <line x1="0" y1="20" x2="200" y2="20" stroke="#c8a870" stroke-width="1.5"/>
+    <circle cx="0" cy="20" r="4" fill="#a0c8ff"/>
+    <circle cx="100" cy="20" r="5.5" fill="#f0c060"/>
+    <circle cx="200" cy="20" r="4" fill="#e08050"/>
+    <text x="0" y="42" text-anchor="middle" fill="#a09080" font-family="Georgia, serif" font-size="12">solstice</text>
+    <text x="100" y="42" text-anchor="middle" fill="#f0d090" font-family="Georgia, serif" font-size="13" font-weight="bold">Lammas</text>
+    <text x="200" y="42" text-anchor="middle" fill="#a09080" font-family="Georgia, serif" font-size="12">equinox</text>
+  </g>
+
+  <!-- title plate -->
+  <g transform="translate(60,680)">
+    <rect x="0" y="0" width="520" height="78" rx="10" fill="#120c10" opacity="0.72"/>
+    <text x="24" y="34" fill="#f0d8a0" font-family="Georgia, serif" font-size="28">Lammas Loaf Oven</text>
+    <text x="24" y="58" fill="#b09878" font-family="Georgia, serif" font-size="15">first fruits · cut and bless · freeze until the crust holds</text>
+  </g>
+</svg>

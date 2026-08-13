@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Two Crossings — Channel swim and first public Web</title>
+  <desc id="desc">Dual panel: left a swimmer crossing cold channel water; right public hypertext nodes radiating outward without permission.</desc>
+  <defs>
+    <linearGradient id="skyL" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b1c33"/>
+      <stop offset="55%" stop-color="#12324f"/>
+      <stop offset="100%" stop-color="#0a1624"/>
+    </linearGradient>
+    <linearGradient id="skyR" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#140a22"/>
+      <stop offset="50%" stop-color="#1d1040"/>
+      <stop offset="100%" stop-color="#071018"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a6b8a"/>
+      <stop offset="45%" stop-color="#0f4a66"/>
+      <stop offset="100%" stop-color="#062433"/>
+    </linearGradient>
+    <radialGradient id="nodeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f6e7a1" stop-opacity="0.95"/>
+      <stop offset="55%" stop-color="#7ec8ff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#7ec8ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.2"/>
+    </filter>
+  </defs>
+
+  <!-- background panels -->
+  <rect width="480" height="540" fill="url(#skyL)"/>
+  <rect x="480" width="480" height="540" fill="url(#skyR)"/>
+
+  <!-- left sea -->
+  <path d="M0 250 C80 235, 140 270, 220 255 S360 230, 480 250 L480 540 L0 540 Z" fill="url(#sea)"/>
+  <path d="M0 310 C90 295, 170 330, 260 312 S400 290, 480 318" fill="none" stroke="#7ec8ff" stroke-opacity="0.35" stroke-width="2"/>
+  <path d="M0 350 C110 340, 190 375, 290 355 S410 335, 480 360" fill="none" stroke="#9ad7ff" stroke-opacity="0.22" stroke-width="2"/>
+  <path d="M0 400 C100 390, 200 420, 300 405 S400 385, 480 410" fill="none" stroke="#5aa0c4" stroke-opacity="0.28" stroke-width="2"/>
+
+  <!-- far cliffs left / right of channel -->
+  <path d="M0 250 L0 210 C40 200, 70 220, 95 215 L110 250 Z" fill="#1b2f28"/>
+  <path d="M390 248 C420 220, 450 225, 480 240 L480 260 L370 255 Z" fill="#24352f"/>
+
+  <!-- swimmer -->
+  <g transform="translate(210,300)">
+    <ellipse cx="0" cy="18" rx="46" ry="10" fill="#041820" opacity="0.35"/>
+    <path d="M-38 4 C-20 -10, 8 -14, 34 -2 C18 6, -6 12, -30 10 Z" fill="#e8c7a0"/>
+    <circle cx="34" cy="-4" r="7" fill="#f0d2ad"/>
+    <path d="M-10 2 C-28 16, -48 10, -54 0" fill="none" stroke="#e8c7a0" stroke-width="5" stroke-linecap="round"/>
+    <path d="M8 6 C22 18, 40 14, 52 4" fill="none" stroke="#e8c7a0" stroke-width="5" stroke-linecap="round"/>
+    <path d="M-6 8 C-2 28, 10 34, 18 40" fill="none" stroke="#d7b089" stroke-width="4" stroke-linecap="round"/>
+    <!-- kick splash -->
+    <g filter="url(#soft)" opacity="0.7">
+      <circle cx="-50" cy="2" r="3" fill="#cfefff"/>
+      <circle cx="-58" cy="-4" r="2" fill="#cfefff"/>
+      <circle cx="58" cy="0" r="2.5" fill="#cfefff"/>
+      <circle cx="48" cy="8" r="2" fill="#cfefff"/>
+    </g>
+  </g>
+
+  <!-- right: web lattice -->
+  <g opacity="0.95">
+    <circle cx="720" cy="250" r="70" fill="url(#nodeGlow)"/>
+    <!-- links -->
+    <g stroke="#8fd0ff" stroke-opacity="0.55" stroke-width="1.6">
+      <line x1="720" y1="250" x2="560" y2="140"/>
+      <line x1="720" y1="250" x2="620" y2="90"/>
+      <line x1="720" y1="250" x2="800" y2="95"/>
+      <line x1="720" y1="250" x2="900" y2="150"/>
+      <line x1="720" y1="250" x2="910" y2="280"/>
+      <line x1="720" y1="250" x2="870" y2="390"/>
+      <line x1="720" y1="250" x2="760" y2="430"/>
+      <line x1="720" y1="250" x2="640" y2="410"/>
+      <line x1="720" y1="250" x2="560" y2="330"/>
+      <line x1="560" y1="140" x2="620" y2="90"/>
+      <line x1="800" y1="95" x2="900" y2="150"/>
+      <line x1="870" y1="390" x2="760" y2="430"/>
+      <line x1="560" y1="330" x2="640" y2="410"/>
+      <line x1="900" y1="150" x2="910" y2="280"/>
+    </g>
+    <!-- nodes -->
+    <g>
+      <circle cx="720" cy="250" r="10" fill="#fff2b0"/>
+      <circle cx="560" cy="140" r="6" fill="#9fe0ff"/>
+      <circle cx="620" cy="90" r="5" fill="#9fe0ff"/>
+      <circle cx="800" cy="95" r="6" fill="#9fe0ff"/>
+      <circle cx="900" cy="150" r="7" fill="#b7ebff"/>
+      <circle cx="910" cy="280" r="5" fill="#9fe0ff"/>
+      <circle cx="870" cy="390" r="6" fill="#9fe0ff"/>
+      <circle cx="760" cy="430" r="5" fill="#9fe0ff"/>
+      <circle cx="640" cy="410" r="6" fill="#9fe0ff"/>
+      <circle cx="560" cy="330" r="5" fill="#9fe0ff"/>
+    </g>
+    <!-- tiny document stack leaving desk -->
+    <g transform="translate(680,320)">
+      <rect x="0" y="0" width="52" height="14" rx="2" fill="#d9e7f7" opacity="0.9"/>
+      <rect x="6" y="-10" width="52" height="14" rx="2" fill="#c2d8f0" opacity="0.9"/>
+      <rect x="12" y="-20" width="52" height="14" rx="2" fill="#aec9e6" opacity="0.95"/>
+      <text x="18" y="-9" font-family="Georgia, serif" font-size="8" fill="#1a2a40">www</text>
+    </g>
+  </g>
+
+  <!-- divider -->
+  <line x1="480" y1="40" x2="480" y2="500" stroke="#f0e2a8" stroke-opacity="0.35" stroke-width="1.5" stroke-dasharray="4 6"/>
+
+  <!-- labels -->
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#e8f4ff">
+    <text x="40" y="48" font-size="22" letter-spacing="1">BODY THROUGH SALT</text>
+    <text x="40" y="74" font-size="13" fill="#9ec9e6">Ederle · 6 Aug 1926 · Channel</text>
+    <text x="520" y="48" font-size="22" letter-spacing="1">PROTOCOL WITHOUT PASSPORT</text>
+    <text x="520" y="74" font-size="13" fill="#cbb6ef">Berners-Lee · 6 Aug 1991 · first public Web</text>
+  </g>
+
+  <g font-family="Georgia, serif" fill="#f6e7a1">
+    <text x="480" y="520" font-size="16" text-anchor="middle">Two crossings. One shore. Both kept swimming.</text>
+  </g>
+</svg>

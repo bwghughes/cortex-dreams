@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Hale-Bopp Telegram Dream — paper telegram machine under a comet sky with two independent observers">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#050814"/>
+      <stop offset="45%" stop-color="#0a1630"/>
+      <stop offset="78%" stop-color="#1a1420"/>
+      <stop offset="100%" stop-color="#120c10"/>
+    </linearGradient>
+    <radialGradient id="coma" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="18%" stop-color="#d8f0ff"/>
+      <stop offset="45%" stop-color="#7ab8ff" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#1a3060" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="tail" x1="0" y1="0" x2="1" y2="0.15">
+      <stop offset="0%" stop-color="#e8f4ff" stop-opacity="0.95"/>
+      <stop offset="35%" stop-color="#9ec8ff" stop-opacity="0.55"/>
+      <stop offset="70%" stop-color="#6a90d0" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#1a2040" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="dust" x1="0" y1="0" x2="1" y2="0.3">
+      <stop offset="0%" stop-color="#ffd8a0" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#c09060" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#402010" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="desk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="55%" stop-color="#24180e"/>
+      <stop offset="100%" stop-color="#100a06"/>
+    </linearGradient>
+    <linearGradient id="brass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8c878"/>
+      <stop offset="45%" stop-color="#b88830"/>
+      <stop offset="100%" stop-color="#6a4810"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f4ecd8"/>
+      <stop offset="100%" stop-color="#d8c8a0"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="tiny" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
+  </defs>
+
+  <!-- night sky -->
+  <rect width="1200" height="800" fill="url(#sky)"/>
+
+  <!-- stars -->
+  <g fill="#d8e8ff" opacity="0.85">
+    <circle cx="80" cy="60" r="1.2"/><circle cx="140" cy="110" r="0.9"/>
+    <circle cx="220" cy="40" r="1.4"/><circle cx="300" cy="95" r="0.8"/>
+    <circle cx="380" cy="55" r="1.1"/><circle cx="460" cy="130" r="0.7"/>
+    <circle cx="540" cy="35" r="1.3"/><circle cx="620" cy="88" r="0.9"/>
+    <circle cx="700" cy="48" r="1.0"/><circle cx="780" cy="120" r="1.5"/>
+    <circle cx="860" cy="70" r="0.8"/><circle cx="940" cy="42" r="1.2"/>
+    <circle cx="1020" cy="100" r="0.9"/><circle cx="1100" cy="55" r="1.1"/>
+    <circle cx="160" cy="180" r="0.7"/><circle cx="980" cy="160" r="1.0"/>
+    <circle cx="430" cy="200" r="0.8"/><circle cx="1050" cy="190" r="0.7"/>
+  </g>
+
+  <!-- dust tail (warmer, lower) -->
+  <path d="M720 210 C560 240, 380 290, 120 360 C280 300, 480 250, 720 210 Z" fill="url(#dust)" filter="url(#soft)"/>
+  <path d="M730 220 C580 255, 400 310, 160 390 C320 320, 520 265, 730 220 Z" fill="url(#dust)" opacity="0.55"/>
+
+  <!-- ion tail (blue-white) -->
+  <path d="M740 190 C520 170, 300 150, 60 140 C300 165, 520 185, 740 190 Z" fill="url(#tail)" filter="url(#soft)"/>
+  <path d="M745 200 C540 185, 320 170, 90 165 C330 180, 545 195, 745 200 Z" fill="url(#tail)" opacity="0.65"/>
+  <path d="M750 205 C560 215, 340 235, 80 270 C350 230, 570 210, 750 205 Z" fill="url(#tail)" opacity="0.4"/>
+
+  <!-- coma / nucleus -->
+  <ellipse cx="760" cy="205" rx="110" ry="70" fill="url(#coma)" filter="url(#glow)" opacity="0.9"/>
+  <circle cx="770" cy="200" r="14" fill="#ffffff" filter="url(#glow)"/>
+  <circle cx="770" cy="200" r="6" fill="#f0f8ff"/>
+
+  <!-- two independent observers (silhouettes on ridges) -->
+  <g opacity="0.75">
+    <!-- Hale ridge left -->
+    <path d="M40 430 C120 400, 200 410, 280 440 L280 520 L40 520 Z" fill="#0a1018"/>
+    <circle cx="150" cy="400" r="10" fill="#0c121c"/>
+    <rect x="145" y="408" width="10" height="28" fill="#0c121c"/>
+    <!-- tiny telescope -->
+    <rect x="158" y="398" width="28" height="4" rx="1" fill="#4a6080" transform="rotate(-18 158 398)"/>
+    <circle cx="186" cy="390" r="3" fill="#6a88a8"/>
+
+    <!-- Bopp ridge right -->
+    <path d="M920 450 C1000 420, 1080 430, 1160 460 L1160 530 L920 530 Z" fill="#0a1018"/>
+    <circle cx="1040" cy="418" r="10" fill="#0c121c"/>
+    <rect x="1035" y="426" width="10" height="28" fill="#0c121c"/>
+    <rect x="1048" y="416" width="26" height="4" rx="1" fill="#4a6080" transform="rotate(14 1048 416)"/>
+    <circle cx="1072" cy="422" r="3" fill="#6a88a8"/>
+  </g>
+
+  <!-- desk surface -->
+  <path d="M0 520 L1200 520 L1200 800 L0 800 Z" fill="url(#desk)"/>
+  <path d="M0 520 L1200 520 L1200 540 L0 560 Z" fill="#2a1c12" opacity="0.55"/>
+
+  <!-- telegram machine body -->
+  <g>
+    <rect x="380" y="560" width="440" height="170" rx="10" fill="#2a2218" stroke="#5a4830" stroke-width="2"/>
+    <rect x="400" y="578" width="400" height="90" rx="4" fill="#1a1410"/>
+    <!-- paper strip emerging -->
+    <rect x="430" y="500" width="220" height="90" rx="3" fill="url(#paper)" stroke="#c0a878" stroke-width="1"/>
+    <rect x="430" y="500" width="220" height="14" fill="#e8dcc0"/>
+    <!-- typed lines on paper -->
+    <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#3a3020">
+      <text x="444" y="532">HALE REPORTS VISITOR</text>
+      <text x="444" y="550">BOPP CONFIRMS SAME</text>
+      <text x="444" y="568">STAMP THE PIN —</text>
+      <text x="444" y="586">SKY ALREADY SIGNED</text>
+    </g>
+    <!-- brass keys / type bar -->
+    <rect x="420" y="680" width="360" height="28" rx="4" fill="url(#brass)"/>
+    <g fill="#1a1208">
+      <circle cx="450" cy="694" r="7"/><circle cx="490" cy="694" r="7"/>
+      <circle cx="530" cy="694" r="7"/><circle cx="570" cy="694" r="7"/>
+      <circle cx="610" cy="694" r="7"/><circle cx="650" cy="694" r="7"/>
+      <circle cx="690" cy="694" r="7"/><circle cx="730" cy="694" r="7"/>
+    </g>
+    <!-- stamp lever -->
+    <rect x="780" y="620" width="18" height="70" rx="3" fill="url(#brass)"/>
+    <circle cx="789" cy="612" r="12" fill="#d4a84a" stroke="#6a4810" stroke-width="2"/>
+    <!-- small plate -->
+    <text x="600" y="740" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#c8a868" letter-spacing="2">TYPOGRAPHER · 1829 / 1995</text>
+  </g>
+
+  <!-- title band -->
+  <text x="600" y="48" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#e8f0ff" letter-spacing="3">HALE–BOPP TELEGRAM</text>
+  <text x="600" y="78" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#8aa0c0" letter-spacing="4">two sightings · one visitor · stamp the sky</text>
+
+  <!-- faint dual sighting rays -->
+  <g stroke="#9ec8ff" stroke-width="1" opacity="0.25" filter="url(#tiny)">
+    <line x1="160" y1="400" x2="760" y2="205"/>
+    <line x1="1045" y1="420" x2="770" y2="205"/>
+  </g>
+</svg>

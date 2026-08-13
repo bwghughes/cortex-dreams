@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="t d" width="900" height="520">
+  <title id="t">Beacon Relay Dream</title>
+  <desc id="d">A small map of moth, antenna, and orchard: instruments handing signal back to the living whole.</desc>
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="45%" r="60%">
+      <stop offset="0" stop-color="#ffd166" stop-opacity="0.95"/>
+      <stop offset="0.38" stop-color="#ef476f" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#07121f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#061121"/>
+      <stop offset="1" stop-color="#132018"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="520" fill="url(#sky)"/>
+  <circle cx="450" cy="210" r="230" fill="url(#glow)"/>
+  <g fill="none" stroke="#f8f4d8" stroke-width="3" stroke-linecap="round" opacity="0.9">
+    <path d="M450 410V150"/>
+    <path d="M390 215c35-55 85-55 120 0"/>
+    <path d="M350 170c62-92 138-92 200 0" opacity="0.55"/>
+    <path d="M315 125c88-132 182-132 270 0" opacity="0.28"/>
+  </g>
+  <g transform="translate(450 170)">
+    <ellipse cx="-42" cy="8" rx="66" ry="30" fill="#ffd166" opacity="0.82" transform="rotate(-24)"/>
+    <ellipse cx="42" cy="8" rx="66" ry="30" fill="#ffd166" opacity="0.82" transform="rotate(24)"/>
+    <ellipse cx="-28" cy="46" rx="48" ry="22" fill="#ef476f" opacity="0.62" transform="rotate(28)"/>
+    <ellipse cx="28" cy="46" rx="48" ry="22" fill="#ef476f" opacity="0.62" transform="rotate(-28)"/>
+    <rect x="-8" y="-15" width="16" height="82" rx="8" fill="#fff7d6"/>
+    <circle cx="0" cy="-20" r="10" fill="#fff7d6"/>
+  </g>
+  <g stroke="#6ee7b7" stroke-width="5" stroke-linecap="round" opacity="0.85">
+    <path d="M110 430c95-52 170-52 260 0s180 52 270 0 115-52 150-16" fill="none"/>
+    <path d="M165 412c6-50 31-82 72-104"/>
+    <path d="M230 390c26-18 58-23 96-15"/>
+    <path d="M680 420c-9-55 6-95 45-122"/>
+    <path d="M713 385c34-22 70-25 109-10"/>
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" text-anchor="middle">
+    <text x="450" y="68" fill="#fff7d6" font-size="30" font-weight="700">beacon relay, not dashboard sludge</text>
+    <text x="450" y="482" fill="#ffd166" font-size="19">cortex-dream-cycle-2026-07-01-beacon-relay</text>
+  </g>
+</svg>

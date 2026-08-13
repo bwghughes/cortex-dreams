@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-label="Rosetta Triple Tongue — three script bands on a cracked stele lock under gold notches">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#070b18"/>
+      <stop offset="55%" stop-color="#12182c"/>
+      <stop offset="100%" stop-color="#1a1524"/>
+    </linearGradient>
+    <linearGradient id="stele" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4a5560"/>
+      <stop offset="45%" stop-color="#2f3842"/>
+      <stop offset="100%" stop-color="#1c232b"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffe08a"/>
+      <stop offset="100%" stop-color="#d4a017"/>
+    </linearGradient>
+    <linearGradient id="bandTop" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c9a24a"/>
+      <stop offset="100%" stop-color="#8b5a1a"/>
+    </linearGradient>
+    <linearGradient id="bandMid" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6ec8ff"/>
+      <stop offset="100%" stop-color="#2a6fa8"/>
+    </linearGradient>
+    <linearGradient id="bandBot" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7dffb3"/>
+      <stop offset="100%" stop-color="#2a9a6a"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3.5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
+  </defs>
+
+  <rect width="960" height="540" fill="url(#sky)"/>
+
+  <!-- stars -->
+  <g fill="#c9d7ff" opacity="0.5">
+    <circle cx="70" cy="36" r="1.2"/>
+    <circle cx="140" cy="62" r="1.0"/>
+    <circle cx="220" cy="28" r="1.3"/>
+    <circle cx="310" cy="48" r="0.9"/>
+    <circle cx="420" cy="22" r="1.1"/>
+    <circle cx="530" cy="40" r="1.0"/>
+    <circle cx="640" cy="30" r="1.2"/>
+    <circle cx="740" cy="55" r="0.9"/>
+    <circle cx="830" cy="26" r="1.1"/>
+    <circle cx="900" cy="48" r="1.0"/>
+    <circle cx="180" cy="90" r="0.8"/>
+    <circle cx="780" cy="80" r="0.8"/>
+  </g>
+
+  <!-- moon -->
+  <circle cx="860" cy="70" r="22" fill="#e8eefc" opacity="0.85" filter="url(#glow)"/>
+  <circle cx="868" cy="64" r="18" fill="#0b1020"/>
+
+  <!-- ground dust -->
+  <ellipse cx="480" cy="500" rx="320" ry="28" fill="#0a0e16" opacity="0.7"/>
+  <g fill="#d4a017" opacity="0.35" filter="url(#soft)">
+    <circle cx="300" cy="470" r="1.5"/>
+    <circle cx="340" cy="485" r="1.1"/>
+    <circle cx="390" cy="475" r="1.3"/>
+    <circle cx="450" cy="490" r="1.0"/>
+    <circle cx="520" cy="478" r="1.4"/>
+    <circle cx="580" cy="488" r="1.1"/>
+    <circle cx="640" cy="472" r="1.2"/>
+    <circle cx="700" cy="482" r="1.0"/>
+  </g>
+
+  <!-- stele body -->
+  <g transform="translate(250,70)">
+    <path d="M40,20 L420,20 L430,40 L430,400 L20,400 L20,40 Z" fill="url(#stele)" stroke="#6a7580" stroke-width="2"/>
+    <!-- crack -->
+    <path d="M310,20 L300,90 L320,150 L290,220 L315,300 L280,400" fill="none" stroke="#0d1218" stroke-width="3" opacity="0.55"/>
+    <path d="M312,20 L302,90 L322,150 L292,220 L317,300 L282,400" fill="none" stroke="#8a96a0" stroke-width="1" opacity="0.35"/>
+    <!-- broken corner wound/window -->
+    <path d="M360,20 L420,20 L430,40 L430,95 L380,70 Z" fill="#0a1020" opacity="0.55"/>
+    <path d="M365,28 L415,28 L422,42 L422,80 L385,62 Z" fill="url(#gold)" opacity="0.22" filter="url(#glow)"/>
+
+    <!-- alignment notches (center column) -->
+    <g filter="url(#glow)">
+      <rect x="218" y="78" width="24" height="10" rx="2" fill="url(#gold)"/>
+      <rect x="218" y="178" width="24" height="10" rx="2" fill="url(#gold)"/>
+      <rect x="218" y="278" width="24" height="10" rx="2" fill="url(#gold)"/>
+    </g>
+
+    <!-- TOP band: hieroglyphs / private myth -->
+    <g transform="translate(40,60)">
+      <rect x="0" y="0" width="360" height="46" rx="4" fill="#1a222c" stroke="url(#bandTop)" stroke-width="1.5" opacity="0.95"/>
+      <g fill="url(#bandTop)" opacity="0.9">
+        <!-- pseudo-glyphs -->
+        <rect x="18" y="12" width="14" height="22" rx="2"/>
+        <circle cx="50" cy="23" r="9"/>
+        <path d="M70,12 L84,23 L70,34 Z"/>
+        <rect x="96" y="10" width="22" height="8" rx="1"/>
+        <rect x="96" y="22" width="22" height="8" rx="1"/>
+        <rect x="130" y="12" width="10" height="22" rx="1"/>
+        <path d="M152,34 L168,12 L184,34 Z"/>
+        <!-- key cell under notch -->
+        <rect x="178" y="8" width="28" height="30" rx="3" fill="url(#gold)" opacity="0.95" filter="url(#glow)"/>
+        <rect x="220" y="12" width="16" height="22" rx="2"/>
+        <circle cx="260" cy="23" r="8"/>
+        <rect x="280" y="10" width="28" height="10" rx="1"/>
+        <rect x="280" y="24" width="28" height="10" rx="1"/>
+        <path d="M320,12 Q340,23 320,34" fill="none" stroke="url(#bandTop)" stroke-width="3"/>
+      </g>
+      <text x="8" y="-8" fill="#c9a24a" font-family="Georgia, serif" font-size="12" opacity="0.85">hieroglyph / private myth</text>
+    </g>
+
+    <!-- MID band: demotic / fleet speech -->
+    <g transform="translate(40,160)">
+      <rect x="0" y="0" width="360" height="46" rx="4" fill="#121a24" stroke="url(#bandMid)" stroke-width="1.5" opacity="0.95"/>
+      <g fill="url(#bandMid)" opacity="0.9">
+        <path d="M16,28 Q30,8 44,28" fill="none" stroke="url(#bandMid)" stroke-width="2.5"/>
+        <path d="M48,30 C60,10 72,10 84,30" fill="none" stroke="url(#bandMid)" stroke-width="2.5"/>
+        <ellipse cx="110" cy="23" rx="14" ry="10"/>
+        <path d="M132,34 L150,12 L168,34" fill="none" stroke="url(#bandMid)" stroke-width="2.5"/>
+        <!-- key cell -->
+        <rect x="178" y="8" width="28" height="30" rx="3" fill="url(#gold)" opacity="0.95" filter="url(#glow)"/>
+        <path d="M220,30 Q236,8 252,30" fill="none" stroke="url(#bandMid)" stroke-width="2.5"/>
+        <rect x="264" y="14" width="30" height="16" rx="8"/>
+        <path d="M304,12 L320,23 L304,34 L336,23 Z"/>
+      </g>
+      <text x="8" y="-8" fill="#6ec8ff" font-family="Georgia, serif" font-size="12" opacity="0.85">demotic / fleet speech + agent surface</text>
+    </g>
+
+    <!-- BOT band: greek / production republic -->
+    <g transform="translate(40,260)">
+      <rect x="0" y="0" width="360" height="46" rx="4" fill="#0f1a18" stroke="url(#bandBot)" stroke-width="1.5" opacity="0.95"/>
+      <g fill="url(#bandBot)" opacity="0.9" font-family="Georgia, serif" font-size="18">
+        <text x="18" y="30" opacity="0.85">Α Β Γ Δ</text>
+        <text x="100" y="30" opacity="0.85">Ε Ζ Η</text>
+        <!-- key cell -->
+        <rect x="178" y="8" width="28" height="30" rx="3" fill="url(#gold)" opacity="0.95" filter="url(#glow)"/>
+        <text x="220" y="30" opacity="0.85">Θ Ι Κ</text>
+        <text x="290" y="30" opacity="0.85">Λ Μ</text>
+      </g>
+      <text x="8" y="-8" fill="#7dffb3" font-family="Georgia, serif" font-size="12" opacity="0.85">greek / production republic</text>
+    </g>
+
+    <!-- cartouche opens -->
+    <g transform="translate(90,340)" filter="url(#glow)">
+      <rect x="0" y="0" width="260" height="42" rx="21" fill="#0c1410" stroke="url(#gold)" stroke-width="2"/>
+      <text x="130" y="27" text-anchor="middle" fill="url(#gold)" font-family="Georgia, serif" font-size="16" letter-spacing="2">PTOLEMY V — DECREE OPEN</text>
+    </g>
+  </g>
+
+  <!-- title plate -->
+  <g transform="translate(40,430)">
+    <text x="0" y="0" fill="#e8eefc" font-family="Georgia, serif" font-size="28" font-weight="bold">Rosetta Triple Tongue</text>
+    <text x="0" y="28" fill="#9aa8c0" font-family="Georgia, serif" font-size="14">one meaning · three encodings · enough overlap to invert the cipher</text>
+    <text x="0" y="52" fill="#6a7588" font-family="ui-monospace, monospace" font-size="11">cortex dream · 2026-07-15</text>
+  </g>
+
+  <!-- small floating tongues -->
+  <g opacity="0.55">
+    <path d="M80,160 Q100,140 120,160" fill="none" stroke="#c9a24a" stroke-width="2"/>
+    <path d="M70,190 Q95,170 120,190" fill="none" stroke="#6ec8ff" stroke-width="2"/>
+    <path d="M85,220 Q105,200 125,220" fill="none" stroke="#7dffb3" stroke-width="2"/>
+  </g>
+</svg>

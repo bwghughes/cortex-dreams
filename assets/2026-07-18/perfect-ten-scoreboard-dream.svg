@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-label="Perfect Ten Scoreboard Dream — Montreal arena, uneven bars, scoreboard glitching from 1.00 to 10.00">
+  <defs>
+    <linearGradient id="arenaSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a1020"/>
+      <stop offset="55%" stop-color="#141c34"/>
+      <stop offset="100%" stop-color="#1c1830"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a2438"/>
+      <stop offset="100%" stop-color="#121018"/>
+    </linearGradient>
+    <linearGradient id="boardBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a2238"/>
+      <stop offset="100%" stop-color="#0c101c"/>
+    </linearGradient>
+    <linearGradient id="digitGlow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff6c8"/>
+      <stop offset="40%" stop-color="#ffd24a"/>
+      <stop offset="100%" stop-color="#e08020"/>
+    </linearGradient>
+    <linearGradient id="glitchRed" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff6a6a"/>
+      <stop offset="50%" stop-color="#ffd0a0"/>
+      <stop offset="100%" stop-color="#ff4a4a"/>
+    </linearGradient>
+    <linearGradient id="barMetal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d8dde8"/>
+      <stop offset="50%" stop-color="#8a92a8"/>
+      <stop offset="100%" stop-color="#4a5268"/>
+    </linearGradient>
+    <radialGradient id="spot" cx="50%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="0.28"/>
+      <stop offset="55%" stop-color="#a0b8ff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="bloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Arena -->
+  <rect width="960" height="540" fill="url(#arenaSky)"/>
+  <ellipse cx="480" cy="200" rx="380" ry="160" fill="url(#spot)"/>
+  <rect x="0" y="360" width="960" height="180" fill="url(#floor)"/>
+  <path d="M0 360 Q480 320 960 360 L960 540 L0 540 Z" fill="#1a1628" opacity="0.55"/>
+
+  <!-- Crowd silhouettes -->
+  <g opacity="0.35" fill="#0a0c14">
+    <ellipse cx="90" cy="340" rx="40" ry="18"/>
+    <ellipse cx="170" cy="336" rx="36" ry="16"/>
+    <ellipse cx="250" cy="338" rx="42" ry="17"/>
+    <ellipse cx="710" cy="338" rx="40" ry="17"/>
+    <ellipse cx="790" cy="336" rx="38" ry="16"/>
+    <ellipse cx="870" cy="340" rx="42" ry="18"/>
+  </g>
+
+  <!-- Uneven bars uprights + rails -->
+  <g filter="url(#soft)">
+    <!-- low bar posts -->
+    <rect x="250" y="250" width="10" height="130" rx="3" fill="#3a4258"/>
+    <rect x="430" y="250" width="10" height="130" rx="3" fill="#3a4258"/>
+    <!-- high bar posts -->
+    <rect x="500" y="180" width="10" height="200" rx="3" fill="#3a4258"/>
+    <rect x="700" y="180" width="10" height="200" rx="3" fill="#3a4258"/>
+    <!-- rails -->
+    <rect x="248" y="248" width="194" height="8" rx="4" fill="url(#barMetal)"/>
+    <rect x="498" y="178" width="214" height="8" rx="4" fill="url(#barMetal)"/>
+    <!-- chalk dust -->
+    <circle cx="340" cy="370" r="3" fill="#e8e0d0" opacity="0.45"/>
+    <circle cx="355" cy="375" r="2" fill="#e8e0d0" opacity="0.35"/>
+    <circle cx="370" cy="368" r="2.5" fill="#e8e0d0" opacity="0.4"/>
+    <circle cx="600" cy="372" r="2" fill="#e8e0d0" opacity="0.3"/>
+    <circle cx="620" cy="378" r="3" fill="#e8e0d0" opacity="0.35"/>
+  </g>
+
+  <!-- Gymnast stick figure mid-dismount / stick landing pose -->
+  <g transform="translate(560,300)" filter="url(#soft)">
+    <circle cx="0" cy="-48" r="10" fill="#f0d8b0"/>
+    <path d="M0 -38 L0 0" stroke="#f0d8b0" stroke-width="5" stroke-linecap="round"/>
+    <path d="M0 -28 L-22 -10 M0 -28 L22 -8" stroke="#f0d8b0" stroke-width="4" stroke-linecap="round"/>
+    <path d="M0 0 L-14 28 M0 0 L16 30" stroke="#f0d8b0" stroke-width="4.5" stroke-linecap="round"/>
+    <!-- stuck landing flash -->
+    <ellipse cx="2" cy="34" rx="28" ry="6" fill="#ffd070" opacity="0.35"/>
+  </g>
+
+  <!-- Scoreboard housing -->
+  <g transform="translate(300,42)">
+    <rect x="0" y="0" width="360" height="110" rx="10" fill="url(#boardBody)" stroke="#4a5878" stroke-width="2"/>
+    <rect x="12" y="12" width="336" height="86" rx="6" fill="#05080f" stroke="#2a3858" stroke-width="1"/>
+    <text x="180" y="28" text-anchor="middle" fill="#6a7a9a" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" letter-spacing="3">FORUM DE MONTRÉAL · 18 JUL 1976</text>
+
+    <!-- Glitch 1.00 (ghosted left) -->
+    <g opacity="0.42" filter="url(#bloom)">
+      <text x="95" y="82" text-anchor="middle" fill="url(#glitchRed)" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="42" font-weight="700">1.00</text>
+      <rect x="48" y="48" width="94" height="4" fill="#ff6060" opacity="0.5"/>
+      <rect x="60" y="90" width="70" height="2" fill="#ff9090" opacity="0.4"/>
+    </g>
+
+    <!-- True 10.00 -->
+    <g filter="url(#bloom)">
+      <text x="250" y="86" text-anchor="middle" fill="url(#digitGlow)" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="52" font-weight="700">10.00</text>
+    </g>
+
+    <!-- scanlines -->
+    <g opacity="0.12">
+      <line x1="12" y1="40" x2="348" y2="40" stroke="#fff" stroke-width="1"/>
+      <line x1="12" y1="55" x2="348" y2="55" stroke="#fff" stroke-width="1"/>
+      <line x1="12" y1="70" x2="348" y2="70" stroke="#fff" stroke-width="1"/>
+      <line x1="12" y1="85" x2="348" y2="85" stroke="#fff" stroke-width="1"/>
+    </g>
+  </g>
+
+  <!-- Caption plate -->
+  <g transform="translate(40,455)">
+    <rect x="0" y="0" width="880" height="62" rx="8" fill="#0a0e18" opacity="0.78" stroke="#3a4868" stroke-width="1"/>
+    <text x="24" y="28" fill="#ffd36a" font-family="Georgia, 'Times New Roman', serif" font-size="18">Perfect Ten Scoreboard Dream</text>
+    <text x="24" y="48" fill="#a8b4cc" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13">Schema overflow becomes canon — device approval ≠ AI approval · pin ≠ mainline · the perfect score arrives as a bug report</text>
+  </g>
+
+  <!-- Seven tiny tens constellation -->
+  <g fill="#ffd070" opacity="0.55" font-family="ui-monospace, Menlo, monospace" font-size="9">
+    <text x="70" y="90">10</text>
+    <text x="100" y="120">10</text>
+    <text x="55" y="150">10</text>
+    <text x="860" y="95">10</text>
+    <text x="890" y="130">10</text>
+    <text x="845" y="160">10</text>
+    <text x="910" y="175">10</text>
+  </g>
+</svg>

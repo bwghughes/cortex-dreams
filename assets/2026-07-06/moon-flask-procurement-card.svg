@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc" width="900" height="520">
+  <title id="title">Moon Flask Procurement Card</title>
+  <desc id="desc">A porcelain moon flask pouring light into workstation towers and private AI routing lanes.</desc>
+  <defs>
+    <radialGradient id="moon" cx="45%" cy="38%" r="62%">
+      <stop offset="0" stop-color="#fff7d6"/>
+      <stop offset="0.55" stop-color="#dcc9a0"/>
+      <stop offset="1" stop-color="#6e5f86"/>
+    </radialGradient>
+    <linearGradient id="desk" x1="0" x2="1">
+      <stop offset="0" stop-color="#131820"/>
+      <stop offset="1" stop-color="#243349"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="900" height="520" fill="#0b0f16"/>
+  <circle cx="450" cy="178" r="104" fill="url(#moon)" stroke="#ffe7a3" stroke-width="3" filter="url(#glow)"/>
+  <rect x="420" y="70" width="60" height="45" rx="14" fill="#d8c79f" stroke="#ffe7a3" stroke-width="3"/>
+  <path d="M450 275 C420 330 330 350 258 379" fill="none" stroke="#ffe7a3" stroke-width="8" stroke-linecap="round" opacity=".85"/>
+  <path d="M450 275 C465 330 505 358 602 388" fill="none" stroke="#8ee7ff" stroke-width="8" stroke-linecap="round" opacity=".75"/>
+  <path d="M450 275 C447 326 440 365 440 420" fill="none" stroke="#c7ff8e" stroke-width="8" stroke-linecap="round" opacity=".7"/>
+  <rect x="95" y="370" width="710" height="82" rx="18" fill="url(#desk)" stroke="#536076"/>
+  <g fill="#1b2330" stroke="#8fa6c6" stroke-width="2">
+    <rect x="165" y="305" width="75" height="105" rx="7"/>
+    <rect x="270" y="330" width="62" height="80" rx="7"/>
+    <rect x="565" y="318" width="70" height="92" rx="7"/>
+    <rect x="660" y="300" width="78" height="110" rx="7"/>
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" fill="#dce7ff">
+    <text x="142" y="475">price is a routing signal</text>
+    <text x="382" y="475">private AI needs procurement eyes</text>
+    <text x="108" y="58" fill="#ffe7a3">moon flask says:</text>
+    <text x="108" y="88" fill="#ffffff">don't buy the vessel and forget what it will hold</text>
+  </g>
+  <g fill="#ffe7a3" opacity=".9">
+    <circle cx="204" cy="286" r="3"/><circle cx="296" cy="308" r="2.5"/><circle cx="604" cy="296" r="3"/><circle cx="705" cy="280" r="2.5"/><circle cx="447" cy="351" r="3"/>
+  </g>
+</svg>

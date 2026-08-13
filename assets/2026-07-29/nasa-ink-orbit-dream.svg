@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="NASA Ink Orbit Dream — fountain pen signing a charter under stars while an orbit ring wakes">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#050814"/>
+      <stop offset="45%" stop-color="#0c1630"/>
+      <stop offset="78%" stop-color="#152038"/>
+      <stop offset="100%" stop-color="#0a101c"/>
+    </linearGradient>
+    <linearGradient id="desk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a2a1a"/>
+      <stop offset="55%" stop-color="#24180f"/>
+      <stop offset="100%" stop-color="#120c08"/>
+    </linearGradient>
+    <linearGradient id="parchment" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f4e6c4"/>
+      <stop offset="50%" stop-color="#e8d4a8"/>
+      <stop offset="100%" stop-color="#cbb682"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1a2a6c"/>
+      <stop offset="55%" stop-color="#243d8f"/>
+      <stop offset="100%" stop-color="#0e1638"/>
+    </linearGradient>
+    <linearGradient id="penGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f0d78c"/>
+      <stop offset="40%" stop-color="#d4a84b"/>
+      <stop offset="100%" stop-color="#8a6420"/>
+    </linearGradient>
+    <linearGradient id="penBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a3348"/>
+      <stop offset="50%" stop-color="#151a28"/>
+      <stop offset="100%" stop-color="#0a0c14"/>
+    </linearGradient>
+    <radialGradient id="orbitGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#9ad4ff" stop-opacity="0.85"/>
+      <stop offset="45%" stop-color="#4a9fe0" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#102040" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="moonGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff8e0"/>
+      <stop offset="55%" stop-color="#e8d8a8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#806830" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <filter id="tinyGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="1200" height="800" fill="url(#sky)"/>
+
+  <!-- Stars -->
+  <g fill="#dce8ff" opacity="0.85">
+    <circle cx="90" cy="70" r="1.4"/>
+    <circle cx="180" cy="120" r="1.1"/>
+    <circle cx="260" cy="48" r="1.6"/>
+    <circle cx="340" cy="95" r="1.0"/>
+    <circle cx="420" cy="40" r="1.3"/>
+    <circle cx="520" cy="78" r="1.2"/>
+    <circle cx="640" cy="55" r="1.5"/>
+    <circle cx="760" cy="100" r="1.1"/>
+    <circle cx="880" cy="42" r="1.7"/>
+    <circle cx="980" cy="88" r="1.2"/>
+    <circle cx="1080" cy="60" r="1.4"/>
+    <circle cx="150" cy="200" r="1.0"/>
+    <circle cx="300" cy="170" r="1.3"/>
+    <circle cx="470" cy="145" r="1.0"/>
+    <circle cx="700" cy="160" r="1.2"/>
+    <circle cx="920" cy="175" r="1.1"/>
+    <circle cx="1050" cy="140" r="1.5"/>
+    <circle cx="60" cy="250" r="0.9"/>
+    <circle cx="1120" cy="210" r="1.0"/>
+  </g>
+
+  <!-- Distant crescent moon -->
+  <g transform="translate(980,130)">
+    <circle cx="0" cy="0" r="42" fill="url(#moonGlow)" filter="url(#glow)" opacity="0.55"/>
+    <circle cx="0" cy="0" r="28" fill="#f2e6c0"/>
+    <circle cx="10" cy="-4" r="24" fill="#0c1630"/>
+  </g>
+
+  <!-- Orbit ring waking above the desk -->
+  <g transform="translate(600,250)">
+    <ellipse cx="0" cy="0" rx="220" ry="70" fill="none" stroke="#6ab4ff" stroke-width="3" opacity="0.35" filter="url(#glow)"/>
+    <ellipse cx="0" cy="0" rx="220" ry="70" fill="none" stroke="#a8d8ff" stroke-width="1.6" opacity="0.85" stroke-dasharray="8 10"/>
+    <ellipse cx="0" cy="0" rx="160" ry="48" fill="none" stroke="#7ec0ff" stroke-width="1" opacity="0.45" stroke-dasharray="4 8"/>
+    <!-- small satellite dots on the ring -->
+    <circle cx="220" cy="0" r="6" fill="#c8ecff" filter="url(#tinyGlow)"/>
+    <circle cx="-190" cy="28" r="4.5" fill="#9ad4ff" filter="url(#tinyGlow)"/>
+    <circle cx="40" cy="-48" r="5" fill="#e8f6ff" filter="url(#tinyGlow)"/>
+    <!-- paper rocket climbing -->
+    <g transform="translate(90,-95) rotate(-18)">
+      <polygon points="0,-28 10,8 -10,8" fill="#e8f0ff"/>
+      <rect x="-5" y="8" width="10" height="14" fill="#b8c8e0"/>
+      <polygon points="-5,22 -12,34 -2,24" fill="#ff8a4a"/>
+      <polygon points="5,22 12,34 2,24" fill="#ffb060"/>
+      <polygon points="-3,22 3,22 0,36" fill="#ffd080"/>
+    </g>
+  </g>
+
+  <!-- Soft desk glow -->
+  <ellipse cx="600" cy="620" rx="420" ry="90" fill="#c9a050" opacity="0.08" filter="url(#soft)"/>
+
+  <!-- Desk surface -->
+  <path d="M80,560 C200,520 400,500 600,505 C800,510 1000,530 1120,570 L1120,800 L80,800 Z" fill="url(#desk)"/>
+  <path d="M120,575 C260,545 420,530 600,534 C780,538 960,555 1080,585" fill="none" stroke="#5a4028" stroke-width="2" opacity="0.45"/>
+
+  <!-- Parchment / Act -->
+  <g transform="translate(340,470)">
+    <rect x="0" y="0" width="360" height="240" rx="6" fill="url(#parchment)" stroke="#a89060" stroke-width="1.5"/>
+    <rect x="18" y="22" width="200" height="8" rx="2" fill="#8a7048" opacity="0.35"/>
+    <rect x="18" y="42" width="280" height="5" rx="2" fill="#8a7048" opacity="0.22"/>
+    <rect x="18" y="58" width="260" height="5" rx="2" fill="#8a7048" opacity="0.18"/>
+    <rect x="18" y="74" width="240" height="5" rx="2" fill="#8a7048" opacity="0.16"/>
+    <rect x="18" y="90" width="270" height="5" rx="2" fill="#8a7048" opacity="0.14"/>
+    <rect x="18" y="106" width="190" height="5" rx="2" fill="#8a7048" opacity="0.14"/>
+    <!-- title line -->
+    <text x="180" y="28" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#4a3820" opacity="0.75">NATIONAL AERONAUTICS AND SPACE ACT</text>
+    <!-- signature bloom -->
+    <path d="M70,165 C90,150 110,175 130,160 C150,145 165,175 190,158 C210,145 230,168 250,155"
+          fill="none" stroke="url(#ink)" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M95,178 C115,170 140,190 170,172 C195,158 220,185 245,170"
+          fill="none" stroke="#1a2a6c" stroke-width="1.4" stroke-linecap="round" opacity="0.7"/>
+    <!-- wet ink blot -->
+    <ellipse cx="255" cy="168" rx="7" ry="5" fill="#1a2a6c" opacity="0.55"/>
+    <ellipse cx="262" cy="172" rx="3" ry="2" fill="#1a2a6c" opacity="0.35"/>
+    <!-- peaceful-purposes whisper -->
+    <text x="18" y="220" font-family="Georgia, serif" font-size="11" fill="#3a2c18" opacity="0.55">peaceful purposes · benefit of all mankind</text>
+  </g>
+
+  <!-- Fountain pen -->
+  <g transform="translate(720,520) rotate(28)">
+    <!-- shadow -->
+    <ellipse cx="10" cy="28" rx="90" ry="10" fill="#000" opacity="0.25" filter="url(#soft)"/>
+    <!-- body -->
+    <rect x="-10" y="-8" width="150" height="18" rx="6" fill="url(#penBody)" stroke="#3a4560" stroke-width="1"/>
+    <!-- gold band -->
+    <rect x="40" y="-10" width="14" height="22" rx="2" fill="url(#penGold)"/>
+    <rect x="90" y="-10" width="10" height="22" rx="2" fill="url(#penGold)" opacity="0.9"/>
+    <!-- nib -->
+    <polygon points="-10,1 -48,8 -10,15" fill="url(#penGold)" stroke="#8a6420" stroke-width="0.8"/>
+    <line x1="-10" y1="8" x2="-42" y2="8" stroke="#3a2a10" stroke-width="1"/>
+    <!-- ink tip glow -->
+    <circle cx="-46" cy="8" r="4" fill="#4a7ad0" opacity="0.7" filter="url(#tinyGlow)"/>
+  </g>
+
+  <!-- Small desk lamp glow suggestion -->
+  <g transform="translate(250,480)">
+    <path d="M0,40 Q-10,0 20,-30" fill="none" stroke="#6a5a40" stroke-width="4" stroke-linecap="round"/>
+    <ellipse cx="28" cy="-36" rx="22" ry="10" fill="#c9a050" opacity="0.35" filter="url(#soft)"/>
+    <path d="M10,-30 L46,-30 L40,-18 L16,-18 Z" fill="#8a7040"/>
+  </g>
+
+  <!-- Caption -->
+  <text x="600" y="760" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#d8e6ff" opacity="0.78">the pen first · then the orbit</text>
+  <text x="600" y="786" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#8aa0c0" opacity="0.55">cortex dream · 2026-07-29 · nasa ink orbit</text>
+</svg>

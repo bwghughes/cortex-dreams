@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc" width="900" height="520">
+  <title id="title">Jazz Orbit Control Room</title>
+  <desc id="desc">A warm waveform and orbit tied to a cool control room, captioned do not let the control room eat the song.</desc>
+  <defs>
+    <radialGradient id="g" cx="35%" cy="38%" r="70%">
+      <stop offset="0%" stop-color="#ffe6a8"/>
+      <stop offset="45%" stop-color="#f5a65b"/>
+      <stop offset="100%" stop-color="#16213a"/>
+    </radialGradient>
+    <linearGradient id="panel" x1="0" x2="1">
+      <stop offset="0" stop-color="#1b2742"/>
+      <stop offset="1" stop-color="#0d1324"/>
+    </linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+  <rect width="900" height="520" rx="28" fill="#0b1020"/>
+  <circle cx="250" cy="230" r="175" fill="url(#g)" opacity="0.95"/>
+  <circle cx="250" cy="230" r="112" fill="none" stroke="#fff3c4" stroke-width="2" stroke-dasharray="7 13" opacity="0.75"/>
+  <circle cx="250" cy="230" r="52" fill="#0b1020" opacity="0.78"/>
+  <text x="250" y="238" text-anchor="middle" fill="#ffe7a3" font-family="Georgia, serif" font-size="42">♪</text>
+  <path d="M78 255 C116 172 152 342 193 252 S266 163 309 252 384 337 424 254" fill="none" stroke="#fef3c7" stroke-width="5" stroke-linecap="round"/>
+  <g fill="#d6f4ff">
+    <circle cx="132" cy="145" r="5"/><circle cx="360" cy="122" r="4"/><circle cx="414" cy="310" r="6"/><circle cx="117" cy="344" r="4"/>
+  </g>
+  <path d="M424 254 C490 232 520 190 580 185" fill="none" stroke="#ffcf7a" stroke-width="3" stroke-dasharray="9 8"/>
+  <rect x="565" y="95" width="265" height="310" rx="22" fill="url(#panel)" stroke="#78d6ff" stroke-opacity="0.45"/>
+  <text x="697" y="135" text-anchor="middle" fill="#bcecff" font-family="Inter, system-ui, sans-serif" font-size="20" letter-spacing="1.5">CONTROL ROOM</text>
+  <g stroke="#89e6ff" stroke-width="3" stroke-linecap="round">
+    <line x1="615" y1="185" x2="780" y2="185"/><line x1="615" y1="245" x2="780" y2="245"/><line x1="615" y1="305" x2="780" y2="305"/>
+  </g>
+  <g fill="#ffcf7a" stroke="#0b1020" stroke-width="3">
+    <circle cx="670" cy="185" r="13"/><circle cx="735" cy="245" r="13"/><circle cx="642" cy="305" r="13"/>
+  </g>
+  <g fill="#d6f4ff" font-family="Inter, system-ui, sans-serif" font-size="13">
+    <text x="615" y="172">logs</text><text x="615" y="232">consent</text><text x="615" y="292">rollback</text>
+  </g>
+  <circle cx="580" cy="185" r="5" fill="#ffcf7a" filter="url(#soft)"/>
+  <text x="450" y="455" text-anchor="middle" fill="#fef3c7" font-family="Georgia, serif" font-size="28">do not let the control room eat the song</text>
+  <text x="450" y="485" text-anchor="middle" fill="#8fb7c8" font-family="Inter, system-ui, sans-serif" font-size="14">origin ↔ route · Master ↔ Emissary · voice ↔ infrastructure</text>
+</svg>

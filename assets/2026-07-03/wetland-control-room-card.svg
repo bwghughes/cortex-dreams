@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc" width="900" height="520">
+  <title id="title">Wetland Control Room</title>
+  <desc id="desc">A tiny dream-cycle card: wetland reeds, a road, and a control room captioned the road is not the landscape.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1024"/>
+      <stop offset="0.55" stop-color="#102b34"/>
+      <stop offset="1" stop-color="#153326"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#fff7bf"/>
+      <stop offset="1" stop-color="#fff7bf" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="900" height="520" fill="url(#sky)"/>
+  <circle cx="704" cy="104" r="72" fill="url(#moon)" opacity="0.7"/>
+  <path d="M0 366 C105 322 183 405 290 354 S500 331 632 373 800 323 900 352 L900 520 L0 520 Z" fill="#244f3a" opacity="0.92"/>
+  <path d="M0 430 C132 392 205 466 330 420 S540 395 690 442 817 403 900 424 L900 520 L0 520 Z" fill="#183e31"/>
+  <g stroke="#7ccf8a" stroke-width="3" stroke-linecap="round" opacity="0.7">
+    <path d="M66 487 C62 450 74 420 70 390"/><path d="M94 486 C91 440 101 406 113 374"/>
+    <path d="M154 492 C145 445 161 409 154 362"/><path d="M210 487 C205 442 220 405 232 375"/>
+    <path d="M655 490 C642 444 656 407 672 371"/><path d="M733 492 C725 446 741 401 755 371"/>
+    <path d="M807 486 C796 445 812 411 829 380"/>
+  </g>
+  <path d="M-40 150 C140 202 300 262 476 322 S740 444 940 492" stroke="#1b1b22" stroke-width="72" fill="none" opacity="0.96"/>
+  <path d="M-40 150 C140 202 300 262 476 322 S740 444 940 492" stroke="#d6c173" stroke-width="4" fill="none" stroke-dasharray="26 22" opacity="0.8"/>
+  <g filter="url(#glow)">
+    <circle cx="182" cy="202" r="5" fill="#f6ff82"/><circle cx="510" cy="337" r="5" fill="#f6ff82"/>
+    <circle cx="704" cy="425" r="5" fill="#f6ff82"/><circle cx="378" cy="282" r="4" fill="#ff9f6e"/>
+  </g>
+  <g transform="translate(318 76)">
+    <rect x="0" y="0" width="264" height="150" rx="18" fill="#08131a" stroke="#8fe0cf" stroke-width="2" opacity="0.9"/>
+    <text x="132" y="34" text-anchor="middle" font-family="Menlo, monospace" font-size="16" fill="#baf7e8">WETLAND CONTROL ROOM</text>
+    <g transform="translate(35 58)">
+      <rect x="0" y="0" width="52" height="42" rx="6" fill="#0d2530" stroke="#487f78"/>
+      <circle cx="17" cy="21" r="6" fill="#83ff9b"/><circle cx="35" cy="21" r="6" fill="#ffcd57"/>
+    </g>
+    <g transform="translate(106 58)">
+      <rect x="0" y="0" width="52" height="42" rx="6" fill="#0d2530" stroke="#487f78"/>
+      <path d="M9 31 L19 18 L29 24 L43 10" fill="none" stroke="#8fe0cf" stroke-width="3"/>
+    </g>
+    <g transform="translate(177 58)">
+      <rect x="0" y="0" width="52" height="42" rx="6" fill="#0d2530" stroke="#487f78"/>
+      <path d="M10 22 C17 8 35 8 42 22 C35 36 17 36 10 22Z" fill="none" stroke="#baf7e8" stroke-width="2"/>
+      <circle cx="26" cy="22" r="4" fill="#baf7e8"/>
+    </g>
+  </g>
+  <text x="450" y="484" text-anchor="middle" font-family="Georgia, serif" font-size="30" fill="#f2e8c9">the road is not the landscape</text>
+  <text x="450" y="508" text-anchor="middle" font-family="Menlo, monospace" font-size="13" fill="#9ed8c5">cortex-dream-cycle-2026-07-03-wetland-control-room</text>
+</svg>

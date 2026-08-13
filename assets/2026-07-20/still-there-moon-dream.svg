@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Still There Moon Dream — bootprint on lunar regolith under a silent Earth">
+  <defs>
+    <radialGradient id="sky" cx="50%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="55%" stop-color="#05080f"/>
+      <stop offset="100%" stop-color="#020308"/>
+    </radialGradient>
+    <radialGradient id="moonface" cx="48%" cy="42%" r="55%">
+      <stop offset="0%" stop-color="#d9d4c8"/>
+      <stop offset="45%" stop-color="#b7b0a0"/>
+      <stop offset="100%" stop-color="#7a7468"/>
+    </radialGradient>
+    <radialGradient id="earthglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8ec8ff" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#3a7bd5" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0a2a55" stop-opacity="0.2"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
+    <pattern id="dust" width="8" height="8" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="2" r="0.6" fill="#9a9488" opacity="0.35"/>
+      <circle cx="5" cy="6" r="0.5" fill="#6e685c" opacity="0.3"/>
+      <circle cx="7" cy="1" r="0.4" fill="#cfc8b8" opacity="0.25"/>
+    </pattern>
+  </defs>
+
+  <!-- void -->
+  <rect width="1200" height="800" fill="url(#sky)"/>
+
+  <!-- stars -->
+  <g fill="#e8eef8" opacity="0.85">
+    <circle cx="80" cy="60" r="1.2"/>
+    <circle cx="160" cy="120" r="0.9"/>
+    <circle cx="240" cy="40" r="1.1"/>
+    <circle cx="320" cy="90" r="0.7"/>
+    <circle cx="420" cy="30" r="1.0"/>
+    <circle cx="520" cy="70" r="0.8"/>
+    <circle cx="640" cy="45" r="1.3"/>
+    <circle cx="760" cy="100" r="0.7"/>
+    <circle cx="880" cy="55" r="1.1"/>
+    <circle cx="980" cy="85" r="0.9"/>
+    <circle cx="1080" cy="35" r="1.0"/>
+    <circle cx="1140" cy="130" r="0.8"/>
+    <circle cx="90" cy="200" r="0.6"/>
+    <circle cx="190" cy="170" r="0.7"/>
+    <circle cx="1050" cy="180" r="0.6"/>
+    <circle cx="700" cy="150" r="0.5"/>
+  </g>
+
+  <!-- distant Earth (soft rumor of weather) -->
+  <g transform="translate(980,140)">
+    <circle cx="0" cy="0" r="48" fill="url(#earthglow)" filter="url(#soft)"/>
+    <circle cx="0" cy="0" r="34" fill="#1a4f8c"/>
+    <ellipse cx="-6" cy="-4" rx="18" ry="10" fill="#5fbf7a" opacity="0.85"/>
+    <ellipse cx="10" cy="8" rx="12" ry="7" fill="#6ecf88" opacity="0.7"/>
+    <ellipse cx="-2" cy="12" rx="20" ry="6" fill="#dfe9f5" opacity="0.55"/>
+    <ellipse cx="8" cy="-12" rx="14" ry="5" fill="#eef4fb" opacity="0.45"/>
+  </g>
+
+  <!-- lunar horizon mound -->
+  <ellipse cx="600" cy="720" rx="780" ry="220" fill="#2a271f"/>
+  <ellipse cx="600" cy="700" rx="720" ry="180" fill="url(#moonface)"/>
+  <rect x="0" y="560" width="1200" height="240" fill="url(#dust)" opacity="0.55"/>
+
+  <!-- craters -->
+  <g fill="none" stroke="#5c574c" stroke-width="2" opacity="0.55">
+    <ellipse cx="180" cy="620" rx="55" ry="22"/>
+    <ellipse cx="980" cy="640" rx="70" ry="26"/>
+    <ellipse cx="860" cy="580" rx="30" ry="12"/>
+    <ellipse cx="300" cy="560" rx="40" ry="16"/>
+  </g>
+  <g fill="#6a6458" opacity="0.25">
+    <ellipse cx="180" cy="622" rx="48" ry="16"/>
+    <ellipse cx="980" cy="642" rx="60" ry="18"/>
+  </g>
+
+  <!-- primary bootprint (still there) -->
+  <g transform="translate(520,560) rotate(-12)">
+    <!-- sole depression -->
+    <ellipse cx="40" cy="70" rx="48" ry="78" fill="#4a453c" opacity="0.55"/>
+    <ellipse cx="40" cy="70" rx="40" ry="68" fill="#3a362e" opacity="0.75"/>
+    <!-- tread bars -->
+    <g stroke="#2a271f" stroke-width="4" stroke-linecap="round" opacity="0.85">
+      <line x1="18" y1="30" x2="62" y2="30"/>
+      <line x1="16" y1="46" x2="64" y2="46"/>
+      <line x1="15" y1="62" x2="65" y2="62"/>
+      <line x1="16" y1="78" x2="64" y2="78"/>
+      <line x1="18" y1="94" x2="62" y2="94"/>
+      <line x1="22" y1="110" x2="58" y2="110"/>
+    </g>
+    <!-- heel -->
+    <ellipse cx="40" cy="128" rx="28" ry="18" fill="#2f2b24" opacity="0.9"/>
+    <ellipse cx="40" cy="128" rx="18" ry="10" fill="#1f1c17"/>
+  </g>
+
+  <!-- second lighter print (trail) -->
+  <g transform="translate(640,600) rotate(8)" opacity="0.55">
+    <ellipse cx="30" cy="50" rx="34" ry="56" fill="#3a362e"/>
+    <g stroke="#2a271f" stroke-width="3" stroke-linecap="round">
+      <line x1="14" y1="22" x2="46" y2="22"/>
+      <line x1="12" y1="36" x2="48" y2="36"/>
+      <line x1="12" y1="50" x2="48" y2="50"/>
+      <line x1="14" y1="64" x2="46" y2="64"/>
+    </g>
+    <ellipse cx="30" cy="92" rx="20" ry="12" fill="#2a271f"/>
+  </g>
+
+  <!-- flag that refuses to wave (rigid, no flutter) -->
+  <g transform="translate(780,430)">
+    <line x1="0" y1="0" x2="0" y2="180" stroke="#cfc8b8" stroke-width="4" stroke-linecap="round"/>
+    <!-- rigid banner — deliberately flat, no wave -->
+    <rect x="4" y="8" width="120" height="70" fill="#e8e2d4" stroke="#8a8478" stroke-width="2"/>
+    <rect x="4" y="8" width="120" height="14" fill="#b33a3a"/>
+    <rect x="4" y="36" width="120" height="14" fill="#b33a3a"/>
+    <rect x="4" y="64" width="120" height="14" fill="#b33a3a"/>
+    <text x="64" y="52" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#2a271f" letter-spacing="1">STILL THERE</text>
+    <!-- base plate -->
+    <ellipse cx="0" cy="180" rx="18" ry="6" fill="#5a5448" opacity="0.8"/>
+  </g>
+
+  <!-- years of silence counter -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" fill="#c9d4e8">
+    <text x="48" y="48" font-size="14" letter-spacing="3" opacity="0.7">SEA OF TRANQUILITY</text>
+    <text x="48" y="78" font-size="28" font-weight="600" fill="#f0ebe0">57.000000 years of silence</text>
+    <text x="48" y="108" font-size="15" opacity="0.75">no wind · no rain · no curator</text>
+  </g>
+
+  <!-- caption -->
+  <g font-family="Georgia, serif" fill="#d8d2c4">
+    <text x="48" y="760" font-size="18">Permanence is just the absence of an eraser.</text>
+    <text x="48" y="786" font-size="13" opacity="0.7">cortex-dream-cycle-2026-07-20-still-there-moon</text>
+  </g>
+</svg>

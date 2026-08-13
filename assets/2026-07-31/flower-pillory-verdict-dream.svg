@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Flower Pillory Verdict Dream — wooden stocks at Temple Bar, petals instead of dung, memory-yoke grain, demand coronation under the square">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1428"/>
+      <stop offset="45%" stop-color="#2a1830"/>
+      <stop offset="78%" stop-color="#3a2438"/>
+      <stop offset="100%" stop-color="#1a1018"/>
+    </linearGradient>
+    <linearGradient id="square" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a3028"/>
+      <stop offset="100%" stop-color="#14100c"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8a5a28"/>
+      <stop offset="40%" stop-color="#6a3e18"/>
+      <stop offset="100%" stop-color="#3a200c"/>
+    </linearGradient>
+    <linearGradient id="woodGrain" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5a3010" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#c08040" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#2a1408" stop-opacity="0.45"/>
+    </linearGradient>
+    <radialGradient id="petalGlow" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#ffd0e8" stop-opacity="0.55"/>
+      <stop offset="45%" stop-color="#e05080" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#201018" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="headGlow" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="0.85"/>
+      <stop offset="55%" stop-color="#f0a040" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#201008" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <filter id="soft2" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <!-- sky + square -->
+  <rect width="1200" height="800" fill="url(#sky)"/>
+  <ellipse cx="600" cy="280" rx="420" ry="220" fill="url(#petalGlow)" filter="url(#soft2)"/>
+  <rect x="0" y="520" width="1200" height="280" fill="url(#square)"/>
+  <path d="M0 520 Q300 500 600 515 T1200 505 L1200 800 L0 800 Z" fill="#1c1610" opacity="0.55"/>
+
+  <!-- distant Temple Bar silhouette -->
+  <g opacity="0.35" fill="#0c0810">
+    <rect x="140" y="300" width="28" height="220"/>
+    <rect x="1032" y="310" width="28" height="210"/>
+    <path d="M120 280 L168 250 L196 280 Z"/>
+    <path d="M1012 290 L1060 255 L1088 290 Z"/>
+    <rect x="480" y="240" width="240" height="40" rx="4"/>
+    <rect x="500" y="180" width="40" height="70"/>
+    <rect x="660" y="180" width="40" height="70"/>
+    <path d="M470 180 Q600 120 730 180" fill="none" stroke="#0c0810" stroke-width="18"/>
+  </g>
+
+  <!-- pillory posts -->
+  <g>
+    <rect x="330" y="340" width="48" height="280" rx="6" fill="url(#wood)"/>
+    <rect x="330" y="340" width="48" height="280" rx="6" fill="url(#woodGrain)"/>
+    <rect x="822" y="340" width="48" height="280" rx="6" fill="url(#wood)"/>
+    <rect x="822" y="340" width="48" height="280" rx="6" fill="url(#woodGrain)"/>
+    <!-- crossbeam / stocks board -->
+    <rect x="300" y="360" width="600" height="110" rx="10" fill="url(#wood)"/>
+    <rect x="300" y="360" width="600" height="110" rx="10" fill="url(#woodGrain)"/>
+    <!-- grain lines -->
+    <g stroke="#2a1408" stroke-opacity="0.35" stroke-width="2">
+      <path d="M320 385 H880"/>
+      <path d="M320 410 H880"/>
+      <path d="M320 435 H880"/>
+      <path d="M345 360 V470"/>
+      <path d="M855 360 V470"/>
+    </g>
+    <!-- head + hand holes -->
+    <ellipse cx="600" cy="415" rx="52" ry="40" fill="#120c08"/>
+    <ellipse cx="470" cy="430" rx="28" ry="22" fill="#120c08"/>
+    <ellipse cx="730" cy="430" rx="28" ry="22" fill="#120c08"/>
+    <!-- iron hinges -->
+    <rect x="360" y="350" width="18" height="130" rx="3" fill="#2a3038"/>
+    <rect x="822" y="350" width="18" height="130" rx="3" fill="#2a3038"/>
+    <circle cx="369" cy="370" r="4" fill="#8a9098"/>
+    <circle cx="369" cy="460" r="4" fill="#8a9098"/>
+    <circle cx="831" cy="370" r="4" fill="#8a9098"/>
+    <circle cx="831" cy="460" r="4" fill="#8a9098"/>
+  </g>
+
+  <!-- ghost smile / head glow in the stocks -->
+  <ellipse cx="600" cy="400" rx="70" ry="55" fill="url(#headGlow)" filter="url(#soft)"/>
+  <g opacity="0.9">
+    <ellipse cx="600" cy="402" rx="34" ry="28" fill="#f5d8a0"/>
+    <path d="M585 408 Q600 420 615 408" fill="none" stroke="#8a4030" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="590" cy="396" r="2.2" fill="#3a2010"/>
+    <circle cx="610" cy="396" r="2.2" fill="#3a2010"/>
+  </g>
+
+  <!-- falling petals -->
+  <g>
+    <g transform="translate(420,220) rotate(-20)">
+      <ellipse cx="0" cy="0" rx="18" ry="10" fill="#ff6a9a"/>
+      <ellipse cx="0" cy="0" rx="10" ry="18" fill="#ff8ab0" opacity="0.85"/>
+    </g>
+    <g transform="translate(510,160) rotate(25)">
+      <ellipse cx="0" cy="0" rx="16" ry="9" fill="#ffd060"/>
+      <ellipse cx="0" cy="0" rx="9" ry="16" fill="#ffe090" opacity="0.9"/>
+    </g>
+    <g transform="translate(680,190) rotate(-35)">
+      <ellipse cx="0" cy="0" rx="20" ry="11" fill="#ff5080"/>
+      <ellipse cx="0" cy="0" rx="11" ry="20" fill="#ff7098" opacity="0.85"/>
+    </g>
+    <g transform="translate(760,250) rotate(15)">
+      <ellipse cx="0" cy="0" rx="15" ry="8" fill="#f0f0f8"/>
+      <ellipse cx="0" cy="0" rx="8" ry="15" fill="#ffffff" opacity="0.8"/>
+    </g>
+    <g transform="translate(390,300) rotate(40)">
+      <ellipse cx="0" cy="0" rx="14" ry="8" fill="#e04070"/>
+    </g>
+    <g transform="translate(820,300) rotate(-10)">
+      <ellipse cx="0" cy="0" rx="17" ry="9" fill="#ffb040"/>
+    </g>
+    <g transform="translate(560,240) rotate(5)">
+      <ellipse cx="0" cy="0" rx="12" ry="7" fill="#ff90b8"/>
+    </g>
+    <g transform="translate(640,280) rotate(-50)">
+      <ellipse cx="0" cy="0" rx="13" ry="7" fill="#fff0c0"/>
+    </g>
+    <g transform="translate(480,330) rotate(60)">
+      <ellipse cx="0" cy="0" rx="11" ry="6" fill="#ff7090"/>
+    </g>
+    <g transform="translate(720,340) rotate(-25)">
+      <ellipse cx="0" cy="0" rx="12" ry="7" fill="#ffc070"/>
+    </g>
+    <!-- stems / green flecks -->
+    <g stroke="#4a8040" stroke-width="2" stroke-linecap="round" opacity="0.7">
+      <path d="M430 240 l8 22"/>
+      <path d="M690 210 l-6 20"/>
+      <path d="M770 270 l10 18"/>
+      <path d="M400 315 l-4 16"/>
+    </g>
+  </g>
+
+  <!-- memory-yoke grain plaque -->
+  <g transform="translate(150,600)">
+    <rect x="0" y="0" width="220" height="90" rx="8" fill="#2a2018" stroke="#6a4a28" stroke-width="2"/>
+    <text x="16" y="32" fill="#d0b080" font-family="Georgia, serif" font-size="15">memory flood</text>
+    <text x="16" y="56" fill="#a08060" font-family="Georgia, serif" font-size="13">the wood of the yoke</text>
+    <text x="16" y="76" fill="#706050" font-family="Georgia, serif" font-size="12">σ ≈ 5.29</text>
+  </g>
+
+  <!-- demand coronation plaque -->
+  <g transform="translate(830,600)">
+    <rect x="0" y="0" width="220" height="90" rx="8" fill="#281820" stroke="#a04068" stroke-width="2"/>
+    <text x="16" y="32" fill="#ffb0d0" font-family="Georgia, serif" font-size="15">Mac +29%</text>
+    <text x="16" y="56" fill="#d080a0" font-family="Georgia, serif" font-size="13">flowers, not dung</text>
+    <text x="16" y="76" fill="#806070" font-family="Georgia, serif" font-size="12">demand coronation</text>
+  </g>
+
+  <!-- title -->
+  <text x="600" y="70" text-anchor="middle" fill="#f8e8d0" font-family="Georgia, serif" font-size="34" font-weight="bold">Flower Pillory Verdict</text>
+  <text x="600" y="104" text-anchor="middle" fill="#c0a090" font-family="Georgia, serif" font-size="18">Temple Bar · 31 July 1703 · the city answered with roses</text>
+  <text x="600" y="760" text-anchor="middle" fill="#908070" font-family="Georgia, serif" font-size="16">name the stocks and the flowers separately</text>
+</svg>

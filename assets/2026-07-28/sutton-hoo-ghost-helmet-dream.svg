@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Sutton Hoo Ghost Helmet Dream — Anglo-Saxon helmet with glowing eyes rising from a dark ship burial mound">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#07060c"/>
+      <stop offset="40%" stop-color="#12101c"/>
+      <stop offset="75%" stop-color="#1a1624"/>
+      <stop offset="100%" stop-color="#0a0c10"/>
+    </linearGradient>
+    <linearGradient id="mound" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a2418"/>
+      <stop offset="55%" stop-color="#1a1610"/>
+      <stop offset="100%" stop-color="#0c0a08"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f0d78c"/>
+      <stop offset="35%" stop-color="#d4a84b"/>
+      <stop offset="70%" stop-color="#a67c29"/>
+      <stop offset="100%" stop-color="#7a5a28"/>
+    </linearGradient>
+    <linearGradient id="iron" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6a6e78"/>
+      <stop offset="50%" stop-color="#3a3e48"/>
+      <stop offset="100%" stop-color="#1a1c22"/>
+    </linearGradient>
+    <radialGradient id="eyeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff6c8"/>
+      <stop offset="35%" stop-color="#ffd36a"/>
+      <stop offset="70%" stop-color="#e08a20" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#401808" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="halo" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#ffd27a" stop-opacity="0.35"/>
+      <stop offset="55%" stop-color="#c9892a" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#100808" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.2"/>
+    </filter>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+    <filter id="haze" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
+  </defs>
+
+  <!-- night sky -->
+  <rect width="1200" height="800" fill="url(#sky)"/>
+  <!-- faint stars -->
+  <g fill="#e8e0c8" opacity="0.55">
+    <circle cx="90" cy="70" r="1.2"/>
+    <circle cx="180" cy="120" r="0.9"/>
+    <circle cx="260" cy="48" r="1.1"/>
+    <circle cx="340" cy="95" r="0.8"/>
+    <circle cx="920" cy="60" r="1.3"/>
+    <circle cx="1010" cy="110" r="0.9"/>
+    <circle cx="1100" cy="42" r="1.0"/>
+    <circle cx="850" cy="150" r="0.7"/>
+    <circle cx="140" cy="200" r="0.8"/>
+    <circle cx="1050" cy="190" r="1.1"/>
+  </g>
+
+  <!-- distant earth line -->
+  <ellipse cx="600" cy="620" rx="620" ry="90" fill="#0e0c0a" opacity="0.9"/>
+
+  <!-- burial mound -->
+  <path d="M80 640 C220 520, 380 470, 600 460 C820 470, 980 520, 1120 640 L1120 800 L80 800 Z" fill="url(#mound)"/>
+  <path d="M160 640 C300 560, 420 520, 600 512 C780 520, 900 560, 1040 640" fill="none" stroke="#3a3224" stroke-width="2" opacity="0.55"/>
+  <!-- cut / excavation notch -->
+  <path d="M470 560 C520 530, 560 520, 600 518 C640 520, 680 530, 730 560 L700 620 C660 590, 540 590, 500 620 Z" fill="#12100c" opacity="0.85"/>
+  <!-- ship ribs suggestion in the cut -->
+  <g stroke="#5a4a30" stroke-width="2" fill="none" opacity="0.55" filter="url(#haze)">
+    <path d="M510 590 Q600 575 690 590"/>
+    <path d="M520 605 Q600 592 680 605"/>
+    <path d="M530 620 Q600 610 670 620"/>
+    <path d="M540 575 L545 625"/>
+    <path d="M570 568 L574 630"/>
+    <path d="M600 565 L600 635"/>
+    <path d="M630 568 L626 630"/>
+    <path d="M660 575 L655 625"/>
+  </g>
+  <!-- rivets on ribs -->
+  <g fill="#c9a24a" opacity="0.7">
+    <circle cx="545" cy="598" r="2.2"/>
+    <circle cx="574" cy="592" r="2.2"/>
+    <circle cx="600" cy="590" r="2.4"/>
+    <circle cx="626" cy="592" r="2.2"/>
+    <circle cx="655" cy="598" r="2.2"/>
+  </g>
+
+  <!-- helmet halo -->
+  <ellipse cx="600" cy="300" rx="220" ry="200" fill="url(#halo)" filter="url(#glow)"/>
+
+  <!-- HELMET group -->
+  <g transform="translate(600,300)">
+    <!-- neck / lower guard -->
+    <path d="M-95 70 C-80 110, -40 130, 0 132 C40 130, 80 110, 95 70 L70 95 C45 115, -45 115, -70 95 Z" fill="url(#iron)" stroke="#8a8068" stroke-width="2"/>
+    <!-- cheek guards -->
+    <path d="M-118 -10 C-130 20, -125 70, -95 95 C-70 70, -75 20, -85 -15 Z" fill="url(#iron)" stroke="#9a8f70" stroke-width="2"/>
+    <path d="M118 -10 C130 20, 125 70, 95 95 C70 70, 75 20, 85 -15 Z" fill="url(#iron)" stroke="#9a8f70" stroke-width="2"/>
+    <!-- main dome -->
+    <ellipse cx="0" cy="-10" rx="120" ry="115" fill="url(#iron)" stroke="#b09a68" stroke-width="2.5"/>
+    <!-- gold face panel -->
+    <path d="M-78 -5 C-70 -55, -35 -85, 0 -90 C35 -85, 70 -55, 78 -5 C60 35, 30 55, 0 58 C-30 55, -60 35, -78 -5 Z" fill="url(#gold)" stroke="#ffe6a0" stroke-width="1.5"/>
+    <!-- brow ridge -->
+    <path d="M-70 -35 Q0 -55 70 -35" fill="none" stroke="#5a3e18" stroke-width="4" stroke-linecap="round"/>
+    <!-- nose piece -->
+    <path d="M0 -40 L-8 25 L0 40 L8 25 Z" fill="#5a3e18" stroke="#2a1c0c" stroke-width="1"/>
+    <!-- mustache / mouth panel -->
+    <path d="M-40 28 Q0 48 40 28 Q20 42 0 44 Q-20 42 -40 28 Z" fill="#4a3418" opacity="0.85"/>
+    <!-- eye sockets dark -->
+    <ellipse cx="-32" cy="-8" rx="22" ry="16" fill="#120c08"/>
+    <ellipse cx="32" cy="-8" rx="22" ry="16" fill="#120c08"/>
+    <!-- glowing eyes -->
+    <ellipse cx="-32" cy="-8" rx="28" ry="22" fill="url(#eyeGlow)" filter="url(#glow)" opacity="0.9"/>
+    <ellipse cx="32" cy="-8" rx="28" ry="22" fill="url(#eyeGlow)" filter="url(#glow)" opacity="0.9"/>
+    <ellipse cx="-32" cy="-8" rx="10" ry="8" fill="#fff4c0"/>
+    <ellipse cx="32" cy="-8" rx="10" ry="8" fill="#fff4c0"/>
+    <ellipse cx="-30" cy="-10" rx="3.5" ry="3" fill="#1a1008"/>
+    <ellipse cx="34" cy="-10" rx="3.5" ry="3" fill="#1a1008"/>
+    <!-- gold rivet ring -->
+    <g fill="#f0d78c" stroke="#7a5a28" stroke-width="0.6">
+      <circle cx="-95" cy="-40" r="4"/>
+      <circle cx="-70" cy="-75" r="4"/>
+      <circle cx="-30" cy="-95" r="4"/>
+      <circle cx="0" cy="-100" r="4.5"/>
+      <circle cx="30" cy="-95" r="4"/>
+      <circle cx="70" cy="-75" r="4"/>
+      <circle cx="95" cy="-40" r="4"/>
+      <circle cx="-100" cy="10" r="3.5"/>
+      <circle cx="100" cy="10" r="3.5"/>
+    </g>
+    <!-- BOAR crest -->
+    <g>
+      <ellipse cx="0" cy="-125" rx="18" ry="10" fill="url(#gold)" stroke="#ffe6a0" stroke-width="1"/>
+      <!-- body -->
+      <path d="M-55 -130 C-20 -155, 20 -155, 55 -130 C40 -118, -40 -118, -55 -130 Z" fill="url(#gold)" stroke="#5a3e18" stroke-width="1.5"/>
+      <!-- head -->
+      <path d="M48 -135 C70 -140, 88 -128, 92 -118 C78 -112, 60 -118, 48 -128 Z" fill="#d4a84b" stroke="#5a3e18" stroke-width="1.2"/>
+      <!-- snout -->
+      <path d="M88 -122 L108 -118 L88 -114 Z" fill="#a67c2d"/>
+      <!-- tusks -->
+      <path d="M95 -120 L102 -128" stroke="#f8e8b8" stroke-width="2" stroke-linecap="round"/>
+      <path d="M95 -116 L103 -110" stroke="#f8e8b8" stroke-width="2" stroke-linecap="round"/>
+      <!-- bristled back -->
+      <path d="M-40 -138 L-30 -155 L-20 -140 L-8 -158 L4 -142 L16 -160 L28 -140 L40 -152 L48 -135" fill="none" stroke="#8a6428" stroke-width="2" stroke-linejoin="round"/>
+      <!-- eye of boar -->
+      <circle cx="78" cy="-128" r="3" fill="#1a1008"/>
+      <circle cx="78" cy="-128" r="8" fill="url(#eyeGlow)" filter="url(#soft)" opacity="0.7"/>
+    </g>
+  </g>
+
+  <!-- rising dust / peat motes -->
+  <g fill="#c9a24a" opacity="0.35" filter="url(#soft)">
+    <circle cx="430" cy="420" r="2"/>
+    <circle cx="470" cy="390" r="1.5"/>
+    <circle cx="740" cy="400" r="2"/>
+    <circle cx="780" cy="430" r="1.4"/>
+    <circle cx="520" cy="450" r="1.2"/>
+    <circle cx="680" cy="455" r="1.6"/>
+  </g>
+
+  <!-- title plate -->
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#e8d7a8" text-anchor="middle">
+    <text x="600" y="720" font-size="28" letter-spacing="3">SUTTON HOO · GHOST HELMET</text>
+    <text x="600" y="752" font-size="16" fill="#a89068" letter-spacing="2">the seal fails · the face remains</text>
+  </g>
+</svg>

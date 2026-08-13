@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Impossible Colors Gamut Dream — three-strip Technicolor forest, opponent channels, and a third color walking through when the divider dies">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0618"/>
+      <stop offset="40%" stop-color="#1a0a28"/>
+      <stop offset="75%" stop-color="#2a1438"/>
+      <stop offset="100%" stop-color="#120818"/>
+    </linearGradient>
+    <linearGradient id="stripR" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff5a6a"/>
+      <stop offset="55%" stop-color="#c01838"/>
+      <stop offset="100%" stop-color="#5a0818"/>
+    </linearGradient>
+    <linearGradient id="stripG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5dff8a"/>
+      <stop offset="55%" stop-color="#18a048"/>
+      <stop offset="100%" stop-color="#084020"/>
+    </linearGradient>
+    <linearGradient id="stripB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6ab0ff"/>
+      <stop offset="55%" stop-color="#2850c0"/>
+      <stop offset="100%" stop-color="#081848"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a2830"/>
+      <stop offset="100%" stop-color="#060a10"/>
+    </linearGradient>
+    <radialGradient id="thirdGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f0c0ff" stop-opacity="0.95"/>
+      <stop offset="35%" stop-color="#c060e8" stop-opacity="0.55"/>
+      <stop offset="70%" stop-color="#6080ff" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#201030" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="labGlow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#100818" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <filter id="softer" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <!-- sky -->
+  <rect width="1200" height="800" fill="url(#sky)"/>
+  <ellipse cx="600" cy="220" rx="420" ry="180" fill="url(#labGlow)"/>
+
+  <!-- three-strip film bars (Technicolor weather) -->
+  <g opacity="0.9">
+    <rect x="60" y="70" width="28" height="220" rx="4" fill="url(#stripR)"/>
+    <rect x="98" y="70" width="28" height="220" rx="4" fill="url(#stripG)"/>
+    <rect x="136" y="70" width="28" height="220" rx="4" fill="url(#stripB)"/>
+    <text x="98" y="55" fill="#e8d8c0" font-family="Georgia, serif" font-size="14" text-anchor="middle" opacity="0.85">three-strip</text>
+  </g>
+
+  <!-- cartoon forest silhouettes catching color rain -->
+  <g opacity="0.95">
+    <!-- left trees red-leaning -->
+    <path d="M220 520 L260 300 L300 520 Z" fill="#8a2040" opacity="0.85"/>
+    <path d="M280 540 L330 280 L380 540 Z" fill="#c04060" opacity="0.75"/>
+    <path d="M340 530 L390 320 L440 530 Z" fill="#40a060" opacity="0.7"/>
+    <!-- right trees green/blue-leaning -->
+    <path d="M760 530 L810 310 L860 530 Z" fill="#3080b0" opacity="0.75"/>
+    <path d="M820 540 L880 270 L940 540 Z" fill="#40b070" opacity="0.8"/>
+    <path d="M900 520 L950 330 L1000 520 Z" fill="#2060a0" opacity="0.7"/>
+    <!-- center mixed canopy -->
+    <path d="M500 560 L560 240 L620 560 Z" fill="#a05080" opacity="0.55"/>
+    <path d="M560 550 L620 220 L680 550 Z" fill="#5080a0" opacity="0.5"/>
+    <path d="M620 560 L680 260 L740 560 Z" fill="#60a070" opacity="0.55"/>
+  </g>
+
+  <!-- color rain -->
+  <g stroke-width="2" opacity="0.55">
+    <line x1="250" y1="120" x2="240" y2="200" stroke="#ff6a7a"/>
+    <line x1="310" y1="100" x2="300" y2="190" stroke="#6aff9a"/>
+    <line x1="370" y1="130" x2="360" y2="210" stroke="#7ab0ff"/>
+    <line x1="430" y1="90" x2="420" y2="180" stroke="#ff8a60"/>
+    <line x1="700" y1="110" x2="710" y2="200" stroke="#6aff9a"/>
+    <line x1="760" y1="95" x2="770" y2="185" stroke="#7ab0ff"/>
+    <line x1="820" y1="125" x2="830" y2="210" stroke="#ff6a7a"/>
+    <line x1="880" y1="105" x2="890" y2="195" stroke="#c080ff"/>
+  </g>
+
+  <!-- ground / lab floor -->
+  <rect y="560" width="1200" height="240" fill="url(#ground)"/>
+  <path d="M0 560 Q300 540 600 555 T1200 560 L1200 800 L0 800 Z" fill="#0c141c" opacity="0.85"/>
+
+  <!-- opponent channel panels -->
+  <g>
+    <!-- red panel -->
+    <rect x="180" y="590" width="320" height="160" rx="14" fill="#2a1018" stroke="#ff5a6a" stroke-width="3"/>
+    <rect x="200" y="610" width="120" height="120" rx="8" fill="#ff4060"/>
+    <text x="340" y="660" fill="#ffb0b8" font-family="Georgia, serif" font-size="22">RED</text>
+    <text x="340" y="690" fill="#c08088" font-family="Georgia, serif" font-size="14">vs green</text>
+    <!-- green panel -->
+    <rect x="700" y="590" width="320" height="160" rx="14" fill="#102818" stroke="#5dff8a" stroke-width="3"/>
+    <rect x="880" y="610" width="120" height="120" rx="8" fill="#30d060"/>
+    <text x="740" y="660" fill="#b0ffc8" font-family="Georgia, serif" font-size="22">GREEN</text>
+    <text x="740" y="690" fill="#70b088" font-family="Georgia, serif" font-size="14">vs red</text>
+  </g>
+
+  <!-- dying divider -->
+  <g>
+    <line x1="600" y1="575" x2="600" y2="770" stroke="#e8d8a0" stroke-width="4" stroke-dasharray="10 8" opacity="0.55"/>
+    <circle cx="600" cy="575" r="8" fill="#f0e0a0" opacity="0.8"/>
+    <text x="600" y="555" fill="#e8d8c0" font-family="Georgia, serif" font-size="13" text-anchor="middle" opacity="0.8">divider dies</text>
+  </g>
+
+  <!-- third impossible color walking through -->
+  <g>
+    <circle cx="600" cy="430" r="90" fill="url(#thirdGlow)" filter="url(#softer)"/>
+    <circle cx="600" cy="430" r="48" fill="url(#thirdGlow)"/>
+    <!-- figure silhouette -->
+    <ellipse cx="600" cy="410" rx="18" ry="22" fill="#f8e8ff" opacity="0.95"/>
+    <path d="M600 430 L600 490 M575 450 L625 450 M585 490 L600 530 L615 490" stroke="#e8d0ff" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.95"/>
+    <text x="600" y="360" fill="#f0e0ff" font-family="Georgia, serif" font-size="16" text-anchor="middle" opacity="0.9">no paint-chip name</text>
+  </g>
+
+  <!-- title plate -->
+  <g>
+    <rect x="340" y="30" width="520" height="64" rx="10" fill="#100818" fill-opacity="0.72" stroke="#c8a0e0" stroke-width="1.5"/>
+    <text x="600" y="58" fill="#f4e8ff" font-family="Georgia, serif" font-size="26" text-anchor="middle">Impossible Colors Gamut</text>
+    <text x="600" y="80" fill="#b098c8" font-family="Georgia, serif" font-size="14" text-anchor="middle">Technicolor weather · opponent firmware · expert-stream lock-pick</text>
+  </g>
+
+  <!-- corner captions -->
+  <text x="60" y="770" fill="#8890a0" font-family="Georgia, serif" font-size="13">July 30, 1932 · Flowers and Trees</text>
+  <text x="1140" y="770" fill="#8890a0" font-family="Georgia, serif" font-size="13" text-anchor="end">26B @ ~2GB is not a passport</text>
+</svg>

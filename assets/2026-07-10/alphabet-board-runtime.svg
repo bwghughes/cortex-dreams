@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Alphabet Board Runtime</title>
+  <desc id="desc">An alphabet board wired into a private AI server rack, with fireflies spelling LOCAL PROOF.</desc>
+  <rect width="900" height="520" fill="#080b12"/>
+  <defs>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="rack" x1="0" x2="1">
+      <stop offset="0" stop-color="#151b28"/>
+      <stop offset="1" stop-color="#273147"/>
+    </linearGradient>
+  </defs>
+
+  <text x="48" y="58" fill="#e9f1ff" font-family="Avenir, Inter, sans-serif" font-size="28" font-weight="700">alphabet board runtime</text>
+  <text x="50" y="86" fill="#8795ad" font-family="Avenir, Inter, sans-serif" font-size="14">constraint → substitute interface → tiny laws → living signal</text>
+
+  <rect x="55" y="125" width="420" height="270" rx="28" fill="#111827" stroke="#4f6b93" stroke-width="2"/>
+  <text x="92" y="168" fill="#ffd36e" font-family="Georgia, serif" font-size="18">NO VOICE, STILL A PROTOCOL</text>
+  <g font-family="Avenir, Inter, sans-serif" font-size="23" font-weight="700" text-anchor="middle">
+    <g fill="#cfe8ff">
+      <text x="115" y="220">A</text><text x="165" y="220">B</text><text x="215" y="220">C</text><text x="265" y="220">D</text><text x="315" y="220">E</text><text x="365" y="220">F</text><text x="415" y="220">G</text>
+      <text x="115" y="270">H</text><text x="165" y="270">I</text><text x="215" y="270">J</text><text x="265" y="270">K</text><text x="315" y="270">L</text><text x="365" y="270">M</text><text x="415" y="270">N</text>
+      <text x="115" y="320">O</text><text x="165" y="320">P</text><text x="215" y="320">Q</text><text x="265" y="320">R</text><text x="315" y="320">S</text><text x="365" y="320">T</text><text x="415" y="320">U</text>
+      <text x="165" y="370">V</text><text x="215" y="370">W</text><text x="265" y="370">X</text><text x="315" y="370">Y</text><text x="365" y="370">Z</text>
+    </g>
+  </g>
+
+  <g transform="translate(565 110)">
+    <rect width="260" height="330" rx="18" fill="url(#rack)" stroke="#5c6f8f" stroke-width="2"/>
+    <text x="130" y="38" fill="#e9f1ff" text-anchor="middle" font-family="Avenir, Inter, sans-serif" font-size="18" font-weight="700">PRIVATE AI RACK</text>
+    <g font-family="Avenir, Inter, sans-serif" font-size="13" fill="#aebbd1">
+      <rect x="28" y="68" width="204" height="38" rx="8" fill="#0d1320" stroke="#33415c"/><text x="44" y="92">permissions</text><circle cx="212" cy="87" r="6" fill="#75f0a3" filter="url(#glow)"/>
+      <rect x="28" y="122" width="204" height="38" rx="8" fill="#0d1320" stroke="#33415c"/><text x="44" y="146">logs</text><circle cx="212" cy="141" r="6" fill="#ffd36e" filter="url(#glow)"/>
+      <rect x="28" y="176" width="204" height="38" rx="8" fill="#0d1320" stroke="#33415c"/><text x="44" y="200">attestation</text><circle cx="212" cy="195" r="6" fill="#8cc8ff" filter="url(#glow)"/>
+      <rect x="28" y="230" width="204" height="38" rx="8" fill="#0d1320" stroke="#33415c"/><text x="44" y="254">fallback / kill switch</text><circle cx="212" cy="249" r="6" fill="#ff6e7f" filter="url(#glow)"/>
+    </g>
+    <text x="130" y="304" fill="#ffd36e" text-anchor="middle" font-family="Avenir, Inter, sans-serif" font-size="17" font-weight="800">LOCAL PROOF</text>
+  </g>
+
+  <path d="M475 258 C520 220, 530 205, 565 190" stroke="#ffd36e" stroke-width="3" fill="none" stroke-dasharray="8 8"/>
+  <path d="M475 292 C515 310, 532 338, 565 350" stroke="#75f0a3" stroke-width="3" fill="none" stroke-dasharray="8 8"/>
+
+  <g fill="#ffd36e" filter="url(#glow)">
+    <circle cx="117" cy="269" r="5"/><circle cx="315" cy="269" r="5"/><circle cx="115" cy="319" r="5"/><circle cx="265" cy="319" r="5"/><circle cx="415" cy="319" r="5"/>
+    <circle cx="622" cy="393" r="4"/><circle cx="669" cy="393" r="4"/><circle cx="716" cy="393" r="4"/><circle cx="763" cy="393" r="4"/>
+  </g>
+
+  <text x="55" y="465" fill="#e9f1ff" font-family="Georgia, serif" font-size="20">Every workaround becomes an interface. Govern the interface, not just the model.</text>
+</svg>

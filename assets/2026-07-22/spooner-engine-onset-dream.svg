@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Spooner Engine Onset Dream — candlelit Oxford hall with two words swapping opening consonants">
+  <defs>
+    <linearGradient id="hall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="45%" stop-color="#2a1c14"/>
+      <stop offset="100%" stop-color="#0e0a08"/>
+    </linearGradient>
+    <radialGradient id="candle" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#fff4c8"/>
+      <stop offset="35%" stop-color="#ffc857"/>
+      <stop offset="70%" stop-color="#c45a18" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#2a1008" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="oak" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6b4a2e"/>
+      <stop offset="55%" stop-color="#3d2818"/>
+      <stop offset="100%" stop-color="#1a100a"/>
+    </linearGradient>
+    <linearGradient id="stone" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8a7d6a"/>
+      <stop offset="100%" stop-color="#3a342c"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e8dcc4"/>
+      <stop offset="50%" stop-color="#f5e6b8"/>
+      <stop offset="100%" stop-color="#e8dcc4"/>
+    </linearGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <filter id="tiny" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.5"/>
+    </filter>
+  </defs>
+
+  <!-- hall dark -->
+  <rect width="1200" height="800" fill="url(#hall)"/>
+
+  <!-- high windows / night -->
+  <g opacity="0.35">
+    <rect x="120" y="40" width="90" height="160" rx="4" fill="#3a4a5a"/>
+    <rect x="240" y="40" width="90" height="160" rx="4" fill="#3a4a5a"/>
+    <rect x="870" y="40" width="90" height="160" rx="4" fill="#3a4a5a"/>
+    <rect x="990" y="40" width="90" height="160" rx="4" fill="#3a4a5a"/>
+    <line x1="165" y1="40" x2="165" y2="200" stroke="#1a2030" stroke-width="3"/>
+    <line x1="285" y1="40" x2="285" y2="200" stroke="#1a2030" stroke-width="3"/>
+    <line x1="915" y1="40" x2="915" y2="200" stroke="#1a2030" stroke-width="3"/>
+    <line x1="1035" y1="40" x2="1035" y2="200" stroke="#1a2030" stroke-width="3"/>
+  </g>
+
+  <!-- candle glow pools -->
+  <ellipse cx="380" cy="420" rx="220" ry="160" fill="url(#candle)" opacity="0.55"/>
+  <ellipse cx="820" cy="420" rx="220" ry="160" fill="url(#candle)" opacity="0.55"/>
+  <ellipse cx="600" cy="360" rx="280" ry="200" fill="url(#candle)" opacity="0.35"/>
+
+  <!-- long table -->
+  <rect x="160" y="470" width="880" height="36" rx="4" fill="url(#oak)"/>
+  <rect x="180" y="506" width="24" height="160" fill="#2a1a10"/>
+  <rect x="996" y="506" width="24" height="160" fill="#2a1a10"/>
+  <rect x="140" y="660" width="920" height="18" rx="2" fill="#1a100a"/>
+
+  <!-- candles -->
+  <g>
+    <rect x="360" y="390" width="14" height="80" rx="2" fill="#e8d8b0"/>
+    <ellipse cx="367" cy="388" rx="10" ry="6" fill="#c4a878"/>
+    <ellipse cx="367" cy="360" rx="18" ry="28" fill="#ffb040" filter="url(#glow)" opacity="0.7"/>
+    <path d="M367 340 C360 355, 374 360, 367 375 C374 360, 360 355, 367 340 Z" fill="#fff2c0"/>
+
+    <rect x="820" y="390" width="14" height="80" rx="2" fill="#e8d8b0"/>
+    <ellipse cx="827" cy="388" rx="10" ry="6" fill="#c4a878"/>
+    <ellipse cx="827" cy="360" rx="18" ry="28" fill="#ffb040" filter="url(#glow)" opacity="0.7"/>
+    <path d="M827 340 C820 355, 834 360, 827 375 C834 360, 820 355, 827 340 Z" fill="#fff2c0"/>
+
+    <rect x="590" y="400" width="12" height="70" rx="2" fill="#e8d8b0"/>
+    <ellipse cx="596" cy="398" rx="9" ry="5" fill="#c4a878"/>
+    <ellipse cx="596" cy="372" rx="14" ry="22" fill="#ffb040" filter="url(#glow)" opacity="0.55"/>
+    <path d="M596 354 C590 366, 602 370, 596 382 C602 370, 590 366, 596 354 Z" fill="#fff2c0"/>
+  </g>
+
+  <!-- two word stones / tablets floating above table -->
+  <g transform="translate(250,220)">
+    <rect x="0" y="0" width="280" height="120" rx="10" fill="url(#stone)" stroke="#c8b89a" stroke-width="2" opacity="0.95"/>
+    <text x="140" y="52" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="url(#ink)" letter-spacing="2">LOVING</text>
+    <text x="140" y="92" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#f0d090" letter-spacing="2">SHEPHERD</text>
+    <!-- onset chips -->
+    <rect x="28" y="28" width="42" height="36" rx="6" fill="#2a1810" stroke="#ffc857" stroke-width="1.5"/>
+    <text x="49" y="53" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#ffc857" font-weight="700">L</text>
+    <rect x="28" y="68" width="42" height="36" rx="6" fill="#2a1810" stroke="#ffc857" stroke-width="1.5"/>
+    <text x="49" y="93" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#ffc857" font-weight="700">SH</text>
+  </g>
+
+  <g transform="translate(670,220)">
+    <rect x="0" y="0" width="280" height="120" rx="10" fill="url(#stone)" stroke="#c8b89a" stroke-width="2" opacity="0.95"/>
+    <text x="140" y="52" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="url(#ink)" letter-spacing="2">SHOVING</text>
+    <text x="140" y="92" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#f0d090" letter-spacing="2">LEOPARD</text>
+    <rect x="28" y="28" width="42" height="36" rx="6" fill="#2a1810" stroke="#ff6b3d" stroke-width="1.5"/>
+    <text x="49" y="53" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#ff6b3d" font-weight="700">SH</text>
+    <rect x="28" y="68" width="42" height="36" rx="6" fill="#2a1810" stroke="#ff6b3d" stroke-width="1.5"/>
+    <text x="49" y="93" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#ff6b3d" font-weight="700">L</text>
+  </g>
+
+  <!-- swap arrows between tablets -->
+  <g stroke="#ffc857" stroke-width="3" fill="none" opacity="0.85">
+    <path d="M540 250 C580 230, 620 230, 660 250" marker-end="url(#arr)"/>
+    <path d="M660 310 C620 330, 580 330, 540 310"/>
+  </g>
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#ffc857"/>
+    </marker>
+  </defs>
+  <polygon points="652,246 668,250 652,258" fill="#ffc857"/>
+  <polygon points="548,306 532,310 548,318" fill="#ffc857"/>
+
+  <!-- engine label / brass plate -->
+  <g transform="translate(420,555)">
+    <rect x="0" y="0" width="360" height="70" rx="8" fill="#1c140e" stroke="#a8844a" stroke-width="2"/>
+    <text x="180" y="30" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#d4b878" letter-spacing="3">SPOONER ENGINE</text>
+    <text x="180" y="54" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#8a7050" letter-spacing="1">keep skeleton · swap onsets</text>
+  </g>
+
+  <!-- drifting moth-fish (half-warmed fish joke) -->
+  <g fill="#c8b898" opacity="0.45" filter="url(#tiny)">
+    <ellipse cx="200" cy="280" rx="18" ry="8"/>
+    <path d="M182 280 L168 274 L168 286 Z"/>
+    <ellipse cx="980" cy="300" rx="16" ry="7"/>
+    <path d="M996 300 L1010 295 L1010 305 Z"/>
+    <ellipse cx="150" cy="520" rx="14" ry="6"/>
+    <path d="M136 520 L124 516 L124 524 Z"/>
+    <ellipse cx="1050" cy="500" rx="15" ry="6"/>
+    <path d="M1065 500 L1078 496 L1078 504 Z"/>
+  </g>
+
+  <!-- title strip -->
+  <text x="600" y="760" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#7a6a58" letter-spacing="4">CORTEX DREAM · 2026-07-22 · ONSET SWAP</text>
+</svg>

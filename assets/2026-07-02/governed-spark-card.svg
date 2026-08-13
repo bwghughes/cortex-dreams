@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc" width="1200" height="800">
+  <title id="title">Governed Spark Card</title>
+  <desc id="desc">A small dream-cycle SVG: local inference as a spark held inside a governed grate, with signal lines returning to the human hand.</desc>
+  <defs>
+    <radialGradient id="ember" cx="49%" cy="48%" r="58%">
+      <stop offset="0" stop-color="#fff3b0"/>
+      <stop offset="0.25" stop-color="#ff9f1c"/>
+      <stop offset="0.55" stop-color="#e71d36"/>
+      <stop offset="1" stop-color="#071013"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" seed="20260702"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .16"/></feComponentTransfer><feBlend mode="multiply" in2="SourceGraphic"/></filter>
+    <filter id="glow"><feGaussianBlur stdDeviation="9" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="800" fill="#071013"/>
+  <circle cx="600" cy="390" r="290" fill="url(#ember)" opacity="0.88" filter="url(#glow)"/>
+  <g fill="none" stroke="#f7fff7" stroke-width="4" opacity="0.22">
+    <path d="M155 230C360 135 460 190 600 120s280 15 445 95"/>
+    <path d="M130 590c210-82 320-20 470-86s310-34 470 62"/>
+    <circle cx="600" cy="390" r="365"/>
+    <circle cx="600" cy="390" r="245"/>
+  </g>
+  <g transform="translate(355 190)">
+    <rect x="90" y="100" width="310" height="310" rx="34" fill="#071013" opacity="0.78" stroke="#f7fff7" stroke-width="12"/>
+    <g stroke="#f7fff7" stroke-width="12" opacity="0.92">
+      <path d="M150 108v294M220 108v294M290 108v294M360 108v294"/>
+      <path d="M98 168h294M98 238h294M98 308h294M98 378h294"/>
+    </g>
+    <path d="M247 362c-64-49-75-118-26-190 9 49 43 65 54 109 17-31 18-70 4-113 77 69 88 151 20 194-16 10-36 10-52 0Z" fill="#ff9f1c" stroke="#fff3b0" stroke-width="8" filter="url(#glow)"/>
+  </g>
+  <g stroke="#2ec4b6" stroke-width="9" fill="none" stroke-linecap="round" opacity="0.95">
+    <path d="M318 405H180c-44 0-72 26-72 64"/>
+    <path d="M882 405h138c44 0 72-26 72-64"/>
+    <path d="M600 156V78"/>
+    <path d="M600 625v78"/>
+  </g>
+  <g fill="#f7fff7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
+    <text x="70" y="85" font-size="31" letter-spacing="5">cortex-dream-cycle-2026-07-02-governed-spark</text>
+    <text x="82" y="704" font-size="68" font-weight="900">GOVERNED SPARK</text>
+    <text x="88" y="748" font-size="27" fill="#fff3b0">local is a property · governed is a practice</text>
+  </g>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.8"/>
+</svg>

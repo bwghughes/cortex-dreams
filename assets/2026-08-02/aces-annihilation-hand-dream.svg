@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" role="img" aria-label="Aces Annihilation Hand Dream — dead man's hand meets positron flash">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="70%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="55%" stop-color="#0b0908"/>
+      <stop offset="100%" stop-color="#050403"/>
+    </radialGradient>
+    <radialGradient id="flash" cx="50%" cy="48%" r="28%">
+      <stop offset="0%" stop-color="#fff8e8" stop-opacity="0.95"/>
+      <stop offset="35%" stop-color="#f0c36a" stop-opacity="0.75"/>
+      <stop offset="70%" stop-color="#9c2c2c" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#9c2c2c" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8d3a0"/>
+      <stop offset="100%" stop-color="#a8844a"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="960" height="640" fill="url(#bg)"/>
+
+  <!-- faint cloud-chamber tracks -->
+  <g stroke="#c5a26f" stroke-opacity="0.12" fill="none" stroke-width="1.2">
+    <path d="M80 520 C140 420, 180 380, 240 300 S340 160, 420 120"/>
+    <path d="M880 540 C800 430, 760 360, 700 280 S600 150, 540 110"/>
+    <path d="M120 180 C220 220, 300 300, 360 380 S470 520, 520 560"/>
+    <path d="M840 160 C740 210, 670 290, 610 370 S520 510, 470 560"/>
+  </g>
+
+  <!-- annihilation flash at center -->
+  <circle cx="480" cy="310" r="150" fill="url(#flash)" filter="url(#glow)"/>
+  <circle cx="480" cy="310" r="18" fill="#fffaf0" opacity="0.9"/>
+  <circle cx="480" cy="310" r="36" fill="none" stroke="#f0c36a" stroke-opacity="0.55" stroke-width="2"/>
+  <circle cx="480" cy="310" r="64" fill="none" stroke="#9c2c2c" stroke-opacity="0.35" stroke-width="1.5"/>
+
+  <!-- left card: Ace of spades (matter / production pin) -->
+  <g transform="translate(210,175) rotate(-8)">
+    <rect x="0" y="0" width="150" height="210" rx="14" fill="#f4efe4" stroke="#3a2f22" stroke-width="4"/>
+    <text x="18" y="36" font-family="Georgia, serif" font-size="28" font-weight="700" fill="#111">A</text>
+    <text x="18" y="62" font-family="Georgia, serif" font-size="22" fill="#111">♠</text>
+    <text x="75" y="125" text-anchor="middle" font-family="Georgia, serif" font-size="64" fill="#111">♠</text>
+    <text x="132" y="188" text-anchor="end" font-family="Georgia, serif" font-size="28" font-weight="700" fill="#111" transform="rotate(180 132 188)">A</text>
+    <text x="132" y="162" text-anchor="end" font-family="Georgia, serif" font-size="22" fill="#111" transform="rotate(180 132 162)">♠</text>
+  </g>
+
+  <!-- right card: Eight of clubs (antimatter / head or lab) -->
+  <g transform="translate(600,175) rotate(9)">
+    <rect x="0" y="0" width="150" height="210" rx="14" fill="#f4efe4" stroke="#3a2f22" stroke-width="4"/>
+    <text x="18" y="36" font-family="Georgia, serif" font-size="28" font-weight="700" fill="#111">8</text>
+    <text x="18" y="62" font-family="Georgia, serif" font-size="22" fill="#111">♣</text>
+    <text x="75" y="125" text-anchor="middle" font-family="Georgia, serif" font-size="64" fill="#111">♣</text>
+    <text x="132" y="188" text-anchor="end" font-family="Georgia, serif" font-size="28" font-weight="700" fill="#111" transform="rotate(180 132 188)">8</text>
+    <text x="132" y="162" text-anchor="end" font-family="Georgia, serif" font-size="22" fill="#111" transform="rotate(180 132 162)">♣</text>
+  </g>
+
+  <!-- particle pair labels -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" fill="url(#gold)" letter-spacing="2">
+    <text x="285" y="430" text-anchor="middle" font-size="12" opacity="0.85">e− · PIN</text>
+    <text x="675" y="430" text-anchor="middle" font-size="12" opacity="0.85">e+ · HEAD</text>
+  </g>
+
+  <!-- title block -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" fill="#d4c9b0" text-anchor="middle">
+    <text x="480" y="72" font-size="13" letter-spacing="6" opacity="0.55">2 AUGUST · 1876 / 1932</text>
+    <text x="480" y="108" font-size="28" letter-spacing="4" fill="url(#gold)">ACES &amp; ANNIHILATION</text>
+    <text x="480" y="140" font-size="14" letter-spacing="3" opacity="0.7">DEAD MAN'S HAND · POSITRON FLASH</text>
+  </g>
+
+  <text x="480" y="560" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#c5a26f" opacity="0.8">when opposites meet, nothing stays — only light</text>
+  <text x="480" y="590" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#8a7d68" opacity="0.65">cortex dream · 2026-08-02</text>
+</svg>

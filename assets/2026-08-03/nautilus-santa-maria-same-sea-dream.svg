@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" role="img" aria-label="Nautilus Santa Maria Same Sea Dream — wooden horizon ship and nuclear sub under ice on one dark sea">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a1628"/>
+      <stop offset="42%" stop-color="#12243a"/>
+      <stop offset="42%" stop-color="#0b1a22"/>
+      <stop offset="100%" stop-color="#040a10"/>
+    </linearGradient>
+    <linearGradient id="ice" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#9ec9d8" stop-opacity="0.55"/>
+      <stop offset="40%" stop-color="#4a7a8c" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#4a7a8c" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c9a46a"/>
+      <stop offset="100%" stop-color="#7a5530"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8aa0b0"/>
+      <stop offset="100%" stop-color="#3a4a58"/>
+    </linearGradient>
+    <radialGradient id="glowL" cx="28%" cy="38%" r="30%">
+      <stop offset="0%" stop-color="#f0d080" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#f0d080" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowR" cx="72%" cy="62%" r="28%">
+      <stop offset="0%" stop-color="#7fd0e8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#7fd0e8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="960" height="640" fill="url(#sky)"/>
+
+  <!-- shared sea surface line -->
+  <line x1="40" y1="268" x2="920" y2="268" stroke="#6a8ea8" stroke-opacity="0.45" stroke-width="1.5"/>
+  <path d="M40 268 Q240 252 480 268 T920 268" fill="none" stroke="#8eb4c8" stroke-opacity="0.25" stroke-width="2"/>
+
+  <!-- left glow: horizon voyage -->
+  <circle cx="270" cy="240" r="160" fill="url(#glowL)"/>
+  <!-- right glow: under-ice voyage -->
+  <circle cx="690" cy="400" r="150" fill="url(#glowR)"/>
+
+  <!-- ice sheet over right half under surface -->
+  <path d="M500 268 L920 268 L920 520 Q700 480 500 500 Z" fill="url(#ice)"/>
+  <g stroke="#b7d7e4" stroke-opacity="0.35" fill="none" stroke-width="1">
+    <path d="M540 300 L620 320 L700 305 L780 330 L860 310"/>
+    <path d="M560 360 L650 380 L740 355 L830 375"/>
+    <path d="M580 420 L680 440 L780 415 L870 430"/>
+  </g>
+
+  <!-- faint shared sea texture -->
+  <g stroke="#5a7a90" stroke-opacity="0.12" fill="none" stroke-width="1.2">
+    <path d="M60 320 C160 300, 220 340, 300 320 S420 300, 480 330"/>
+    <path d="M80 400 C180 380, 260 420, 340 400 S460 380, 520 410"/>
+    <path d="M100 480 C200 460, 280 500, 360 480 S480 460, 560 490"/>
+  </g>
+
+  <!-- Santa María (left, surface) -->
+  <g transform="translate(160,175)" filter="url(#soft)">
+    <!-- hull -->
+    <path d="M20 90 C40 120, 160 125, 220 95 C200 70, 60 70, 20 90 Z" fill="url(#wood)"/>
+    <path d="M35 88 L200 88" stroke="#3a2818" stroke-opacity="0.35" stroke-width="1"/>
+    <!-- masts -->
+    <line x1="70" y1="20" x2="70" y2="95" stroke="#d8c090" stroke-width="3"/>
+    <line x1="140" y1="5" x2="140" y2="98" stroke="#d8c090" stroke-width="3.5"/>
+    <!-- lateen / square sails -->
+    <path d="M74 28 L120 38 L74 78 Z" fill="#e8dcc0" opacity="0.9"/>
+    <path d="M144 12 L200 28 L144 85 Z" fill="#f0e6d0" opacity="0.92"/>
+    <!-- flag -->
+    <path d="M140 5 L168 12 L140 18 Z" fill="#c45c4a"/>
+  </g>
+
+  <!-- Nautilus (right, under ice) -->
+  <g transform="translate(560,360)" filter="url(#soft)">
+    <!-- submarine body -->
+    <ellipse cx="120" cy="55" rx="130" ry="28" fill="url(#steel)"/>
+    <path d="M10 55 Q30 30, 120 28 Q210 30, 230 55 Q210 80, 120 82 Q30 80, 10 55 Z" fill="url(#steel)" opacity="0.95"/>
+    <!-- sail / conning tower -->
+    <rect x="95" y="8" width="42" height="30" rx="4" fill="#5a6e7c"/>
+    <rect x="108" y="-6" width="8" height="18" fill="#7a90a0"/>
+    <!-- reactor glow hint -->
+    <circle cx="175" cy="55" r="10" fill="#7fd0e8" opacity="0.55"/>
+    <circle cx="175" cy="55" r="18" fill="#7fd0e8" opacity="0.15"/>
+    <!-- propeller wake -->
+    <path d="M248 55 C270 45, 290 65, 310 50" fill="none" stroke="#7fd0e8" stroke-opacity="0.45" stroke-width="2"/>
+    <path d="M248 60 C275 70, 295 48, 318 62" fill="none" stroke="#7fd0e8" stroke-opacity="0.28" stroke-width="1.5"/>
+  </g>
+
+  <!-- calendar square / shared day -->
+  <g transform="translate(430,500)">
+    <rect x="0" y="0" width="100" height="78" rx="6" fill="#0e1824" stroke="#c9a46a" stroke-opacity="0.7" stroke-width="1.5"/>
+    <text x="50" y="28" text-anchor="middle" fill="#c9a46a" font-family="Georgia, serif" font-size="12" letter-spacing="1">3 AUGUST</text>
+    <text x="50" y="48" text-anchor="middle" fill="#e8dcc0" font-family="Georgia, serif" font-size="11">1492 · 1958</text>
+    <text x="50" y="66" text-anchor="middle" fill="#8eb4c8" font-family="Georgia, serif" font-size="10">SAME SEA</text>
+  </g>
+
+  <!-- labels -->
+  <text x="270" y="140" text-anchor="middle" fill="#e8dcc0" font-family="Georgia, serif" font-size="16" letter-spacing="2">SANTA MARÍA</text>
+  <text x="270" y="160" text-anchor="middle" fill="#a89068" font-family="Georgia, serif" font-size="11">horizon · wood · open water</text>
+  <text x="690" y="560" text-anchor="middle" fill="#b7d7e4" font-family="Georgia, serif" font-size="16" letter-spacing="2">NAUTILUS</text>
+  <text x="690" y="580" text-anchor="middle" fill="#6a8ea8" font-family="Georgia, serif" font-size="11">under ice · nuclear · sealed hull</text>
+
+  <text x="480" y="48" text-anchor="middle" fill="#d8c8a0" font-family="Georgia, serif" font-size="20" letter-spacing="3">DUAL DEPARTURE</text>
+  <text x="480" y="72" text-anchor="middle" fill="#7a90a0" font-family="Georgia, serif" font-size="12">two quiet launches · one map-changing sea</text>
+</svg>

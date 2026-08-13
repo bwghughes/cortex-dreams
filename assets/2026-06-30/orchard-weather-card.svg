@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Orchard Weather Card</title>
+  <desc id="desc">A symbolic card: an orchard tree, a storm spiral, and a small instrument bird labelled map metric control.</desc>
+  <defs>
+    <radialGradient id="sky" cx="50%" cy="45%" r="70%">
+      <stop offset="0%" stop-color="#24314f"/>
+      <stop offset="55%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#06070b"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0%" stop-color="#ffd166"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="675" fill="url(#sky)"/>
+  <g opacity="0.35" stroke="#94a3b8" stroke-width="1">
+    <path d="M0 520 C220 470 350 610 560 545 S930 470 1200 540" fill="none"/>
+    <path d="M0 560 C260 510 430 645 690 580 S980 520 1200 595" fill="none"/>
+  </g>
+  <g transform="translate(315 385)">
+    <path d="M0 145 C-15 30 -10 -70 20 -160 C50 -70 55 30 45 145 Z" fill="#6b3f22"/>
+    <circle cx="20" cy="-185" r="120" fill="#14532d" opacity="0.92"/>
+    <circle cx="-65" cy="-150" r="70" fill="#166534" opacity="0.9"/>
+    <circle cx="100" cy="-135" r="75" fill="#15803d" opacity="0.85"/>
+    <g fill="#fbbf24" filter="url(#glow)">
+      <circle cx="-30" cy="-210" r="9"/><circle cx="65" cy="-180" r="8"/><circle cx="15" cy="-105" r="7"/>
+    </g>
+    <text x="-145" y="185" fill="#d1fae5" font-family="ui-sans-serif, system-ui" font-size="26">ORCHARD</text>
+    <text x="-145" y="218" fill="#86efac" font-family="ui-sans-serif, system-ui" font-size="17">context • memory • judgment</text>
+  </g>
+  <g transform="translate(740 285)" fill="none" stroke-linecap="round">
+    <path d="M0 0 C85 -95 205 -20 155 80 C105 180 -60 150 -80 25 C-95 -70 45 -170 180 -100" stroke="url(#gold)" stroke-width="10" opacity="0.95"/>
+    <path d="M10 5 C65 -50 130 -25 120 35 C105 105 15 95 0 35 C-10 -5 35 -60 90 -50" stroke="#38bdf8" stroke-width="6" opacity="0.9"/>
+    <circle cx="58" cy="24" r="14" fill="#e0f2fe" stroke="none" filter="url(#glow)"/>
+    <text x="-70" y="190" fill="#fed7aa" font-family="ui-sans-serif, system-ui" font-size="26">WEATHER</text>
+    <text x="-70" y="222" fill="#fdba74" font-family="ui-sans-serif, system-ui" font-size="17">same storm, many maps</text>
+  </g>
+  <g transform="translate(820 105)">
+    <path d="M0 35 L80 0 L160 35 L80 70 Z" fill="#cbd5e1" opacity="0.95"/>
+    <circle cx="80" cy="35" r="12" fill="#0f172a"/>
+    <path d="M25 55 L5 95 M135 55 L155 95" stroke="#cbd5e1" stroke-width="5" stroke-linecap="round"/>
+    <text x="-5" y="120" fill="#e2e8f0" font-family="ui-sans-serif, system-ui" font-size="18">map</text>
+    <text x="60" y="120" fill="#e2e8f0" font-family="ui-sans-serif, system-ui" font-size="18">metric</text>
+    <text x="135" y="120" fill="#e2e8f0" font-family="ui-sans-serif, system-ui" font-size="18">control</text>
+  </g>
+  <text x="70" y="82" fill="#f8fafc" font-family="ui-serif, Georgia" font-size="44">Private AI is weather stewardship.</text>
+  <text x="72" y="126" fill="#cbd5e1" font-family="ui-sans-serif, system-ui" font-size="22">Not just server placement. Instruments returning to the living whole.</text>
+  <text x="70" y="610" fill="#94a3b8" font-family="ui-monospace, SFMono-Regular, Menlo" font-size="16">cortex-dream-cycle-2026-06-30-orchard-weather</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc" width="900" height="560">
+  <title id="title">Moth Election Runtime</title>
+  <desc id="desc">A playful diagram: moths cast ballots into a runtime scheduler crowned by a small router.</desc>
+  <rect width="900" height="560" fill="#111827"/>
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#fde68a" stop-opacity="0.95"/>
+      <stop offset="45%" stop-color="#f59e0b" stop-opacity="0.34"/>
+      <stop offset="100%" stop-color="#111827" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="2.2"/></filter>
+  </defs>
+  <circle cx="450" cy="255" r="230" fill="url(#glow)"/>
+  <g transform="translate(315 185)">
+    <rect x="0" y="0" width="270" height="150" rx="24" fill="#1f2937" stroke="#fbbf24" stroke-width="4"/>
+    <text x="135" y="42" fill="#fde68a" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="19">RUNTIME SCHEDULER</text>
+    <line x1="35" y1="67" x2="235" y2="67" stroke="#fbbf24" stroke-width="2" opacity="0.6"/>
+    <text x="135" y="96" fill="#e5e7eb" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16">local • on-prem • enclave</text>
+    <text x="135" y="124" fill="#e5e7eb" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16">apple • cloud • human gate</text>
+    <path d="M103 -12 L135 -44 L167 -12 Z" fill="#fbbf24" stroke="#fde68a" stroke-width="2"/>
+    <circle cx="135" cy="-27" r="7" fill="#111827"/>
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" fill="#111827">
+    <g transform="rotate(-16 205 175)"><rect x="132" y="145" width="146" height="48" rx="10" fill="#fef3c7"/><text x="205" y="176" text-anchor="middle">CUSTODY</text></g>
+    <g transform="rotate(11 690 168)"><rect x="625" y="140" width="130" height="48" rx="10" fill="#fde68a"/><text x="690" y="171" text-anchor="middle">PROOF</text></g>
+    <g transform="rotate(8 195 395)"><rect x="118" y="370" width="154" height="48" rx="10" fill="#fef3c7"/><text x="195" y="401" text-anchor="middle">ROLLBACK</text></g>
+    <g transform="rotate(-10 710 392)"><rect x="638" y="366" width="144" height="48" rx="10" fill="#fde68a"/><text x="710" y="397" text-anchor="middle">SUPPORT</text></g>
+  </g>
+  <g fill="#d1d5db" stroke="#fbbf24" stroke-width="2" opacity="0.95">
+    <path d="M218 135 C170 105 139 132 172 172 C142 202 174 230 221 197 C250 237 285 212 260 170 C300 139 264 109 218 135 Z"/>
+    <circle cx="218" cy="170" r="10" fill="#111827"/>
+    <path d="M682 132 C635 100 603 129 638 169 C606 200 641 230 686 196 C716 235 751 208 724 168 C764 138 729 108 682 132 Z"/>
+    <circle cx="682" cy="168" r="10" fill="#111827"/>
+    <path d="M217 435 C170 405 139 432 172 472 C142 502 174 530 221 497 C250 537 285 512 260 470 C300 439 264 409 217 435 Z"/>
+    <circle cx="217" cy="470" r="10" fill="#111827"/>
+    <path d="M682 432 C635 400 603 429 638 469 C606 500 641 530 686 496 C716 535 751 508 724 468 C764 438 729 408 682 432 Z"/>
+    <circle cx="682" cy="468" r="10" fill="#111827"/>
+  </g>
+  <g stroke="#fde68a" stroke-width="3" stroke-dasharray="8 10" opacity="0.75" fill="none">
+    <path d="M265 178 C318 192 330 210 315 235"/>
+    <path d="M635 178 C585 194 575 212 585 235"/>
+    <path d="M263 458 C320 415 338 360 345 333"/>
+    <path d="M636 456 C585 414 566 362 555 333"/>
+  </g>
+  <text x="450" y="512" text-anchor="middle" fill="#f9fafb" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="22">design the ballot before you crown a runtime</text>
+  <text x="450" y="536" text-anchor="middle" fill="#9ca3af" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">cortex-dream-cycle-2026-07-11-moth-election-runtime</text>
+</svg>
