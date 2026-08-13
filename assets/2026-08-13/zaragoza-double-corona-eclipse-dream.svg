@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Zaragoza Double Corona Eclipse Dream</title>
+  <desc id="desc">Total eclipse over a cathedral silhouette with a second corona reflected in the river — residual light after the main disk is blocked.</desc>
+  <defs>
+    <radialGradient id="sky" cx="50%" cy="28%" r="70%">
+      <stop offset="0%" stop-color="#1a2744"/>
+      <stop offset="55%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#05070d"/>
+    </radialGradient>
+    <radialGradient id="corona" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff8e7" stop-opacity="0.95"/>
+      <stop offset="18%" stop-color="#ffe29a" stop-opacity="0.55"/>
+      <stop offset="42%" stop-color="#c9e7ff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#0b1220" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="coronaSoft" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff1c2" stop-opacity="0.35"/>
+      <stop offset="40%" stop-color="#9ec9ff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#05070d" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="river" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1a2e"/>
+      <stop offset="45%" stop-color="#13263f"/>
+      <stop offset="100%" stop-color="#081018"/>
+    </linearGradient>
+    <linearGradient id="diamond" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="45%" stop-color="#ffe7a0"/>
+      <stop offset="100%" stop-color="#ffb14a" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- sky -->
+  <rect width="960" height="540" fill="url(#sky)"/>
+
+  <!-- faint stars -->
+  <g fill="#dce9ff" opacity="0.55">
+    <circle cx="80" cy="60" r="1.2"/><circle cx="140" cy="110" r="0.9"/>
+    <circle cx="220" cy="48" r="1.1"/><circle cx="310" cy="90" r="0.8"/>
+    <circle cx="720" cy="70" r="1.3"/><circle cx="810" cy="120" r="0.9"/>
+    <circle cx="880" cy="55" r="1.0"/><circle cx="640" cy="40" r="0.7"/>
+    <circle cx="90" cy="180" r="0.8"/><circle cx="860" cy="200" r="1.0"/>
+  </g>
+
+  <!-- upper corona + eclipse disk -->
+  <g transform="translate(480 168)">
+    <circle r="118" fill="url(#coronaSoft)"/>
+    <circle r="78" fill="url(#corona)"/>
+    <!-- streamers -->
+    <g stroke="#ffe7b0" stroke-opacity="0.35" stroke-width="1.2" fill="none">
+      <path d="M0,-70 C -18,-110 -8,-140 6,-165"/>
+      <path d="M0,-70 C 22,-108 14,-138 -4,-160"/>
+      <path d="M55,-40 C 95,-70 120,-55 145,-30"/>
+      <path d="M-55,-40 C -98,-72 -125,-50 -148,-28"/>
+      <path d="M48,30 C 90,55 118,40 142,12"/>
+      <path d="M-48,30 C -88,58 -120,42 -145,10"/>
+    </g>
+    <!-- moon disk -->
+    <circle r="44" fill="#070b14" stroke="#1c2a44" stroke-width="2"/>
+    <!-- diamond ring flash at edge -->
+    <g filter="url(#glow)">
+      <circle cx="40" cy="-12" r="5.5" fill="url(#diamond)"/>
+      <circle cx="40" cy="-12" r="2.2" fill="#fff"/>
+    </g>
+  </g>
+
+  <!-- cathedral silhouette -->
+  <g fill="#05080f" opacity="0.92" transform="translate(0 8)">
+    <!-- nave -->
+    <path d="M300 320 L300 250 L340 250 L340 210 L360 190 L380 210 L380 250 L420 250 L420 320 Z"/>
+    <!-- pillar tower -->
+    <path d="M430 320 L430 175 L455 145 L480 175 L480 320 Z"/>
+    <rect x="448" y="130" width="14" height="28" rx="2"/>
+    <!-- right mass -->
+    <path d="M490 320 L490 240 L560 240 L560 210 L590 210 L590 320 Z"/>
+    <!-- left mass -->
+    <path d="M220 320 L220 255 L295 255 L295 320 Z"/>
+    <!-- base wall -->
+    <rect x="180" y="318" width="460" height="18"/>
+  </g>
+
+  <!-- river bank -->
+  <path d="M0 340 C 180 328, 320 350, 480 338 C 650 326, 800 348, 960 336 L960 540 L0 540 Z" fill="#0a101a"/>
+
+  <!-- river body with reflected corona -->
+  <path d="M0 360 C 200 348, 340 372, 480 358 C 640 344, 820 370, 960 352 L960 540 L0 540 Z" fill="url(#river)"/>
+
+  <!-- reflected corona (second sky) -->
+  <g transform="translate(480 430) scale(1,-0.72)" opacity="0.72">
+    <circle r="95" fill="url(#coronaSoft)"/>
+    <circle r="62" fill="url(#corona)"/>
+    <circle r="34" fill="#070b14"/>
+    <circle cx="32" cy="-10" r="4" fill="#ffe7a0" opacity="0.85"/>
+  </g>
+
+  <!-- soft river sheen -->
+  <ellipse cx="480" cy="430" rx="210" ry="18" fill="#9ec9ff" opacity="0.08"/>
+  <path d="M120 400 Q 480 380 840 405" stroke="#b7d7ff" stroke-opacity="0.12" fill="none" stroke-width="1.5"/>
+
+  <!-- caption chip -->
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#e8f0ff">
+    <text x="48" y="48" font-size="22" letter-spacing="1.5">ZARAGOZA · DOUBLE CORONA</text>
+    <text x="48" y="74" font-size="13" fill="#9eb6d8" letter-spacing="0.8">residual light after the main disk is blocked</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" fill="#7f97b8" font-size="11">
+    <text x="48" y="510">sky corona · river corona · diamond ring ≠ production pin</text>
+  </g>
+</svg>
