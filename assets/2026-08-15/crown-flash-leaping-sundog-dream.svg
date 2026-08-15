@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Crown Flash Leaping Sundog Dream</title>
+  <desc id="desc">Thunderhead anvil at dusk: sunlight leaps off field-aligned ice crystals into dancing pillars and loops above the storm — not lightning, not aurora, a mechanical searchlight gone feral.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1c2740"/>
+      <stop offset="45%" stop-color="#121a2c"/>
+      <stop offset="100%" stop-color="#0a1018"/>
+    </linearGradient>
+    <linearGradient id="anvil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a5568"/>
+      <stop offset="40%" stop-color="#2c3544"/>
+      <stop offset="100%" stop-color="#1a222e"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#fff6d0" stop-opacity="0.05"/>
+      <stop offset="35%" stop-color="#ffe9a0" stop-opacity="0.55"/>
+      <stop offset="70%" stop-color="#ffd878" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#fff8e0" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="beam2" x1="0" y1="1" x2="0.3" y2="0">
+      <stop offset="0%" stop-color="#e8f0ff" stop-opacity="0.05"/>
+      <stop offset="50%" stop-color="#c8dcff" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#f0f6ff" stop-opacity="0.8"/>
+    </linearGradient>
+    <radialGradient id="crownGlow" cx="50%" cy="55%" r="45%">
+      <stop offset="0%" stop-color="#ffe9a8" stop-opacity="0.55"/>
+      <stop offset="45%" stop-color="#ffc878" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#1a222e" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="10" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- dusk sky -->
+  <rect width="960" height="540" fill="url(#sky)"/>
+
+  <!-- distant sun low left (source of the bounce) -->
+  <circle cx="120" cy="390" r="36" fill="#ffd27a" opacity="0.9" filter="url(#softGlow)"/>
+  <circle cx="120" cy="390" r="18" fill="#fff0c0" opacity="0.95"/>
+
+  <!-- sun rays into the cloud base -->
+  <g stroke="#ffd890" stroke-width="1.5" opacity="0.25" stroke-linecap="round">
+    <path d="M150 370 L340 300"/>
+    <path d="M155 385 L360 320"/>
+    <path d="M148 400 L350 345"/>
+  </g>
+
+  <!-- horizon haze -->
+  <rect x="0" y="400" width="960" height="140" fill="#0d1420"/>
+  <path d="M0 400 Q240 380 480 395 T960 385 L960 540 L0 540 Z" fill="#101820" opacity="0.9"/>
+
+  <!-- ground silhouette -->
+  <path d="M0 460 L80 450 L180 455 L300 445 L420 452 L560 440 L700 450 L820 442 L960 448 L960 540 L0 540 Z" fill="#0a0e14"/>
+
+  <!-- thunderhead body -->
+  <g filter="url(#soft)">
+    <ellipse cx="520" cy="310" rx="220" ry="90" fill="url(#anvil)" opacity="0.95"/>
+    <ellipse cx="480" cy="280" rx="160" ry="70" fill="#3a4558" opacity="0.9"/>
+    <ellipse cx="560" cy="270" rx="140" ry="65" fill="#354050" opacity="0.88"/>
+    <ellipse cx="500" cy="340" rx="100" ry="70" fill="#2a3344" opacity="0.95"/>
+    <ellipse cx="440" cy="360" rx="70" ry="55" fill="#243040" opacity="0.9"/>
+    <ellipse cx="580" cy="355" rx="80" ry="60" fill="#243040" opacity="0.9"/>
+  </g>
+
+  <!-- anvil top flat -->
+  <ellipse cx="530" cy="230" rx="260" ry="48" fill="#5a6578" opacity="0.85"/>
+  <ellipse cx="530" cy="222" rx="240" ry="36" fill="#6a7588" opacity="0.55"/>
+
+  <!-- crown glow under the beams -->
+  <ellipse cx="530" cy="200" rx="180" ry="90" fill="url(#crownGlow)"/>
+
+  <!-- leaping beams / pillars (the crown flash) -->
+  <g filter="url(#glow)" opacity="0.95">
+    <!-- central pillar -->
+    <path d="M520 210 C515 160, 525 110, 518 55 C530 90, 535 150, 540 210 Z" fill="url(#beam)"/>
+    <!-- left looping ray -->
+    <path d="M480 215 C450 170, 420 120, 390 70 C430 100, 460 155, 495 210 Z" fill="url(#beam)" opacity="0.85"/>
+    <!-- right looping ray -->
+    <path d="M560 215 C590 165, 630 115, 680 65 C640 100, 600 155, 555 210 Z" fill="url(#beam2)" opacity="0.9"/>
+    <!-- far left thin streamer -->
+    <path d="M450 220 C410 175, 370 140, 320 95 C370 120, 420 165, 465 215 Z" fill="url(#beam2)" opacity="0.55"/>
+    <!-- far right thin streamer -->
+    <path d="M600 220 C650 170, 710 130, 770 90 C720 120, 660 165, 590 215 Z" fill="url(#beam)" opacity="0.5"/>
+    <!-- small upper loop -->
+    <path d="M530 120 C560 95, 590 85, 620 70 C580 75, 550 95, 535 125 Z" fill="#fff6d8" opacity="0.7"/>
+    <path d="M510 100 C480 80, 450 75, 410 60 C460 68, 490 85, 515 110 Z" fill="#e8f0ff" opacity="0.55"/>
+  </g>
+
+  <!-- ice crystal glints on anvil rim -->
+  <g fill="#fff8e0" filter="url(#soft)">
+    <circle cx="400" cy="225" r="2.2" opacity="0.9"/>
+    <circle cx="460" cy="210" r="1.6" opacity="0.75"/>
+    <circle cx="520" cy="205" r="2.5" opacity="0.95"/>
+    <circle cx="580" cy="212" r="1.8" opacity="0.8"/>
+    <circle cx="640" cy="228" r="2.0" opacity="0.85"/>
+    <circle cx="490" cy="235" r="1.3" opacity="0.7"/>
+    <circle cx="555" cy="230" r="1.4" opacity="0.7"/>
+  </g>
+
+  <!-- subtle internal discharge flicker line -->
+  <path d="M505 280 L518 250 L510 235 L525 210" stroke="#c8e0ff" stroke-width="1.2" fill="none" opacity="0.35" stroke-linecap="round"/>
+
+  <!-- label -->
+  <text x="48" y="52" fill="#d8e0f0" font-family="Georgia, 'Times New Roman', serif" font-size="22" opacity="0.9">Crown Flash · Leaping Sundog</text>
+  <text x="48" y="78" fill="#9aabC4" font-family="Georgia, 'Times New Roman', serif" font-size="13" opacity="0.75">field-aligned ice · sunlight · one discharge rewrites the dance</text>
+  <text x="48" y="510" fill="#6a7a90" font-family="Georgia, 'Times New Roman', serif" font-size="12" opacity="0.65">cortex dream · 2026-08-15</text>
+</svg>
