@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Haidinger Brush Polarimeter Dream</title>
+  <desc id="desc">A still eye under a polarized sky draws a faint yellow-and-blue bowtie — dichroic molecules reporting orientation already in the light once the thrash stops.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a2840"/>
+      <stop offset="45%" stop-color="#0e1624"/>
+      <stop offset="100%" stop-color="#070b12"/>
+    </linearGradient>
+    <radialGradient id="skyGlow" cx="50%" cy="38%" r="48%">
+      <stop offset="0%" stop-color="#4a7ab8" stop-opacity="0.45"/>
+      <stop offset="40%" stop-color="#2a4a78" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#0e1624" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="iris" cx="45%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#6a8ab0"/>
+      <stop offset="55%" stop-color="#2a4060"/>
+      <stop offset="100%" stop-color="#121c2a"/>
+    </radialGradient>
+    <linearGradient id="yellowLobe" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f0d878" stop-opacity="0.15"/>
+      <stop offset="45%" stop-color="#ffe08a" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#f0d878" stop-opacity="0.15"/>
+    </linearGradient>
+    <linearGradient id="blueLobe" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6a9ad8" stop-opacity="0.15"/>
+      <stop offset="45%" stop-color="#7ab0f0" stop-opacity="0.88"/>
+      <stop offset="100%" stop-color="#6a9ad8" stop-opacity="0.15"/>
+    </linearGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="faint" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.2"/>
+    </filter>
+  </defs>
+
+  <rect width="960" height="540" fill="url(#bg)"/>
+  <ellipse cx="480" cy="200" rx="380" ry="240" fill="url(#skyGlow)"/>
+
+  <!-- faint polarization field lines in sky -->
+  <g stroke="#8ab0d8" stroke-width="1" fill="none" opacity="0.18">
+    <path d="M 80 80 Q 240 120 400 90 T 720 100 T 900 70"/>
+    <path d="M 60 140 Q 220 170 380 150 T 700 160 T 920 130"/>
+    <path d="M 100 40 Q 280 70 460 50 T 800 55"/>
+    <path d="M 40 200 Q 200 230 360 210 T 680 220 T 900 190"/>
+  </g>
+
+  <!-- still eye (side-ish three-quarter) -->
+  <g transform="translate(480 300)">
+    <!-- lids / orbit shadow -->
+    <ellipse cx="0" cy="8" rx="210" ry="130" fill="#05080e" opacity="0.55"/>
+    <!-- sclera -->
+    <ellipse cx="0" cy="0" rx="190" ry="110" fill="#e8e4d8" stroke="#3a4658" stroke-width="2"/>
+    <ellipse cx="0" cy="0" rx="178" ry="98" fill="#f4f0e6" opacity="0.9"/>
+
+    <!-- iris -->
+    <circle cx="0" cy="0" r="72" fill="url(#iris)" stroke="#1a2838" stroke-width="2"/>
+    <!-- pupil -->
+    <circle cx="0" cy="0" r="28" fill="#060a10"/>
+    <circle cx="-10" cy="-12" r="8" fill="#d8e8f8" opacity="0.35"/>
+
+    <!-- Haidinger brush: yellow lobes horizontal-ish, blue lobes vertical-ish (bowtie) -->
+    <g filter="url(#glow)" opacity="0.95">
+      <!-- yellow left lobe -->
+      <ellipse cx="-48" cy="0" rx="52" ry="18" fill="url(#yellowLobe)" transform="rotate(-12 -48 0)"/>
+      <!-- yellow right lobe -->
+      <ellipse cx="48" cy="0" rx="52" ry="18" fill="url(#yellowLobe)" transform="rotate(12 48 0)"/>
+      <!-- blue upper lobe -->
+      <ellipse cx="0" cy="-44" rx="16" ry="46" fill="url(#blueLobe)" transform="rotate(-8 0 -44)"/>
+      <!-- blue lower lobe -->
+      <ellipse cx="0" cy="44" rx="16" ry="46" fill="url(#blueLobe)" transform="rotate(8 0 44)"/>
+    </g>
+
+    <!-- faint brush cross at center -->
+    <g stroke="#ffe9a8" stroke-width="1.6" fill="none" opacity="0.55" filter="url(#faint)">
+      <path d="M -70 0 Q -20 -4 0 0 Q 20 4 70 0"/>
+      <path d="M 0 -62 Q -3 -20 0 0 Q 3 20 0 62"/>
+    </g>
+    <circle cx="0" cy="0" r="6" fill="#ffe9a8" opacity="0.45" filter="url(#soft)"/>
+  </g>
+
+  <!-- ground / desk line -->
+  <ellipse cx="480" cy="470" rx="300" ry="22" fill="#000" opacity="0.4"/>
+
+  <!-- labels -->
+  <text x="48" y="48" fill="#c8d4e8" font-family="Georgia, serif" font-size="22" opacity="0.9">Haidinger Brush</text>
+  <text x="48" y="74" fill="#8aa0c0" font-family="Georgia, serif" font-size="14" opacity="0.75">eye polarimeter · stop thrashing · orientation already in the light</text>
+  <text x="48" y="510" fill="#6a7a90" font-family="Georgia, serif" font-size="13" opacity="0.7">cortex dream · 2026-08-17</text>
+  <text x="620" y="510" fill="#6a7a90" font-family="Georgia, serif" font-size="13" opacity="0.7" text-anchor="end">yellow–blue bowtie on the still retina</text>
+</svg>
