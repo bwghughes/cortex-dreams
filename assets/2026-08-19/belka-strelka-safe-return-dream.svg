@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" role="img" aria-label="Belka Strelka safe return dream: silver capsule, Earth orbits, two street dogs, retro-rockets home">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#050b18"/>
+      <stop offset="55%" stop-color="#0c1c36"/>
+      <stop offset="100%" stop-color="#132a45"/>
+    </linearGradient>
+    <radialGradient id="earth" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7dd3fc"/>
+      <stop offset="35%" stop-color="#38bdf8"/>
+      <stop offset="62%" stop-color="#0ea5e9"/>
+      <stop offset="82%" stop-color="#0369a1"/>
+      <stop offset="100%" stop-color="#0b1220"/>
+    </radialGradient>
+    <radialGradient id="earthGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.55"/>
+      <stop offset="55%" stop-color="#38bdf8" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#050b18" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="capsule" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="45%" stop-color="#cbd5e1"/>
+      <stop offset="100%" stop-color="#64748b"/>
+    </linearGradient>
+    <linearGradient id="heat" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f97316" stop-opacity="0"/>
+      <stop offset="35%" stop-color="#fb923c" stop-opacity="0.85"/>
+      <stop offset="70%" stop-color="#facc15" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#fff7ed" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3.5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="960" height="640" fill="url(#sky)"/>
+
+  <!-- stars -->
+  <g fill="#e2e8f0" opacity="0.85">
+    <circle cx="70" cy="48" r="1.2"/>
+    <circle cx="140" cy="90" r="1"/>
+    <circle cx="210" cy="36" r="1.4"/>
+    <circle cx="300" cy="72" r="1"/>
+    <circle cx="380" cy="28" r="1.1"/>
+    <circle cx="460" cy="88" r="0.9"/>
+    <circle cx="540" cy="42" r="1.3"/>
+    <circle cx="620" cy="76" r="1"/>
+    <circle cx="700" cy="34" r="1.2"/>
+    <circle cx="780" cy="96" r="1"/>
+    <circle cx="860" cy="50" r="1.4"/>
+    <circle cx="920" cy="80" r="1"/>
+    <circle cx="90" cy="160" r="0.9"/>
+    <circle cx="180" cy="200" r="1.1"/>
+    <circle cx="820" cy="170" r="1"/>
+    <circle cx="900" cy="210" r="1.2"/>
+    <circle cx="40" cy="280" r="1"/>
+    <circle cx="930" cy="300" r="0.9"/>
+  </g>
+
+  <!-- Earth -->
+  <circle cx="480" cy="390" r="168" fill="url(#earthGlow)" filter="url(#soft)"/>
+  <circle cx="480" cy="390" r="128" fill="url(#earth)"/>
+  <!-- simple continents -->
+  <g fill="#166534" opacity="0.72">
+    <ellipse cx="430" cy="360" rx="34" ry="22" transform="rotate(-18 430 360)"/>
+    <ellipse cx="510" cy="400" rx="40" ry="18" transform="rotate(12 510 400)"/>
+    <ellipse cx="470" cy="440" rx="28" ry="16" transform="rotate(-8 470 440)"/>
+    <ellipse cx="545" cy="355" rx="18" ry="12"/>
+  </g>
+  <circle cx="480" cy="390" r="128" fill="none" stroke="#bae6fd" stroke-opacity="0.35" stroke-width="2"/>
+
+  <!-- orbital path -->
+  <ellipse cx="480" cy="390" rx="250" ry="118" fill="none" stroke="#94a3b8" stroke-opacity="0.55" stroke-width="1.5" stroke-dasharray="6 8"/>
+  <ellipse cx="480" cy="390" rx="250" ry="118" fill="none" stroke="#38bdf8" stroke-opacity="0.25" stroke-width="6" filter="url(#soft)"/>
+
+  <!-- heat trail on reentry arc -->
+  <path d="M700 300 C740 330, 760 360, 742 400" fill="none" stroke="url(#heat)" stroke-width="14" stroke-linecap="round" opacity="0.9" filter="url(#glow)"/>
+
+  <!-- capsule -->
+  <g transform="translate(720 360) rotate(28)">
+    <ellipse cx="0" cy="0" rx="46" ry="22" fill="url(#capsule)" stroke="#e2e8f0" stroke-width="1.5"/>
+    <rect x="-18" y="-10" width="22" height="20" rx="4" fill="#0f172a" opacity="0.85"/>
+    <!-- two dog silhouettes in window -->
+    <g fill="#fbbf24" filter="url(#glow)">
+      <ellipse cx="-10" cy="-2" rx="4.2" ry="3.4"/>
+      <ellipse cx="-4" cy="2" rx="4.2" ry="3.4"/>
+      <circle cx="-12.5" cy="-5" r="1.4"/>
+      <circle cx="-6.5" cy="-1" r="1.4"/>
+    </g>
+    <!-- antenna -->
+    <line x1="40" y1="-6" x2="58" y2="-18" stroke="#cbd5e1" stroke-width="2"/>
+    <circle cx="58" cy="-18" r="2.5" fill="#f8fafc"/>
+    <!-- thruster bell -->
+    <path d="M-46 -8 L-62 -14 L-62 14 L-46 8 Z" fill="#475569"/>
+    <path d="M-62 0 L-88 -10 L-88 10 Z" fill="#fb923c" opacity="0.85" filter="url(#glow)"/>
+  </g>
+
+  <!-- orbit tick marks suggesting 18 loops -->
+  <g fill="#94a3b8" opacity="0.7">
+    <circle cx="730" cy="390" r="2.2"/>
+    <circle cx="700" cy="320" r="2"/>
+    <circle cx="620" cy="280" r="2"/>
+    <circle cx="520" cy="272" r="2"/>
+    <circle cx="420" cy="280" r="2"/>
+    <circle cx="340" cy="320" r="2"/>
+    <circle cx="300" cy="390" r="2.2"/>
+    <circle cx="340" cy="460" r="2"/>
+    <circle cx="420" cy="500" r="2"/>
+    <circle cx="520" cy="508" r="2"/>
+    <circle cx="620" cy="500" r="2"/>
+    <circle cx="700" cy="460" r="2"/>
+  </g>
+
+  <!-- title plate -->
+  <g font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">
+    <rect x="48" y="48" width="420" height="92" rx="14" fill="#0b1220" fill-opacity="0.72" stroke="#334155" stroke-width="1"/>
+    <text x="72" y="88" fill="#f8fafc" font-size="28" font-weight="700">Belka · Strelka</text>
+    <text x="72" y="118" fill="#93c5fd" font-size="16">safe return before human launch</text>
+  </g>
+
+  <g font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" fill="#cbd5e1" font-size="13">
+    <text x="48" y="580">19 Aug 1960 · Korabl-Sputnik 2 · 18 orbits · dinner waiting</text>
+    <text x="48" y="602" fill="#94a3b8">prove reentry · refuse Gagarin-first · street dogs first</text>
+  </g>
+</svg>

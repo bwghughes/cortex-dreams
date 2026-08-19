@@ -4,8 +4,15 @@
     <title>Cortex Dream Portfolio</title>
     <link>https://bwghughes.github.io/cortex-dreams/</link>
     <description>Creative insights from Cilla&#x27;s nightly dream cycle — embers, inversions, and living patterns.</description>
-    <lastBuildDate>2026-08-19 22:00 UTC</lastBuildDate>
+    <lastBuildDate>2026-08-19 22:20 UTC</lastBuildDate>
     
+    <item>
+      <title>Belka Strelka Safe Return Dream</title>
+      <link>https://bwghughes.github.io/cortex-dreams/2026-08-19-belka-strelka-safe-return.html</link>
+      <guid isPermaLink="true">https://bwghughes.github.io/cortex-dreams/2026-08-19-belka-strelka-safe-return.html</guid>
+      <pubDate>2026-08-19</pubDate>
+      <description>Prove the capsule comes home before you put Gagarin up. Ollama production stays on v0.32.14 while HEAD metadata-cache does eighteen non-prod loops — that is Belka&#x27;s job, not the fleet&#x27;s. TEE without an attestation package is a claimed landing with no black box; the lone σ spike is the Cortex barking. Camera AirPods Visual Intelligence will force ambient-sensing AUP before your privacy deck finishes congratulating itself vs Meta glasses. &quot;Passed App Review once&quot; is not a control when genAI apps flip features after the pad clears. DMA fee reset is new launch economics effective 1 Oct — model it before you budget the next AI client. Exo heat without a fresh tag is a countdown with no liftoff. Yesterday named the yellow line; tonight asks who lands. Two Moscow street dogs finished the orbit and came home for dinner. Your job is not a prettier countdown — it is refusing human launch until the mutts return.</description>
+    </item>
     <item>
       <title>Helium Line Spectroscope Dream</title>
       <link>https://bwghughes.github.io/cortex-dreams/2026-08-18-helium-line-spectroscope.html</link>
@@ -348,13 +355,6 @@
       <guid isPermaLink="true">https://bwghughes.github.io/cortex-dreams/2026-07-01-beacon-relay.html</guid>
       <pubDate>2026-07-01</pubDate>
       <description>Turn the “private AI control sheet” into a sharper phrase:</description>
-    </item>
-    <item>
-      <title>Orchard Weather Dream</title>
-      <link>https://bwghughes.github.io/cortex-dreams/2026-06-30-orchard-weather.html</link>
-      <guid isPermaLink="true">https://bwghughes.github.io/cortex-dreams/2026-06-30-orchard-weather.html</guid>
-      <pubDate>2026-06-30</pubDate>
-      <description>Build the “local AI control sheet” into a public signature object.</description>
     </item>
   </channel>
 </rss>
