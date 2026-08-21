@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" role="img" aria-labelledby="title desc">
+  <title id="title">Mona Lisa Empty Hooks Dream</title>
+  <desc id="desc">Four empty iron hooks on a Salon Carré wall under a dim spotlight, a white smock silhouette walking out with a small poplar panel, empty wall glowing where the smile was.</desc>
+  <defs>
+    <radialGradient id="spot" cx="48%" cy="42%" r="45%">
+      <stop offset="0%" stop-color="#f4e4c1" stop-opacity="0.55"/>
+      <stop offset="45%" stop-color="#8a6a3a" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#0b0a09" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a2218"/>
+      <stop offset="55%" stop-color="#1a1510"/>
+      <stop offset="100%" stop-color="#0d0b09"/>
+    </linearGradient>
+    <linearGradient id="smock" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7f2e8"/>
+      <stop offset="100%" stop-color="#c9c0b0"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
+  </defs>
+
+  <!-- Room -->
+  <rect width="960" height="640" fill="#080706"/>
+  <rect x="40" y="30" width="880" height="520" rx="6" fill="url(#wall)" stroke="#3a3024" stroke-width="2"/>
+  <rect x="40" y="30" width="880" height="520" fill="url(#spot)"/>
+
+  <!-- Floor strip -->
+  <rect x="40" y="520" width="880" height="90" fill="#12100d"/>
+  <path d="M40 520 L920 520" stroke="#2c241a" stroke-width="2"/>
+
+  <!-- Empty frame silhouette where Mona hung -->
+  <rect x="360" y="120" width="200" height="280" rx="4" fill="none" stroke="#6b5638" stroke-width="10" opacity="0.85"/>
+  <rect x="372" y="132" width="176" height="256" rx="2" fill="#14110d" stroke="#4a3c28" stroke-width="1.5" opacity="0.9"/>
+
+  <!-- Ghost smile residual glow inside empty frame -->
+  <ellipse cx="460" cy="250" rx="48" ry="58" fill="#d4b48a" opacity="0.08"/>
+  <path d="M430 275 Q460 292 490 275" fill="none" stroke="#e8d2a8" stroke-width="2.5" opacity="0.22" stroke-linecap="round"/>
+
+  <!-- Four empty iron hooks above the frame -->
+  <g fill="none" stroke="#c4a574" stroke-width="5" stroke-linecap="round">
+    <path d="M400 108 Q400 92 412 92"/>
+    <path d="M440 108 Q440 88 454 88"/>
+    <path d="M480 108 Q480 88 494 88"/>
+    <path d="M520 108 Q520 92 532 92"/>
+  </g>
+  <g fill="#8a7350">
+    <circle cx="400" cy="108" r="4"/>
+    <circle cx="440" cy="108" r="4"/>
+    <circle cx="480" cy="108" r="4"/>
+    <circle cx="520" cy="108" r="4"/>
+  </g>
+
+  <!-- Spotlight cone on empty hooks -->
+  <path d="M460 40 L390 115 L530 115 Z" fill="#f0d9a0" opacity="0.07"/>
+  <circle cx="460" cy="95" r="36" fill="#f4e4c1" opacity="0.12" filter="url(#soft)"/>
+
+  <!-- White smock silhouette exiting right, carrying small panel -->
+  <g transform="translate(680,300)">
+    <!-- legs -->
+    <path d="M-8 120 L-14 175 M12 120 L22 175" stroke="#9a9080" stroke-width="7" stroke-linecap="round"/>
+    <!-- body / smock -->
+    <path d="M-28 40 Q-34 90 -22 125 L24 125 Q34 90 28 40 Z" fill="url(#smock)" stroke="#e8e0d4" stroke-width="1"/>
+    <!-- sleeves -->
+    <path d="M-28 55 Q-55 80 -48 110" fill="none" stroke="#efe8dc" stroke-width="14" stroke-linecap="round"/>
+    <path d="M28 55 Q58 75 70 95" fill="none" stroke="#efe8dc" stroke-width="14" stroke-linecap="round"/>
+    <!-- head -->
+    <circle cx="0" cy="22" r="18" fill="#c4a882"/>
+    <!-- simple hat/cap -->
+    <ellipse cx="0" cy="10" rx="20" ry="8" fill="#3a342c"/>
+    <!-- poplar panel under arm -->
+    <g transform="translate(55,70) rotate(18)">
+      <rect x="-22" y="-30" width="44" height="60" rx="2" fill="#5c4030" stroke="#8a6a48" stroke-width="2"/>
+      <ellipse cx="0" cy="-4" rx="10" ry="12" fill="#d4b48a" opacity="0.55"/>
+      <path d="M-7 6 Q0 12 7 6" fill="none" stroke="#e8d2a8" stroke-width="1.5" opacity="0.7" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- Door suggestion far right -->
+  <rect x="860" y="220" width="48" height="300" fill="#1c1813" stroke="#3a3228" stroke-width="2"/>
+  <circle cx="895" cy="370" r="4" fill="#c4a574"/>
+
+  <!-- Caption -->
+  <text x="480" y="590" text-anchor="middle" fill="#d8c4a0" font-family="Georgia, 'Times New Roman', serif" font-size="22" letter-spacing="1.5">EMPTY HOOKS · WHITE SMOCK · CREDENTIALED EXIT</text>
+  <text x="480" y="618" text-anchor="middle" fill="#8a7a60" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="2">21 AUGUST 1911 · CORTEX DREAM 2026-08-21</text>
+</svg>
