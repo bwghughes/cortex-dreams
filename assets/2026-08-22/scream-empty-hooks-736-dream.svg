@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" role="img" aria-labelledby="title desc">
+  <title id="title">Scream Empty Hooks Dream</title>
+  <desc id="desc">Two empty iron hooks on a dark museum wall under a harsh spotlight, ghost outline of The Scream faded in the empty frame, a getaway car silhouette fleeing with two rolled canvases, 736 burned into the floor.</desc>
+  <defs>
+    <radialGradient id="spot" cx="42%" cy="38%" r="48%">
+      <stop offset="0%" stop-color="#f0c9a0" stop-opacity="0.5"/>
+      <stop offset="40%" stop-color="#8b3a2a" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#0a0808" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2c1c18"/>
+      <stop offset="55%" stop-color="#1a1210"/>
+      <stop offset="100%" stop-color="#0c0908"/>
+    </linearGradient>
+    <linearGradient id="hookGlow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f4d4a0"/>
+      <stop offset="100%" stop-color="#c47a3a"/>
+    </linearGradient>
+    <linearGradient id="car" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3a3030"/>
+      <stop offset="100%" stop-color="#1a1414"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.1"/>
+    </filter>
+  </defs>
+
+  <!-- Room -->
+  <rect width="960" height="640" fill="#070605"/>
+  <rect x="36" y="28" width="888" height="500" rx="6" fill="url(#wall)" stroke="#4a2e28" stroke-width="2"/>
+  <rect x="36" y="28" width="888" height="500" fill="url(#spot)"/>
+
+  <!-- Floor -->
+  <rect x="36" y="528" width="888" height="84" fill="#100c0b"/>
+  <path d="M36 528 L924 528" stroke="#3a2822" stroke-width="2"/>
+
+  <!-- Left empty frame (The Scream) -->
+  <rect x="180" y="110" width="210" height="280" rx="4" fill="none" stroke="#7a4a38" stroke-width="9" opacity="0.9"/>
+  <rect x="192" y="122" width="186" height="256" rx="2" fill="#120e0c" stroke="#5a3828" stroke-width="1.5"/>
+
+  <!-- Ghost scream residual -->
+  <ellipse cx="285" cy="210" rx="42" ry="52" fill="#e8a070" opacity="0.07"/>
+  <path d="M255 195 Q285 160 315 195" fill="none" stroke="#e8b090" stroke-width="3" opacity="0.28" stroke-linecap="round"/>
+  <ellipse cx="272" cy="205" rx="4" ry="6" fill="#e8b090" opacity="0.25"/>
+  <ellipse cx="298" cy="205" rx="4" ry="6" fill="#e8b090" opacity="0.25"/>
+  <path d="M260 250 Q285 285 310 250" fill="none" stroke="#e89070" stroke-width="3.5" opacity="0.32" stroke-linecap="round"/>
+  <path d="M248 230 Q285 310 322 230" fill="none" stroke="#c06040" stroke-width="2" opacity="0.18" stroke-linecap="round"/>
+
+  <!-- Two glowing empty hooks above scream frame -->
+  <g filter="url(#soft)">
+    <path d="M240 95 Q240 78 255 78 Q270 78 270 95" fill="none" stroke="url(#hookGlow)" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="255" cy="98" r="5" fill="#f0c080"/>
+    <path d="M300 95 Q300 78 315 78 Q330 78 330 95" fill="none" stroke="url(#hookGlow)" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="315" cy="98" r="5" fill="#f0c080"/>
+  </g>
+
+  <!-- Right empty frame (Madonna) -->
+  <rect x="470" y="130" width="180" height="240" rx="4" fill="none" stroke="#6a4838" stroke-width="8" opacity="0.75"/>
+  <rect x="480" y="140" width="160" height="220" rx="2" fill="#110d0b" stroke="#4a3228" stroke-width="1.2" opacity="0.9"/>
+  <ellipse cx="560" cy="230" rx="36" ry="48" fill="#d4a080" opacity="0.05"/>
+  <path d="M530 270 Q560 290 590 270" fill="none" stroke="#d4a888" stroke-width="2" opacity="0.16" stroke-linecap="round"/>
+
+  <!-- Two dimmer hooks above Madonna -->
+  <g opacity="0.7">
+    <path d="M520 115 Q520 100 532 100 Q544 100 544 115" fill="none" stroke="#c09060" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="532" cy="117" r="3.5" fill="#d4a870"/>
+    <path d="M576 115 Q576 100 588 100 Q600 100 600 115" fill="none" stroke="#c09060" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="588" cy="117" r="3.5" fill="#d4a870"/>
+  </g>
+
+  <!-- Getaway car silhouette right -->
+  <g transform="translate(700,470)" opacity="0.92">
+    <ellipse cx="70" cy="48" rx="78" ry="10" fill="#000" opacity="0.35"/>
+    <path d="M10 30 L30 10 L95 10 L120 28 L125 42 L5 42 Z" fill="url(#car)" stroke="#5a4040" stroke-width="1.5"/>
+    <rect x="38" y="14" width="28" height="16" rx="2" fill="#2a4050" opacity="0.7"/>
+    <rect x="72" y="14" width="22" height="16" rx="2" fill="#2a4050" opacity="0.55"/>
+    <circle cx="35" cy="44" r="11" fill="#1a1212" stroke="#6a5050" stroke-width="2"/>
+    <circle cx="35" cy="44" r="5" fill="#3a3030"/>
+    <circle cx="100" cy="44" r="11" fill="#1a1212" stroke="#6a5050" stroke-width="2"/>
+    <circle cx="100" cy="44" r="5" fill="#3a3030"/>
+    <!-- two rolled canvases in back -->
+    <rect x="108" y="18" width="8" height="22" rx="3" fill="#c47850" opacity="0.85" transform="rotate(-18 112 29)"/>
+    <rect x="118" y="16" width="8" height="22" rx="3" fill="#a06048" opacity="0.8" transform="rotate(-12 122 27)"/>
+  </g>
+
+  <!-- Motion streaks behind car -->
+  <g stroke="#8a6060" stroke-width="2" opacity="0.35" stroke-linecap="round">
+    <path d="M660 500 L700 500"/>
+    <path d="M650 512 L695 512"/>
+    <path d="M670 488 L705 488"/>
+  </g>
+
+  <!-- 736 on floor -->
+  <text x="480" y="590" text-anchor="middle" font-family="Georgia, serif" font-size="42" fill="#e8b070" opacity="0.55" letter-spacing="6">736</text>
+  <text x="480" y="612" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#8a7060" opacity="0.55" letter-spacing="3">DAYS OF EMPTY HOOKS</text>
+
+  <!-- Caption -->
+  <text x="48" y="560" font-family="Georgia, serif" font-size="15" fill="#c4a080" opacity="0.7">22 Aug 2004 · Munch Museum</text>
+  <text x="48" y="582" font-family="Georgia, serif" font-size="12" fill="#8a7060" opacity="0.55">armed daylight · recovery damaged · refuse the sell-back</text>
+</svg>
