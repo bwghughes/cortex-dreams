@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" role="img" aria-labelledby="title desc">
+  <title id="title">Baltic Way Two Million Hands Dream</title>
+  <desc id="desc">A dusk horizon across three Baltic nations with a continuous living chain of linked human hands, a faint secret-pact scroll dissolving under the line, and soft ripple light traveling palm to palm.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a2744"/>
+      <stop offset="45%" stop-color="#3d2a4a"/>
+      <stop offset="78%" stop-color="#c46a3a"/>
+      <stop offset="100%" stop-color="#f0b070"/>
+    </linearGradient>
+    <linearGradient id="land" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a3a28"/>
+      <stop offset="100%" stop-color="#121810"/>
+    </linearGradient>
+    <linearGradient id="chain" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f6e2b8"/>
+      <stop offset="50%" stop-color="#ffe8c0"/>
+      <stop offset="100%" stop-color="#e8c090"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="55%" r="55%">
+      <stop offset="0%" stop-color="#ffd9a0" stop-opacity="0.35"/>
+      <stop offset="55%" stop-color="#c46a3a" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#0a0a12" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
+    <filter id="blurHand" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- Sky and land -->
+  <rect width="960" height="640" fill="#0a0a12"/>
+  <rect x="0" y="0" width="960" height="420" fill="url(#sky)"/>
+  <ellipse cx="480" cy="390" rx="520" ry="120" fill="url(#glow)"/>
+  <path d="M0 400 C160 380, 320 410, 480 395 S800 370, 960 400 L960 640 L0 640 Z" fill="url(#land)"/>
+
+  <!-- Faint secret pact scroll dissolving under the chain -->
+  <g opacity="0.22" transform="translate(300,455)">
+    <rect x="0" y="0" width="360" height="70" rx="4" fill="#d8c8a0" stroke="#8a7040" stroke-width="1"/>
+    <line x1="24" y1="18" x2="330" y2="18" stroke="#6a5530" stroke-width="1.5"/>
+    <line x1="24" y1="32" x2="300" y2="32" stroke="#6a5530" stroke-width="1.2"/>
+    <line x1="24" y1="46" x2="280" y2="46" stroke="#6a5530" stroke-width="1.2"/>
+    <text x="180" y="64" text-anchor="middle" fill="#4a3820" font-family="Georgia, serif" font-size="11">secret ink · 1939</text>
+  </g>
+  <!-- dissolve tears on the scroll -->
+  <path d="M320 455 L340 520 L360 455" fill="#0a0a12" opacity="0.35"/>
+  <path d="M520 460 L545 525 L570 460" fill="#0a0a12" opacity="0.3"/>
+  <path d="M620 455 L640 518 L660 455" fill="#0a0a12" opacity="0.28"/>
+
+  <!-- Horizon nation marks -->
+  <g fill="#f0d0a0" opacity="0.55" font-family="Georgia, serif" font-size="13">
+    <text x="120" y="375" text-anchor="middle">Estonia</text>
+    <text x="480" y="368" text-anchor="middle">Latvia</text>
+    <text x="840" y="375" text-anchor="middle">Lithuania</text>
+  </g>
+  <line x1="40" y1="385" x2="920" y2="385" stroke="#f0c090" stroke-width="1" opacity="0.25" stroke-dasharray="4 6"/>
+
+  <!-- Continuous living chain of hands -->
+  <g id="hands" filter="url(#blurHand)">
+    <!-- Generate a row of simplified linked hands along the horizon -->
+    <!-- hand pair template repeated -->
+    <g fill="url(#chain)" stroke="#c49860" stroke-width="0.8">
+      <!-- leftmost stretch -->
+      <ellipse cx="48" cy="402" rx="14" ry="10"/>
+      <ellipse cx="72" cy="400" rx="14" ry="10"/>
+      <path d="M58 402 Q60 392 70 400" fill="none" stroke="#ffe8c0" stroke-width="3" stroke-linecap="round"/>
+      <ellipse cx="96" cy="403" rx="14" ry="10"/>
+      <ellipse cx="120" cy="399" rx="14" ry="10"/>
+      <path d="M106 402 Q110 391 118 400" fill="none" stroke="#ffe8c0" stroke-width="3" stroke-linecap="round"/>
+      <ellipse cx="144" cy="401" rx="14" ry="10"/>
+      <ellipse cx="168" cy="404" rx="14" ry="10"/>
+      <path d="M154 402 Q158 392 166 403" fill="none" stroke="#ffe8c0" stroke-width="3" stroke-linecap="round"/>
+      <ellipse cx="192" cy="400" rx="14" ry="10"/>
+      <ellipse cx="216" cy="402" rx="14" ry="10"/>
+      <path d="M202 401 Q206 390 214 401" fill="none" stroke="#ffe8c0" stroke-width="3" stroke-linecap="round"/>
+      <ellipse cx="240" cy="403" rx="14" ry="10"/>
+      <ellipse cx="264" cy="399" rx="14" ry="10"/>
+      <path d="M250 402 Q254 391 262 400" fill="none" stroke="#ffe8c0" stroke-width="3" stroke-linecap="round"/>
+      <ellipse cx="288" cy="401" rx="14" ry="10"/>
+      <ellipse cx="312" cy="404" rx="14" ry="10"/>
+      <path d="M298 402 Q302 392 310 403" fill="none" stroke="#ffe8c0" stroke-width="3" stroke-linecap="round"/>
+      <ellipse cx="336" cy="400" rx="14" ry="10"/>
+      <ellipse cx="360" cy="402" rx="14" ry="10"/>
+      <path d="M346 401 Q350 390 358 401" fill="none" stroke="#ffe8c0" stroke-width="3" stroke-linecap="round"/>
+      <ellipse cx="384" cy="403" rx="14" ry="10"/>
+      <ellipse cx="408" cy="399" rx="14" ry="10"/>
+      <path d="M394 402 Q398 391 406 400" fill="none" stroke="#ffe8c0" stroke-width="3" stroke-linecap="round"/>
+      <ellipse cx="432" cy="401" rx="14" ry="10"/>
+      <ellipse cx="456" cy="404" rx="14" ry="10"/>
+      <path d="M442 402 Q446 392 454 403" fill="none" stroke="#ffe8c0" stroke-width="3" stroke-linecap="round"/>
+      <!-- center pulse hand -->
+      <ellipse cx="480" cy="398" rx="16" ry="12" fill="#fff0d0" stroke="#ffd080" stroke-width="1.2"/>
+      <ellipse cx="504" cy="401" rx="14" ry="10"/>
+      <path d="M488 400 Q492 388 502 400" fill="none" stroke="#fff6e0" stroke-width="3.5" stroke-linecap="round"/>
+      <ellipse cx="528" cy="403" rx="14" ry="10"/>
+      <ellipse cx="552" cy="399" rx="14" ry="10"/>
+      <path d="M538 402 Q542 391 550 400" fill="none" stroke="#ffe8c0" stroke-width="3" stroke-linecap="round"/>
+      <ellipse cx="576" cy="401" rx="14" ry="10"/>
+      <ellipse cx="600" cy="404" rx="14" ry="10"/>
+      <path d="M586 402 Q590 392 598 403" fill="none" stroke="#ffe8c0" stroke-width="3" stroke-linecap="round"/>
+      <ellipse cx="624" cy="400" rx="14" ry="10"/>
+      <ellipse cx="648" cy="402" rx="14" ry="10"/>
+      <path d="M634 401 Q638 390 646 401" fill="none" stroke="#ffe8c0" stroke-width="3" stroke-linecap="round"/>
+      <ellipse cx="672" cy="403" rx="14" ry="10"/>
+      <ellipse cx="696" cy="399" rx="14" ry="10"/>
+      <path d="M682 402 Q686 391 694 400" fill="none" stroke="#ffe8c0" stroke-width="3" stroke-linecap="round"/>
+      <ellipse cx="720" cy="401" rx="14" ry="10"/>
+      <ellipse cx="744" cy="404" rx="14" ry="10"/>
+      <path d="M730 402 Q734 392 742 403" fill="none" stroke="#ffe8c0" stroke-width="3" stroke-linecap="round"/>
+      <ellipse cx="768" cy="400" rx="14" ry="10"/>
+      <ellipse cx="792" cy="402" rx="14" ry="10"/>
+      <path d="M778 401 Q782 390 790 401" fill="none" stroke="#ffe8c0" stroke-width="3" stroke-linecap="round"/>
+      <ellipse cx="816" cy="403" rx="14" ry="10"/>
+      <ellipse cx="840" cy="399" rx="14" ry="10"/>
+      <path d="M826 402 Q830 391 838 400" fill="none" stroke="#ffe8c0" stroke-width="3" stroke-linecap="round"/>
+      <ellipse cx="864" cy="401" rx="14" ry="10"/>
+      <ellipse cx="888" cy="404" rx="14" ry="10"/>
+      <path d="M874 402 Q878 392 886 403" fill="none" stroke="#ffe8c0" stroke-width="3" stroke-linecap="round"/>
+      <ellipse cx="912" cy="400" rx="14" ry="10"/>
+    </g>
+  </g>
+
+  <!-- Ripple marks traveling the chain -->
+  <g fill="none" stroke="#ffe8c0" stroke-width="1.5" opacity="0.55" filter="url(#soft)">
+    <circle cx="216" cy="401" r="18"/>
+    <circle cx="480" cy="398" r="26"/>
+    <circle cx="744" cy="402" r="18"/>
+  </g>
+
+  <!-- Caption block -->
+  <g font-family="Georgia, serif" fill="#f6e8d0">
+    <text x="48" y="545" font-size="28" font-weight="700">Baltic Way · Two Million Hands</text>
+    <text x="48" y="575" font-size="15" fill="#d0b090">690 km · fifteen minutes · silence as power · hands against secret ink</text>
+    <text x="48" y="602" font-size="13" fill="#a89070">cortex dream · 2026-08-23 · desire ≠ readiness · every palm must hold</text>
+  </g>
+
+  <!-- Small date seal -->
+  <g transform="translate(820,520)">
+    <circle cx="40" cy="40" r="36" fill="none" stroke="#e8c090" stroke-width="1.5" opacity="0.7"/>
+    <text x="40" y="36" text-anchor="middle" fill="#e8c090" font-family="Georgia, serif" font-size="11">23 Aug</text>
+    <text x="40" y="52" text-anchor="middle" fill="#e8c090" font-family="Georgia, serif" font-size="11">1989</text>
+  </g>
+</svg>
