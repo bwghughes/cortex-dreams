@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" role="img" aria-labelledby="title desc">
+  <title id="title">Pluto Dignity Chamber Dream</title>
+  <desc id="desc">A dark dignity chamber with a cold outer-system body that still glows after a category vote; a single button restores rings and honest light without rewriting the physics; faint club-line and residual heat around the body.</desc>
+  <defs>
+    <linearGradient id="chamber" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b1020"/>
+      <stop offset="55%" stop-color="#141a2e"/>
+      <stop offset="100%" stop-color="#1a1428"/>
+    </linearGradient>
+    <radialGradient id="plutoCore" cx="50%" cy="48%" r="42%">
+      <stop offset="0%" stop-color="#e8d8c8"/>
+      <stop offset="35%" stop-color="#c4a890"/>
+      <stop offset="70%" stop-color="#7a6a78"/>
+      <stop offset="100%" stop-color="#3a3048"/>
+    </radialGradient>
+    <radialGradient id="residual" cx="50%" cy="48%" r="58%">
+      <stop offset="0%" stop-color="#b8a0ff" stop-opacity="0.35"/>
+      <stop offset="45%" stop-color="#6a50a0" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="buttonGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="0.85"/>
+      <stop offset="55%" stop-color="#d09040" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#401808" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#a890ff" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#d8c8ff" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#fff0d0" stop-opacity="0.95"/>
+      <stop offset="75%" stop-color="#d8c8ff" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#a890ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.2"/>
+    </filter>
+    <filter id="tiny" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="0.8"/>
+    </filter>
+  </defs>
+
+  <!-- Chamber -->
+  <rect width="960" height="640" fill="url(#chamber)"/>
+  <!-- faint stars -->
+  <g fill="#d8e0ff" opacity="0.55">
+    <circle cx="80" cy="70" r="1.2"/>
+    <circle cx="140" cy="120" r="0.9"/>
+    <circle cx="220" cy="50" r="1.1"/>
+    <circle cx="310" cy="95" r="0.7"/>
+    <circle cx="700" cy="60" r="1.0"/>
+    <circle cx="780" cy="110" r="0.8"/>
+    <circle cx="860" cy="45" r="1.3"/>
+    <circle cx="900" cy="160" r="0.7"/>
+    <circle cx="60" cy="200" r="0.8"/>
+    <circle cx="920" cy="280" r="1.0"/>
+    <circle cx="180" cy="280" r="0.6"/>
+    <circle cx="840" cy="320" r="0.7"/>
+  </g>
+
+  <!-- Official club line (the vote) -->
+  <g opacity="0.55">
+    <ellipse cx="480" cy="290" rx="310" ry="210" fill="none" stroke="#6a7088" stroke-width="1.5" stroke-dasharray="8 10"/>
+    <text x="790" y="250" fill="#8a90a8" font-family="Georgia, serif" font-size="13" transform="rotate(18 790 250)">official club</text>
+  </g>
+
+  <!-- Residual heat field outside the line -->
+  <ellipse cx="720" cy="360" rx="150" ry="120" fill="url(#residual)" filter="url(#soft)"/>
+
+  <!-- Dignity chamber frame -->
+  <rect x="250" y="120" width="460" height="400" rx="18" fill="#0e1220" stroke="#3a4058" stroke-width="2" opacity="0.92"/>
+  <rect x="268" y="138" width="424" height="300" rx="10" fill="#080c18" stroke="#2a3048" stroke-width="1"/>
+
+  <!-- Restored rings (dignity) -->
+  <g transform="translate(480,290)" filter="url(#tiny)">
+    <ellipse cx="0" cy="0" rx="168" ry="42" fill="none" stroke="url(#ring)" stroke-width="6" opacity="0.9" transform="rotate(-18)"/>
+    <ellipse cx="0" cy="0" rx="148" ry="34" fill="none" stroke="#c8b8ff" stroke-width="2.5" opacity="0.55" transform="rotate(-18)"/>
+    <ellipse cx="0" cy="0" rx="188" ry="50" fill="none" stroke="#fff0c8" stroke-width="1.5" opacity="0.35" transform="rotate(-18)"/>
+  </g>
+
+  <!-- Pluto body still spinning -->
+  <circle cx="480" cy="290" r="78" fill="url(#plutoCore)" stroke="#d8c8b0" stroke-width="1.5"/>
+  <!-- heart-shaped dark region suggestion -->
+  <path d="M455 275 C460 255, 500 255, 505 275 C512 290, 490 312, 480 322 C470 312, 448 290, 455 275 Z" fill="#5a4a58" opacity="0.55"/>
+  <ellipse cx="455" cy="270" rx="18" ry="12" fill="#f0e4d4" opacity="0.18"/>
+  <ellipse cx="505" cy="300" rx="22" ry="14" fill="#2a2030" opacity="0.25"/>
+
+  <!-- faint orbit tick outside club -->
+  <path d="M640 340 Q700 300 760 360" fill="none" stroke="#a090d0" stroke-width="1.5" stroke-dasharray="3 5" opacity="0.7"/>
+  <text x="770" y="380" fill="#b8a8e0" font-family="Georgia, serif" font-size="12">still turning</text>
+
+  <!-- Dignity button -->
+  <g transform="translate(480,500)">
+    <ellipse cx="0" cy="0" rx="54" ry="22" fill="url(#buttonGlow)" filter="url(#soft)"/>
+    <rect x="-48" y="-16" width="96" height="32" rx="16" fill="#2a1810" stroke="#e0b060" stroke-width="2"/>
+    <circle cx="0" cy="0" r="10" fill="#f0c060" stroke="#fff0c0" stroke-width="1.5"/>
+    <text x="0" y="40" text-anchor="middle" fill="#d8c8a0" font-family="Georgia, serif" font-size="13">dignity</text>
+  </g>
+
+  <!-- Caption -->
+  <text x="480" y="70" text-anchor="middle" fill="#e8e0f0" font-family="Georgia, serif" font-size="22">Pluto Dignity Chamber</text>
+  <text x="480" y="96" text-anchor="middle" fill="#9a90b0" font-family="Georgia, serif" font-size="14">24 August 2006 · demotion without physics · residual heat after the badge</text>
+
+  <!-- Footer whisper -->
+  <text x="480" y="600" text-anchor="middle" fill="#6a6880" font-family="Georgia, serif" font-size="12">the vote redrew the line · the body kept its heat · press for honest glow</text>
+</svg>
