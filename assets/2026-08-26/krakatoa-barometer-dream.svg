@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Krakatoa Barometer Dream">
+  <defs>
+    <radialGradient id="sky" cx="50%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#1a0f14"/>
+      <stop offset="55%" stop-color="#0b1018"/>
+      <stop offset="100%" stop-color="#05070c"/>
+    </radialGradient>
+    <radialGradient id="blast" cx="50%" cy="48%" r="40%">
+      <stop offset="0%" stop-color="#ff6b2b" stop-opacity="0.95"/>
+      <stop offset="35%" stop-color="#c43a1a" stop-opacity="0.55"/>
+      <stop offset="70%" stop-color="#5a1a2a" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#0b1018" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#122033"/>
+      <stop offset="100%" stop-color="#070b12"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d8e4f0" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#6a7a88" stop-opacity="0.55"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#sky)"/>
+
+  <!-- pressure wave rings -->
+  <g fill="none" stroke="#e8a070" stroke-opacity="0.22" stroke-width="2">
+    <ellipse cx="600" cy="390" rx="140" ry="70"/>
+    <ellipse cx="600" cy="390" rx="220" ry="110"/>
+    <ellipse cx="600" cy="390" rx="320" ry="160"/>
+    <ellipse cx="600" cy="390" rx="430" ry="215"/>
+    <ellipse cx="600" cy="390" rx="540" ry="270"/>
+  </g>
+  <g fill="none" stroke="#9fd0ff" stroke-opacity="0.12" stroke-width="1.5">
+    <ellipse cx="600" cy="390" rx="180" ry="90"/>
+    <ellipse cx="600" cy="390" rx="380" ry="190"/>
+    <ellipse cx="600" cy="390" rx="500" ry="250"/>
+  </g>
+
+  <!-- sea -->
+  <path d="M0 520 Q300 490 600 530 T1200 510 L1200 800 L0 800 Z" fill="url(#sea)"/>
+  <path d="M0 560 Q250 545 500 570 T1200 555" fill="none" stroke="#1e3a52" stroke-width="2" opacity="0.6"/>
+
+  <!-- caldera / collapsed mountain -->
+  <path d="M420 470 L480 360 L530 410 L560 330 L600 300 L640 330 L670 410 L720 360 L780 470
+           C740 500 660 520 600 525 C540 520 460 500 420 470 Z" fill="#1a1210"/>
+  <path d="M480 470 L530 400 L560 430 L600 360 L640 430 L670 400 L720 470
+           C680 490 620 500 600 502 C580 500 520 490 480 470 Z" fill="#2a1814"/>
+  <!-- blast core -->
+  <ellipse cx="600" cy="390" rx="90" ry="55" fill="url(#blast)"/>
+  <circle cx="600" cy="385" r="18" fill="#ffd7a0" opacity="0.9"/>
+  <circle cx="600" cy="385" r="8" fill="#fff6e8"/>
+
+  <!-- ash plumes -->
+  <g fill="#c47a55" opacity="0.35">
+    <ellipse cx="540" cy="300" rx="40" ry="70"/>
+    <ellipse cx="660" cy="290" rx="50" ry="85"/>
+    <ellipse cx="600" cy="250" rx="55" ry="95"/>
+  </g>
+  <g fill="#8a4a38" opacity="0.25">
+    <ellipse cx="520" cy="240" rx="60" ry="40"/>
+    <ellipse cx="680" cy="230" rx="70" ry="45"/>
+    <ellipse cx="600" cy="180" rx="90" ry="50"/>
+  </g>
+
+  <!-- barometer panel (left) -->
+  <g transform="translate(90,140)">
+    <rect x="0" y="0" width="210" height="260" rx="14" fill="#121820" stroke="#3a4a5a" stroke-width="3"/>
+    <text x="105" y="36" text-anchor="middle" fill="#9eb0c0" font-family="Georgia, serif" font-size="16">BAROMETER</text>
+    <circle cx="105" cy="130" r="78" fill="#0c1218" stroke="#6a7a88" stroke-width="4"/>
+    <circle cx="105" cy="130" r="70" fill="none" stroke="#2a3848" stroke-width="1"/>
+    <!-- dial ticks -->
+    <g stroke="#8aa0b0" stroke-width="2">
+      <line x1="105" y1="62" x2="105" y2="72"/>
+      <line x1="105" y1="188" x2="105" y2="198"/>
+      <line x1="37" y1="130" x2="47" y2="130"/>
+      <line x1="163" y1="130" x2="173" y2="130"/>
+      <line x1="57" y1="82" x2="64" y2="89"/>
+      <line x1="153" y1="82" x2="146" y2="89"/>
+      <line x1="57" y1="178" x2="64" y2="171"/>
+      <line x1="153" y1="178" x2="146" y2="171"/>
+    </g>
+    <!-- needle pointing hard low (pressure drop) -->
+    <line x1="105" y1="130" x2="58" y2="168" stroke="#ff6b2b" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="105" cy="130" r="6" fill="#e8dcc8"/>
+    <text x="105" y="232" text-anchor="middle" fill="#c47a55" font-family="Georgia, serif" font-size="13">PRESSURE DROP</text>
+    <text x="105" y="250" text-anchor="middle" fill="#6a8090" font-family="Georgia, serif" font-size="11">loop 1 of 7</text>
+  </g>
+
+  <!-- opaque bottle (right) — Paisley twin -->
+  <g transform="translate(920,180)">
+    <rect x="40" y="20" width="70" height="28" rx="4" fill="#2a3038" stroke="#5a6570" stroke-width="2"/>
+    <path d="M45 48 L40 70 L40 210 Q40 240 75 245 Q110 240 110 210 L110 70 L105 48 Z"
+          fill="url(#glass)" stroke="#7a8894" stroke-width="2"/>
+    <!-- opaque body -->
+    <path d="M42 95 L42 210 Q42 235 75 240 Q108 235 108 210 L108 95 Z" fill="#3a2a22" opacity="0.85"/>
+    <!-- snail silhouette -->
+    <ellipse cx="75" cy="175" rx="18" ry="12" fill="#1a1410" opacity="0.9"/>
+    <path d="M62 170 Q75 145 90 168" fill="none" stroke="#0e0a08" stroke-width="5" stroke-linecap="round"/>
+    <text x="75" y="275" text-anchor="middle" fill="#9eb0c0" font-family="Georgia, serif" font-size="13">OPAQUE BOTTLE</text>
+    <text x="75" y="293" text-anchor="middle" fill="#6a8090" font-family="Georgia, serif" font-size="11">who is my neighbour?</text>
+  </g>
+
+  <!-- title -->
+  <text x="600" y="60" text-anchor="middle" fill="#e8dcc8" font-family="Georgia, serif" font-size="34" font-weight="bold">Krakatoa Barometer</text>
+  <text x="600" y="92" text-anchor="middle" fill="#9eb0c0" font-family="Georgia, serif" font-size="16">26 August · pressure wave as receipt · duty through dark glass</text>
+
+  <!-- footer -->
+  <text x="600" y="760" text-anchor="middle" fill="#5a6a78" font-family="Georgia, serif" font-size="13">Cortex Dream Cycle · 2026-08-26 · the planet took the dictation</text>
+</svg>
