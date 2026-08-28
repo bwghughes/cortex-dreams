@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" role="img" aria-label="Carrington Flare Wire Dream: burning sun, sparking telegraph keys, glowing copper, Faraday cage, green aurora">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a1220"/>
+      <stop offset="40%" stop-color="#12253a"/>
+      <stop offset="75%" stop-color="#1a3a45"/>
+      <stop offset="100%" stop-color="#243a3a"/>
+    </linearGradient>
+    <radialGradient id="sunCore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff4c2"/>
+      <stop offset="35%" stop-color="#ffb347"/>
+      <stop offset="70%" stop-color="#ff6b2d"/>
+      <stop offset="100%" stop-color="#c43a12" stop-opacity="0.15"/>
+    </radialGradient>
+    <linearGradient id="aurora" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5dff9a" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#3ecf7a" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3ecf7a" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="desk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a2a1c"/>
+      <stop offset="100%" stop-color="#1e1510"/>
+    </linearGradient>
+    <linearGradient id="copper" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8a4a18"/>
+      <stop offset="50%" stop-color="#ffb060"/>
+      <stop offset="100%" stop-color="#8a4a18"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+  </defs>
+
+  <!-- night sky -->
+  <rect width="960" height="640" fill="url(#sky)"/>
+
+  <!-- aurora curtains -->
+  <g opacity="0.9" filter="url(#soft)">
+    <path d="M40 40 C120 180 80 320 160 520" stroke="url(#aurora)" stroke-width="28" fill="none"/>
+    <path d="M140 20 C220 160 180 300 260 540" stroke="url(#aurora)" stroke-width="22" fill="none"/>
+    <path d="M260 30 C320 170 300 310 360 530" stroke="url(#aurora)" stroke-width="18" fill="none"/>
+    <path d="M700 25 C760 150 740 300 820 520" stroke="url(#aurora)" stroke-width="24" fill="none"/>
+    <path d="M820 40 C880 170 860 310 920 510" stroke="url(#aurora)" stroke-width="20" fill="none"/>
+  </g>
+
+  <!-- stars -->
+  <g fill="#dce9ff" opacity="0.7">
+    <circle cx="90" cy="70" r="1.5"/>
+    <circle cx="180" cy="110" r="1"/>
+    <circle cx="320" cy="55" r="1.2"/>
+    <circle cx="480" cy="90" r="1"/>
+    <circle cx="610" cy="48" r="1.4"/>
+    <circle cx="750" cy="95" r="1"/>
+    <circle cx="880" cy="65" r="1.3"/>
+    <circle cx="520" cy="150" r="1"/>
+  </g>
+
+  <!-- Carrington sun -->
+  <g transform="translate(480,145)" filter="url(#glow)">
+    <circle r="78" fill="url(#sunCore)"/>
+    <circle r="52" fill="#ffd27a" opacity="0.85"/>
+    <circle r="28" fill="#fff6d0"/>
+    <!-- flare tongues -->
+    <path d="M-90 -10 Q-130 -40 -150 10 Q-120 20 -90 -10" fill="#ff8a3a" opacity="0.75"/>
+    <path d="M70 -40 Q120 -80 150 -20 Q110 -10 70 -40" fill="#ff6b2d" opacity="0.7"/>
+    <path d="M40 60 Q90 110 30 120 Q20 80 40 60" fill="#ffb347" opacity="0.65"/>
+    <path d="M-50 55 Q-100 100 -40 115 Q-20 80 -50 55" fill="#ff8a3a" opacity="0.6"/>
+  </g>
+
+  <!-- telegraph poles + glowing copper lines -->
+  <g stroke="url(#copper)" stroke-width="3" fill="none" filter="url(#glow)">
+    <path d="M60 280 Q240 240 420 275 T780 255 T940 270"/>
+    <path d="M50 310 Q230 275 410 305 T770 290 T950 300"/>
+    <path d="M70 340 Q250 310 430 335 T790 320 T930 340"/>
+  </g>
+  <!-- pole uprights -->
+  <g stroke="#5a4030" stroke-width="6">
+    <line x1="120" y1="250" x2="120" y2="430"/>
+    <line x1="360" y1="245" x2="360" y2="430"/>
+    <line x1="600" y1="240" x2="600" y2="430"/>
+    <line x1="840" y1="250" x2="840" y2="430"/>
+  </g>
+  <g fill="#6a4a35">
+    <rect x="100" y="248" width="40" height="8" rx="2"/>
+    <rect x="340" y="242" width="40" height="8" rx="2"/>
+    <rect x="580" y="238" width="40" height="8" rx="2"/>
+    <rect x="820" y="248" width="40" height="8" rx="2"/>
+  </g>
+
+  <!-- sparks on the wires -->
+  <g fill="#ffe9a0" filter="url(#glow)">
+    <circle cx="220" cy="268" r="4"/>
+    <circle cx="450" cy="278" r="3.5"/>
+    <circle cx="690" cy="262" r="4.5"/>
+    <circle cx="300" cy="300" r="3"/>
+    <circle cx="560" cy="298" r="3.5"/>
+    <circle cx="800" cy="295" r="3"/>
+  </g>
+
+  <!-- office desk -->
+  <rect x="180" y="430" width="600" height="160" rx="6" fill="url(#desk)"/>
+  <rect x="180" y="430" width="600" height="18" fill="#4a3424"/>
+
+  <!-- burning paper tape -->
+  <g transform="translate(240,470)">
+    <path d="M0 40 Q40 20 80 35 T160 30 T220 40" fill="none" stroke="#e8d2a8" stroke-width="10" stroke-linecap="round"/>
+    <path d="M140 20 Q170 0 190 -10" fill="#ff8a3a" opacity="0.85"/>
+    <path d="M155 15 Q175 -5 185 -25" fill="#ffd27a" opacity="0.7"/>
+    <path d="M165 25 Q190 5 210 -5" fill="#c43a12" opacity="0.6"/>
+    <text x="0" y="70" fill="#c9b896" font-family="Georgia, serif" font-size="13">paper curls into smoke</text>
+  </g>
+
+  <!-- telegraph keys (left: sparking open / right: Faraday-caged clean) -->
+  <g transform="translate(520,475)">
+    <!-- open key sparking -->
+    <rect x="0" y="40" width="70" height="12" rx="2" fill="#6a5a4a"/>
+    <rect x="28" y="10" width="14" height="40" rx="2" fill="#8a7a6a"/>
+    <circle cx="35" cy="8" r="10" fill="#c0b0a0"/>
+    <g fill="#ffe9a0" filter="url(#glow)">
+      <circle cx="35" cy="0" r="3"/>
+      <circle cx="48" cy="-8" r="2"/>
+      <circle cx="22" cy="-6" r="2.5"/>
+    </g>
+    <text x="-5" y="75" fill="#d4c4a8" font-family="Georgia, serif" font-size="12">unsolicited write</text>
+  </g>
+
+  <!-- Faraday cage around clean key -->
+  <g transform="translate(680,455)">
+    <rect x="-8" y="0" width="96" height="95" rx="4" fill="none" stroke="#7ec8ff" stroke-width="2.5" opacity="0.9"/>
+    <!-- cage mesh -->
+    <g stroke="#7ec8ff" stroke-width="1" opacity="0.45">
+      <line x1="8" y1="0" x2="8" y2="95"/>
+      <line x1="28" y1="0" x2="28" y2="95"/>
+      <line x1="48" y1="0" x2="48" y2="95"/>
+      <line x1="68" y1="0" x2="68" y2="95"/>
+      <line x1="-8" y1="20" x2="88" y2="20"/>
+      <line x1="-8" y1="45" x2="88" y2="45"/>
+      <line x1="-8" y1="70" x2="88" y2="70"/>
+    </g>
+    <rect x="10" y="50" width="60" height="10" rx="2" fill="#6a5a4a"/>
+    <rect x="32" y="28" width="12" height="32" rx="2" fill="#8a7a6a"/>
+    <circle cx="38" cy="26" r="8" fill="#d0c0b0"/>
+    <text x="-4" y="112" fill="#9fd4ff" font-family="Georgia, serif" font-size="12">Faraday cage pin</text>
+  </g>
+
+  <!-- title plate -->
+  <g transform="translate(40,560)">
+    <text x="0" y="0" fill="#f0e6d0" font-family="Georgia, serif" font-size="22" font-weight="bold">Carrington Flare Wire Dream</text>
+    <text x="0" y="26" fill="#a8c4b0" font-family="Georgia, serif" font-size="14">28 August 1859 · sky bites the wire · name the cage, not the aurora</text>
+  </g>
+</svg>
