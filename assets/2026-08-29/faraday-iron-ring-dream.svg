@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" role="img" aria-label="Faraday Iron Ring Dream: iron ring, two copper windings, battery spark, galvanometer needle, invisible flux">
+  <defs>
+    <linearGradient id="lab" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1520"/>
+      <stop offset="55%" stop-color="#152030"/>
+      <stop offset="100%" stop-color="#1a2432"/>
+    </linearGradient>
+    <radialGradient id="benchGlow" cx="50%" cy="70%" r="55%">
+      <stop offset="0%" stop-color="#3a2a18" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0d1520" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="iron" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6a7480"/>
+      <stop offset="40%" stop-color="#c8d0d8"/>
+      <stop offset="70%" stop-color="#4a5560"/>
+      <stop offset="100%" stop-color="#9aa4b0"/>
+    </linearGradient>
+    <linearGradient id="copperL" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffc078"/>
+      <stop offset="50%" stop-color="#d89040"/>
+      <stop offset="100%" stop-color="#8a4a18"/>
+    </linearGradient>
+    <linearGradient id="copperR" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffe0a0"/>
+      <stop offset="50%" stop-color="#e89840"/>
+      <stop offset="100%" stop-color="#7a3a10"/>
+    </linearGradient>
+    <linearGradient id="flux" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5dffc8" stop-opacity="0"/>
+      <stop offset="35%" stop-color="#5dffc8" stop-opacity="0.55"/>
+      <stop offset="65%" stop-color="#7ec8ff" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#7ec8ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.2"/>
+    </filter>
+  </defs>
+
+  <!-- lab backdrop -->
+  <rect width="960" height="640" fill="url(#lab)"/>
+  <ellipse cx="480" cy="520" rx="420" ry="140" fill="url(#benchGlow)"/>
+
+  <!-- faint shelf / instruments silhouette -->
+  <rect x="40" y="70" width="180" height="8" rx="2" fill="#2a3545" opacity="0.7"/>
+  <rect x="740" y="90" width="160" height="6" rx="2" fill="#2a3545" opacity="0.55"/>
+  <circle cx="90" cy="130" r="18" fill="none" stroke="#3a4a5c" stroke-width="3" opacity="0.5"/>
+  <circle cx="90" cy="130" r="4" fill="#5a6a7c" opacity="0.6"/>
+
+  <!-- title plate -->
+  <text x="480" y="48" text-anchor="middle" fill="#c9d4e0" font-family="Georgia, serif" font-size="22" letter-spacing="1.5">FARADAY IRON RING · 29 AUGUST 1831</text>
+  <text x="480" y="74" text-anchor="middle" fill="#7a8a9c" font-family="Georgia, serif" font-size="13" letter-spacing="2">two windings · one ring · contactless answer</text>
+
+  <!-- wooden bench -->
+  <rect x="80" y="470" width="800" height="28" rx="4" fill="#3a2a1c"/>
+  <rect x="80" y="498" width="800" height="12" fill="#241810"/>
+  <rect x="120" y="510" width="28" height="90" fill="#2a1c14"/>
+  <rect x="812" y="510" width="28" height="90" fill="#2a1c14"/>
+
+  <!-- iron ring (torus-ish) -->
+  <ellipse cx="480" cy="310" rx="170" ry="150" fill="none" stroke="url(#iron)" stroke-width="36" filter="url(#glow)"/>
+  <ellipse cx="480" cy="310" rx="170" ry="150" fill="none" stroke="#2a3038" stroke-width="8" opacity="0.55"/>
+  <ellipse cx="480" cy="310" rx="148" ry="128" fill="none" stroke="#1a2028" stroke-width="4" opacity="0.4"/>
+  <!-- metallic highlight arc -->
+  <path d="M 340 250 Q 480 160 620 250" fill="none" stroke="#e8f0f8" stroke-width="6" opacity="0.35" stroke-linecap="round"/>
+
+  <!-- left primary winding (battery side) -->
+  <g id="primary-coil">
+    <path d="M 310 250 Q 280 280 310 310 Q 280 340 310 370" fill="none" stroke="#ffb060" stroke-width="10" stroke-linecap="round" filter="url(#glow)"/>
+    <path d="M 318 248 Q 286 280 318 310 Q 286 340 318 372" fill="none" stroke="#c87030" stroke-width="5" opacity="0.7"/>
+    <path d="M 326 250 Q 296 280 326 310 Q 296 340 326 370" fill="none" stroke="#ffd090" stroke-width="4" opacity="0.85"/>
+    <!-- coil turns suggestion -->
+    <ellipse cx="308" cy="260" rx="18" ry="8" fill="none" stroke="#e89840" stroke-width="3"/>
+    <ellipse cx="308" cy="280" rx="18" ry="8" fill="none" stroke="#e89840" stroke-width="3"/>
+    <ellipse cx="308" cy="300" rx="18" ry="8" fill="none" stroke="#e89840" stroke-width="3"/>
+    <ellipse cx="308" cy="320" rx="18" ry="8" fill="none" stroke="#e89840" stroke-width="3"/>
+    <ellipse cx="308" cy="340" rx="18" ry="8" fill="none" stroke="#e89840" stroke-width="3"/>
+    <ellipse cx="308" cy="360" rx="18" ry="8" fill="none" stroke="#e89840" stroke-width="3"/>
+  </g>
+
+  <!-- right secondary winding (galvanometer side) -->
+  <g id="secondary-coil">
+    <path d="M 650 250 Q 680 280 650 310 Q 680 340 650 370" fill="none" stroke="#7ec8ff" stroke-width="10" stroke-linecap="round" filter="url(#glow)"/>
+    <path d="M 642 248 Q 674 280 642 310 Q 674 340 642 372" fill="none" stroke="#4a9ad0" stroke-width="5" opacity="0.7"/>
+    <path d="M 634 250 Q 664 280 634 310 Q 664 340 634 370" fill="none" stroke="#b0e0ff" stroke-width="4" opacity="0.85"/>
+    <ellipse cx="652" cy="260" rx="18" ry="8" fill="none" stroke="#6ab0e0" stroke-width="3"/>
+    <ellipse cx="652" cy="280" rx="18" ry="8" fill="none" stroke="#6ab0e0" stroke-width="3"/>
+    <ellipse cx="652" cy="300" rx="18" ry="8" fill="none" stroke="#6ab0e0" stroke-width="3"/>
+    <ellipse cx="652" cy="320" rx="18" ry="8" fill="none" stroke="#6ab0e0" stroke-width="3"/>
+    <ellipse cx="652" cy="340" rx="18" ry="8" fill="none" stroke="#6ab0e0" stroke-width="3"/>
+    <ellipse cx="652" cy="360" rx="18" ry="8" fill="none" stroke="#6ab0e0" stroke-width="3"/>
+  </g>
+
+  <!-- invisible flux arcs across the ring -->
+  <path d="M 340 280 Q 480 220 620 280" fill="none" stroke="url(#flux)" stroke-width="3" filter="url(#soft)"/>
+  <path d="M 340 340 Q 480 400 620 340" fill="none" stroke="url(#flux)" stroke-width="3" filter="url(#soft)"/>
+  <path d="M 355 310 Q 480 270 605 310" fill="none" stroke="#5dffc8" stroke-width="1.5" opacity="0.35"/>
+  <path d="M 355 310 Q 480 350 605 310" fill="none" stroke="#7ec8ff" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- battery (left) -->
+  <g transform="translate(95,300)">
+    <rect x="0" y="20" width="70" height="90" rx="6" fill="#2a323c" stroke="#5a6a7c" stroke-width="2"/>
+    <rect x="10" y="30" width="50" height="18" rx="2" fill="#c43a12"/>
+    <rect x="10" y="58" width="50" height="18" rx="2" fill="#1a2a40"/>
+    <rect x="10" y="86" width="50" height="12" rx="2" fill="#3a4a5c"/>
+    <text x="35" y="44" text-anchor="middle" fill="#ffd0c0" font-family="monospace" font-size="11">+</text>
+    <text x="35" y="72" text-anchor="middle" fill="#a0c0e0" font-family="monospace" font-size="11">−</text>
+    <text x="35" y="128" text-anchor="middle" fill="#8a9aac" font-family="Georgia, serif" font-size="11">PRIMARY</text>
+    <!-- spark at switch -->
+    <circle cx="85" cy="40" r="6" fill="#fff4c2" filter="url(#glow)"/>
+    <path d="M 78 32 L 92 48 M 92 32 L 78 48" stroke="#ffb347" stroke-width="2" opacity="0.9"/>
+  </g>
+  <!-- wires primary to coil -->
+  <path d="M 180 340 C 220 340 250 300 290 300" fill="none" stroke="#c87030" stroke-width="3"/>
+  <path d="M 180 380 C 220 380 250 360 290 360" fill="none" stroke="#8a4a18" stroke-width="3"/>
+
+  <!-- galvanometer (right) -->
+  <g transform="translate(780,285)">
+    <circle cx="40" cy="55" r="48" fill="#1a222c" stroke="#6a7a8c" stroke-width="3"/>
+    <circle cx="40" cy="55" r="40" fill="#0e141c" stroke="#3a4a5c" stroke-width="1"/>
+    <!-- dial ticks -->
+    <g stroke="#6a8a9c" stroke-width="1.5">
+      <line x1="40" y1="20" x2="40" y2="28"/>
+      <line x1="12" y1="40" x2="18" y2="44"/>
+      <line x1="68" y1="40" x2="62" y2="44"/>
+      <line x1="18" y1="78" x2="24" y2="72"/>
+      <line x1="62" y1="78" x2="56" y2="72"/>
+    </g>
+    <!-- needle swung right (induced twitch) -->
+    <line x1="40" y1="55" x2="68" y2="38" stroke="#5dffc8" stroke-width="3" stroke-linecap="round" filter="url(#glow)"/>
+    <circle cx="40" cy="55" r="5" fill="#c8d0d8"/>
+    <text x="40" y="120" text-anchor="middle" fill="#8a9aac" font-family="Georgia, serif" font-size="11">SECONDARY</text>
+    <text x="40" y="136" text-anchor="middle" fill="#5dffc8" font-family="monospace" font-size="10" opacity="0.85">twitch</text>
+  </g>
+  <!-- wires secondary to meter -->
+  <path d="M 670 300 C 710 300 740 320 780 330" fill="none" stroke="#6ab0e0" stroke-width="3"/>
+  <path d="M 670 360 C 710 360 740 350 780 350" fill="none" stroke="#4a8ab0" stroke-width="3"/>
+
+  <!-- date plaque on bench -->
+  <rect x="360" y="520" width="240" height="36" rx="4" fill="#1a222c" stroke="#4a5a6c" stroke-width="1"/>
+  <text x="480" y="543" text-anchor="middle" fill="#c9d4e0" font-family="Georgia, serif" font-size="13">name both windings · not just the spark</text>
+
+  <!-- soft vignette corners -->
+  <rect x="0" y="0" width="960" height="640" fill="none" stroke="#000" stroke-width="40" opacity="0.25"/>
+</svg>
