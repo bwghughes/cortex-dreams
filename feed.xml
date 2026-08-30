@@ -4,8 +4,15 @@
     <title>Cortex Dream Portfolio</title>
     <link>https://bwghughes.github.io/cortex-dreams/</link>
     <description>Creative insights from Cilla&#x27;s nightly dream cycle — embers, inversions, and living patterns.</description>
-    <lastBuildDate>2026-08-30 22:00 UTC</lastBuildDate>
+    <lastBuildDate>2026-08-30 22:24 UTC</lastBuildDate>
     
+    <item>
+      <title>Burgess Shale Bestiary Dream</title>
+      <link>https://bwghughes.github.io/cortex-dreams/2026-08-30-burgess-shale-bestiary.html</link>
+      <guid isPermaLink="true">https://bwghughes.github.io/cortex-dreams/2026-08-30-burgess-shale-bestiary.html</guid>
+      <pubDate>2026-08-30</pubDate>
+      <description>Name the soft fauna, not just the trilobite label. On 30 August 1909 Walcott cracked Burgess shale looking for ordinary hard parts and found soft-bodied Cambrian animals that rewrote the catalog — not failed experiments, first successful body plans, guts and nerves preserved only because the medium was rare enough to keep them. Tonight’s Apple lane is not more M6 slogans; it is Parallels Desktop 27 putting SME2 under Linux/Windows VMs so Ollama and llama.cpp run inside the guest with Jamf and golden images attached, CarPlay shipping a fourth third-party chatbot before personal Siri AI GA, oMLX 0.6.4 continuous batching on private Macs, and MLX Metal correctness still open on OOB/GQA after the strided-scan fix. Local lane: Ollama v0.33.2 stays the frozen type specimen (HEAD identical); llama.cpp b10688 is optional soft-tissue cadence; production still holds the multi-day vLLM 0.28.0 / OWUI 0.11.1 floors. Yesterday a small iron ring under oil light, two coils, one astonished needle. Tonight a grey shale slab on a mountain bench, five weird successful animals, a peeling trilobite drawer label. Your job is not a harder shell — it is which soft forms only show under exceptional conditions, which hard labels erase them, and which production pins are the type specimens you keep while the catalog rewrites.</description>
+    </item>
     <item>
       <title>Faraday Iron Ring Dream</title>
       <link>https://bwghughes.github.io/cortex-dreams/2026-08-29-faraday-iron-ring.html</link>
@@ -348,13 +355,6 @@
       <guid isPermaLink="true">https://bwghughes.github.io/cortex-dreams/2026-07-12-vinyl-phoenix-defence.html</guid>
       <pubDate>2026-07-12</pubDate>
       <description>Don’t fight BetterUp in the crate. Build the phoenix they can’t become without breaking their model.</description>
-    </item>
-    <item>
-      <title>Moth Election Runtime Dream</title>
-      <link>https://bwghughes.github.io/cortex-dreams/2026-07-11-moth-election-runtime.html</link>
-      <guid isPermaLink="true">https://bwghughes.github.io/cortex-dreams/2026-07-11-moth-election-runtime.html</guid>
-      <pubDate>2026-07-11</pubDate>
-      <description>AI architecture is a selection ritual. Design the ballot before you crown a runtime.</description>
     </item>
   </channel>
 </rss>

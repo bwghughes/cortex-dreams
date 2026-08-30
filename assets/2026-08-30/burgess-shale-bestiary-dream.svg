@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" role="img" aria-label="Burgess Shale Bestiary Dream: cracked grey shale slab with soft Cambrian creatures, peeling trilobite label, guest-shell glow">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a2838"/>
+      <stop offset="45%" stop-color="#243848"/>
+      <stop offset="100%" stop-color="#2a3844"/>
+    </linearGradient>
+    <linearGradient id="shale" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5a646c"/>
+      <stop offset="35%" stop-color="#8a949c"/>
+      <stop offset="70%" stop-color="#4a545c"/>
+      <stop offset="100%" stop-color="#6a747c"/>
+    </linearGradient>
+    <linearGradient id="shaleDark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a444c"/>
+      <stop offset="100%" stop-color="#1a2228"/>
+    </linearGradient>
+    <linearGradient id="softGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7dffc8" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#a0e8ff" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#ffd080" stop-opacity="0.55"/>
+    </linearGradient>
+    <radialGradient id="benchGlow" cx="50%" cy="75%" r="55%">
+      <stop offset="0%" stop-color="#3a4a38" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#1a2838" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.8"/>
+    </filter>
+  </defs>
+
+  <!-- alpine dusk backdrop -->
+  <rect width="960" height="640" fill="url(#sky)"/>
+  <ellipse cx="480" cy="540" rx="440" ry="130" fill="url(#benchGlow)"/>
+
+  <!-- distant ridge silhouette -->
+  <path d="M0 180 L80 140 L160 170 L260 110 L360 155 L480 90 L600 150 L720 105 L840 160 L960 130 L960 220 L0 220 Z" fill="#152028" opacity="0.85"/>
+  <path d="M0 200 L120 165 L220 190 L340 140 L460 175 L580 125 L700 170 L820 145 L960 175 L960 240 L0 240 Z" fill="#1c2a34" opacity="0.55"/>
+
+  <!-- title -->
+  <text x="480" y="42" text-anchor="middle" fill="#d0dce8" font-family="Georgia, serif" font-size="22" letter-spacing="1.5">BURGESS SHALE BESTIARY · 30 AUGUST 1909</text>
+  <text x="480" y="68" text-anchor="middle" fill="#7a8a9c" font-family="Georgia, serif" font-size="13" letter-spacing="1.8">soft tissue · weird successful body plans · catalog rewrite</text>
+
+  <!-- wooden mountain bench -->
+  <rect x="70" y="480" width="820" height="26" rx="4" fill="#3a2e22"/>
+  <rect x="70" y="506" width="820" height="10" fill="#241a12"/>
+  <rect x="110" y="516" width="26" height="80" fill="#2a1e16"/>
+  <rect x="824" y="516" width="26" height="80" fill="#2a1e16"/>
+
+  <!-- cracked shale slab (main) -->
+  <g id="slab">
+    <path d="M140 220 L780 200 L820 430 L180 455 Z" fill="url(#shale)" stroke="#2a3238" stroke-width="3"/>
+    <path d="M160 240 L760 222 L790 410 L200 430 Z" fill="url(#shaleDark)" opacity="0.35"/>
+    <!-- crack line -->
+    <path d="M200 300 Q380 280 480 320 Q600 350 760 300" fill="none" stroke="#c8d0d8" stroke-width="2.5" opacity="0.55" stroke-linecap="round"/>
+    <path d="M220 360 Q400 340 520 370 Q640 395 740 360" fill="none" stroke="#1a2228" stroke-width="1.5" opacity="0.4"/>
+    <!-- layer lines -->
+    <path d="M180 260 L790 240" fill="none" stroke="#6a747c" stroke-width="1" opacity="0.35"/>
+    <path d="M185 400 L800 380" fill="none" stroke="#6a747c" stroke-width="1" opacity="0.3"/>
+  </g>
+
+  <!-- Creature 1: hallucigenia-ish spines (left) -->
+  <g id="hallucigenia" filter="url(#glow)" opacity="0.95">
+    <ellipse cx="260" cy="320" rx="42" ry="14" fill="#5a8a78" opacity="0.85"/>
+    <line x1="230" y1="310" x2="220" y2="275" stroke="#a0ffd0" stroke-width="3" stroke-linecap="round"/>
+    <line x1="245" y1="308" x2="240" y2="268" stroke="#7dffc8" stroke-width="3" stroke-linecap="round"/>
+    <line x1="260" y1="306" x2="260" y2="262" stroke="#a0ffd0" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="275" y1="308" x2="280" y2="268" stroke="#7dffc8" stroke-width="3" stroke-linecap="round"/>
+    <line x1="290" y1="310" x2="300" y2="275" stroke="#a0ffd0" stroke-width="3" stroke-linecap="round"/>
+    <!-- soft legs -->
+    <line x1="235" y1="328" x2="228" y2="348" stroke="#6a9a88" stroke-width="2.5"/>
+    <line x1="255" y1="330" x2="252" y2="352" stroke="#6a9a88" stroke-width="2.5"/>
+    <line x1="275" y1="330" x2="280" y2="350" stroke="#6a9a88" stroke-width="2.5"/>
+    <circle cx="260" cy="262" r="4" fill="#c8ffe8"/>
+  </g>
+
+  <!-- Creature 2: opabinia-ish stalk eyes + proboscis (center-left) -->
+  <g id="opabinia" filter="url(#glow)">
+    <ellipse cx="400" cy="345" rx="50" ry="18" fill="#6a7ab0" opacity="0.9"/>
+    <!-- five stalk eyes -->
+    <line x1="370" y1="335" x2="355" y2="300" stroke="#a0b8ff" stroke-width="2"/>
+    <circle cx="355" cy="296" r="5" fill="#e0f0ff"/>
+    <line x1="385" y1="330" x2="375" y2="290" stroke="#a0b8ff" stroke-width="2"/>
+    <circle cx="375" cy="286" r="5" fill="#e0f0ff"/>
+    <line x1="400" y1="328" x2="400" y2="282" stroke="#c0d0ff" stroke-width="2.5"/>
+    <circle cx="400" cy="278" r="6" fill="#ffffff"/>
+    <line x1="415" y1="330" x2="425" y2="290" stroke="#a0b8ff" stroke-width="2"/>
+    <circle cx="425" cy="286" r="5" fill="#e0f0ff"/>
+    <line x1="430" y1="335" x2="445" y2="300" stroke="#a0b8ff" stroke-width="2"/>
+    <circle cx="445" cy="296" r="5" fill="#e0f0ff"/>
+    <!-- proboscis -->
+    <path d="M450 345 Q490 330 520 355 Q535 365 545 350" fill="none" stroke="#90a0d0" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="548" cy="348" r="7" fill="#b0c0e8" opacity="0.9"/>
+  </g>
+
+  <!-- Creature 3: anomalocaris-ish (center-right, larger) -->
+  <g id="anomalocaris" filter="url(#glow)">
+    <ellipse cx="580" cy="310" rx="70" ry="28" fill="#8a6070" opacity="0.88"/>
+    <!-- lateral fins -->
+    <ellipse cx="540" cy="335" rx="28" ry="10" fill="#a07888" opacity="0.7" transform="rotate(-15 540 335)"/>
+    <ellipse cx="620" cy="335" rx="28" ry="10" fill="#a07888" opacity="0.7" transform="rotate(15 620 335)"/>
+    <!-- grasping appendages -->
+    <path d="M510 300 Q480 280 460 295" fill="none" stroke="#c090a0" stroke-width="4" stroke-linecap="round"/>
+    <path d="M515 315 Q485 325 465 340" fill="none" stroke="#c090a0" stroke-width="4" stroke-linecap="round"/>
+    <!-- compound eyes -->
+    <circle cx="525" cy="295" r="8" fill="#ffd0e0" opacity="0.95"/>
+    <circle cx="525" cy="295" r="3" fill="#2a1820"/>
+    <circle cx="545" cy="292" r="7" fill="#ffd0e0" opacity="0.9"/>
+    <circle cx="545" cy="292" r="2.5" fill="#2a1820"/>
+    <!-- tail fan -->
+    <path d="M640 310 L680 290 L675 310 L680 330 Z" fill="#b08090" opacity="0.75"/>
+  </g>
+
+  <!-- Creature 4: pikaia-ish chordate ribbon (lower center) -->
+  <g id="pikaia" filter="url(#glow)">
+    <path d="M320 400 Q380 385 440 405 Q500 425 560 400 Q600 385 640 395" fill="none" stroke="#90d0a8" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+    <path d="M320 400 Q380 385 440 405 Q500 425 560 400 Q600 385 640 395" fill="none" stroke="#c8ffe0" stroke-width="2" opacity="0.7"/>
+    <!-- notochord suggestion -->
+    <path d="M330 400 Q390 388 450 406 Q510 422 570 402" fill="none" stroke="#2a4a38" stroke-width="1.5" opacity="0.5"/>
+    <circle cx="318" cy="400" r="5" fill="#b0f0c8"/>
+  </g>
+
+  <!-- Creature 5: tiny wiwaxia-ish scales (right lower) -->
+  <g id="wiwaxia" filter="url(#glow)">
+    <ellipse cx="700" cy="380" rx="32" ry="20" fill="#7080a0" opacity="0.85"/>
+    <line x1="680" y1="370" x2="665" y2="345" stroke="#a0b0d0" stroke-width="2.5"/>
+    <line x1="700" y1="365" x2="700" y2="335" stroke="#c0d0f0" stroke-width="3"/>
+    <line x1="720" y1="370" x2="735" y2="345" stroke="#a0b0d0" stroke-width="2.5"/>
+    <line x1="690" y1="375" x2="675" y2="355" stroke="#90a0c0" stroke-width="2"/>
+    <line x1="710" y1="375" x2="725" y2="355" stroke="#90a0c0" stroke-width="2"/>
+    <!-- scales -->
+    <path d="M678 385 Q700 395 722 385" fill="none" stroke="#d0d8e8" stroke-width="1.5" opacity="0.6"/>
+  </g>
+
+  <!-- soft flux arcs across crack -->
+  <path d="M250 300 Q400 250 580 290" fill="none" stroke="url(#softGlow)" stroke-width="2" opacity="0.45" filter="url(#soft)"/>
+  <path d="M300 360 Q480 330 650 350" fill="none" stroke="url(#softGlow)" stroke-width="1.5" opacity="0.35" filter="url(#soft)"/>
+
+  <!-- peeling hard trilobite museum label -->
+  <g id="trilobite-label" transform="translate(720,210) rotate(-12)">
+    <rect x="0" y="0" width="130" height="70" rx="3" fill="#f0e8d8" stroke="#8a7a60" stroke-width="1.5"/>
+    <rect x="8" y="8" width="114" height="54" fill="none" stroke="#c0b090" stroke-width="0.8" stroke-dasharray="3 2"/>
+    <!-- hard trilobite silhouette -->
+    <ellipse cx="45" cy="35" rx="22" ry="12" fill="#6a5a48" opacity="0.7"/>
+    <ellipse cx="30" cy="35" rx="8" ry="8" fill="#5a4a38" opacity="0.6"/>
+    <ellipse cx="60" cy="35" rx="10" ry="7" fill="#5a4a38" opacity="0.55"/>
+    <text x="88" y="28" text-anchor="middle" fill="#5a4a38" font-family="Georgia, serif" font-size="9">TRILOBITE</text>
+    <text x="88" y="42" text-anchor="middle" fill="#8a7a60" font-family="Georgia, serif" font-size="7">only?</text>
+    <text x="88" y="54" text-anchor="middle" fill="#a09070" font-family="Georgia, serif" font-size="6">label peeling</text>
+    <!-- peel corner -->
+    <path d="M100 0 L130 0 L130 22 Z" fill="#d8d0c0" stroke="#8a7a60" stroke-width="1"/>
+  </g>
+
+  <!-- guest VM shell window (soft tissue inside hard shell) -->
+  <g id="guest-shell" transform="translate(90,430)">
+    <rect x="0" y="0" width="150" height="48" rx="4" fill="#1a2830" stroke="#5dffc8" stroke-width="1.5" opacity="0.9"/>
+    <rect x="6" y="6" width="138" height="14" rx="2" fill="#2a3840"/>
+    <circle cx="14" cy="13" r="3" fill="#ff6a6a" opacity="0.8"/>
+    <circle cx="24" cy="13" r="3" fill="#ffd06a" opacity="0.8"/>
+    <circle cx="34" cy="13" r="3" fill="#6aff8a" opacity="0.8"/>
+    <text x="75" y="17" text-anchor="middle" fill="#8a9aa8" font-family="ui-monospace, monospace" font-size="8">guest · SME2</text>
+    <text x="75" y="36" text-anchor="middle" fill="#7dffc8" font-family="ui-monospace, monospace" font-size="10">ollama inside shell</text>
+  </g>
+
+  <!-- production type specimen key -->
+  <g id="type-key" transform="translate(760,455)">
+    <rect x="0" y="0" width="100" height="28" rx="4" fill="#1a2228" stroke="#ffd080" stroke-width="1.5"/>
+    <text x="50" y="18" text-anchor="middle" fill="#ffd080" font-family="ui-monospace, monospace" font-size="10">v0.33.2 pin</text>
+  </g>
+
+  <!-- caption -->
+  <text x="480" y="600" text-anchor="middle" fill="#9aabb0" font-family="Georgia, serif" font-size="12" letter-spacing="0.5">name the soft fauna · exceptional preservation · type specimen, not drawer label</text>
+  <text x="480" y="620" text-anchor="middle" fill="#6a7a88" font-family="Georgia, serif" font-size="11">after both windings · the shale still keeps what hard taxonomy throws away</text>
+</svg>
