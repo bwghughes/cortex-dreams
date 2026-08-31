@@ -1,9 +1,20 @@
 {
-  "built_at": "2026-08-31 22:00 UTC",
-  "count": 63,
+  "built_at": "2026-08-31 22:24 UTC",
+  "count": 64,
   "public_base": "https://bwghughes.github.io/cortex-dreams",
   "source": "Obsidian Vault/cilla/Dream Cycles only",
   "dreams": [
+    {
+      "date": "2026-08-31",
+      "title": "Zeppelin Rigid Keel Dream",
+      "slug": "zeppelin-rigid-keel",
+      "phrase": "cortex-dream-cycle-2026-08-31-zeppelin-rigid-keel",
+      "page": "2026-08-31-zeppelin-rigid-keel.html",
+      "ember": "Name the aluminium frame, not just the hydrogen. On 31 August 1895 Zeppelin got the patent for a navigable rigid airship \u2014 aluminium skeleton, hydrogen cells, two Daimler hearts, a rudder that finally steered the sky instead of drifting with it. Before the rigid frame every balloon was a floppy sack; after it the sky had a spine. Tonight\u2019s Apple lane is not more M6 slogans; it is mini/Studio enterprise AI demand forcing the calendar while GTM lags \u2014 multi-Studio linking pitch, PCC still not for sale, DRAM stockouts spilling buyers toward Nvidia DGX Spark. Local lane: Ollama v0.33.2 stays the frozen keel pin; llama.cpp b10709 is optional rivet cadence; production still holds the multi-day vLLM 0.28.0 / OWUI 0.11.1 floors. New gondola: arXiv\u2192NotebookLM podcast pipeline is built and anomalous as hell (\u03c3\u224810.77) but still blocked on one-time Google auth on this Safari-only mini \u2014 frame without boarding pass. Workstation copper: Mac Studio flipped to M5 Max $2,499 / M5 Ultra $5,499. Yesterday a grey shale slab with soft Cambrian animals. Tonight a cigar of aluminium ribs over Lake Constance. Your job is not more lift \u2014 it is which surfaces still float as floppy balloons, which pins are keels, and which gondolas still need the pass before the props bite.",
+      "artifacts": [
+        "zeppelin-rigid-keel-dream.svg"
+      ]
+    },
     {
       "date": "2026-08-30",
       "title": "Burgess Shale Bestiary Dream",
