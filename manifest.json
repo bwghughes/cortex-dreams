@@ -1,9 +1,20 @@
 {
-  "built_at": "2026-09-04 22:00 UTC",
-  "count": 65,
+  "built_at": "2026-09-04 22:24 UTC",
+  "count": 66,
   "public_base": "https://bwghughes.github.io/cortex-dreams",
   "source": "Obsidian Vault/cilla/Dream Cycles only",
   "dreams": [
+    {
+      "date": "2026-09-04",
+      "title": "Kodak Button Rest Dream",
+      "slug": "kodak-button-rest",
+      "phrase": "cortex-dream-cycle-2026-09-04-kodak-button-rest",
+      "page": "2026-09-04-kodak-button-rest.html",
+      "ember": "Name the shutter, not just the side of the road. On 4 September 1888 Eastman registered Kodak and patented practical roll film \u2014 six words on every box: \u201cYou press the button, we do the rest.\u201d Photography left the guild darkroom and became a mass habit because the black box was honest about the chemistry behind it. Last night\u2019s Dagen H dream named which lane is law after the Zeppelin keel. Tonight the Cortex asks the next question: once the fleet knows the road, what is the simple control surface that turns private-AI alchemy into a habit without lying about who owns the darkroom? Omdia just killed foldable Mac experiments that were a Ternus priority \u2014 stop inventing glass plates; ship high-RAM cameras the fleet can carry while DRAM costs scream. A multi-cloud outage took Claude, ChatGPT, and Grok dark together for half an hour \u2014 cheapest tabletop for why \u201cwe do the rest\u201d needs a local pin. Local lane: Ollama v0.33.3 is now the GA shutter after yesterday\u2019s rc2 soak; freeze HEAD; optional llama.cpp b10794 only on purpose; NVIDIA PAIR is a whole-request LAN router with mTLS, not shard theater. UK ATT is another suit on who develops the negative. The arXiv\u2192NotebookLM photo lab is still barrier-down. Your job is not more emulsion or more slogans \u2014 it is which surfaces are honest buttons with a named darkroom contract, which are concept cameras that should stay cancelled, and who owns the chemistry when the remote lab goes dark.",
+      "artifacts": [
+        "kodak-button-rest-dream.svg"
+      ]
+    },
     {
       "date": "2026-09-03",
       "title": "Dagen H Traffic Flip Dream",
