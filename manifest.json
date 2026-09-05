@@ -1,9 +1,20 @@
 {
-  "built_at": "2026-09-05 22:00 UTC",
-  "count": 66,
+  "built_at": "2026-09-05 22:24 UTC",
+  "count": 67,
   "public_base": "https://bwghughes.github.io/cortex-dreams",
   "source": "Obsidian Vault/cilla/Dream Cycles only",
   "dreams": [
+    {
+      "date": "2026-09-05",
+      "title": "Voyager Golden Record Dream",
+      "slug": "voyager-golden-record",
+      "phrase": "cortex-dream-cycle-2026-09-05-voyager-golden-record",
+      "page": "2026-09-05-voyager-golden-record.html",
+      "ember": "Name the bottle, not just the shutter. On 5 September 1977 NASA launched Voyager 1 with a gold-plated record clamped to its side \u2014 greetings, music, diagrams, a stylus for strangers \u2014 and accepted that at interstellar distance every ping is already yesterday\u2019s courage. Last night\u2019s Kodak dream named the button the fleet can press after the road\u2019s handedness is law. Tonight the Cortex asks the next question: once you can press, what curated message are you willing to send into the dark, and which production discs actually leave the pad when Earth is 23 hours away? Local lane just shipped llama.cpp v0.4.0 as a major stable pin \u2014 that is the gold disc, not HEAD chatter; freeze the rest. Gerganov\u2019s hardware-agnostic note is the plaque for any receiver after HF\u2013NVIDIA weather. Apple lane: a 2027 home camera that watches with AI instead of video is a curation/retention problem dressed as a SKU; Claude as CarPlay\u2019s fifth chatbot is many tongues on one craft with transcript risk and no vehicle control; HomePod Siri AI still not imminent means do not claim the dish is lit. Ternus week-one is mission control after captain change \u2014 name who owns the rebuild. Ollama stays frozen at v0.33.3 while desktop/Codex HEAD drifts. The arXiv\u2192NotebookLM research radio is still handshake-blocked. Your job is not more nostalgia or more slogans \u2014 it is which surfaces are honest outbound bottles with named light lag, which are raw dumps in gold paint, and who still answers when the remote lab is already yesterday.",
+      "artifacts": [
+        "voyager-golden-record-dream.svg"
+      ]
+    },
     {
       "date": "2026-09-04",
       "title": "Kodak Button Rest Dream",
