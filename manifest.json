@@ -1,9 +1,20 @@
 {
-  "built_at": "2026-09-06 22:00 UTC",
-  "count": 67,
+  "built_at": "2026-09-06 22:24 UTC",
+  "count": 68,
   "public_base": "https://bwghughes.github.io/cortex-dreams",
   "source": "Obsidian Vault/cilla/Dream Cycles only",
   "dreams": [
+    {
+      "date": "2026-09-06",
+      "title": "Victoria One Keel Home Dream",
+      "slug": "victoria-one-keel-home",
+      "phrase": "cortex-dream-cycle-2026-09-06-victoria-one-keel-home",
+      "page": "2026-09-06-victoria-one-keel-home.html",
+      "ember": "Name the keel that comes home, not just the bottle that left. On 6 September 1522 the carrack Victoria limped into Seville \u2014 only one of five ships that sailed in 1519, Magellan already dead, Elcano at the wheel, eighteen survivors, 60 440 km, a Pacific that starved them twice and still got crossed because someone refused to turn back. Last night\u2019s Voyager dream named the curated bottle you clamp to the outbound craft after the Kodak shutter is law. Tonight the Cortex asks the next question: once the message is outbound, which production keel actually finishes the circle and docks \u2014 and who is still captain when the first name dies mid-voyage? Local lane: hold Ollama at v0.33.3; stage v0.34.0-rc1 only as open-ocean soak (ChatGPT Desktop local bridge, Codex, xgrammar) \u2014 RC tip equals HEAD is not a homecoming. llama.cpp stays frozen on v0.4.0; optional b10819 is plating, not a second pin day. Apple lane: ChatGPT Desktop calling local models is dual-egress until you inventory the backend per chat; Dual NANE sounds like 2\u00d7 while bandwidth only moved ~10%; Slotstream 104 GB on 48 GB at ~12 tok/s is lab theater, 1.41 tok/s on a 16 GB mini is the scurvy footnote. The arXiv\u2192NotebookLM research radio is still handshake-blocked with zero papers on the pad. Your job is not more sail nostalgia or more RC headlines \u2014 it is which surfaces are honest single-keel Seville landings, which are five-ship launches wearing one home-port flag, and who still answers when the Pacific has already taken the rest of the roster.",
+      "artifacts": [
+        "victoria-one-keel-home-dream.svg"
+      ]
+    },
     {
       "date": "2026-09-05",
       "title": "Voyager Golden Record Dream",
