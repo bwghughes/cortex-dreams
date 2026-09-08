@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="Star Trek first contact dream: saucer and nacelles against deep space, hailing beam as a cyan cone, open channel between cage of yesterday and the stars">
+  <defs>
+    <linearGradient id="void" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#02040c"/>
+      <stop offset="55%" stop-color="#0a1430"/>
+      <stop offset="100%" stop-color="#121028"/>
+    </linearGradient>
+    <radialGradient id="nebula" cx="72%" cy="28%" r="45%">
+      <stop offset="0%" stop-color="#3a2060" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#1a3060" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hull" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d8e4f0"/>
+      <stop offset="45%" stop-color="#8aa0b8"/>
+      <stop offset="100%" stop-color="#3a4858"/>
+    </linearGradient>
+    <linearGradient id="nacelle" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6a7888"/>
+      <stop offset="50%" stop-color="#c0d0e0"/>
+      <stop offset="100%" stop-color="#4a5868"/>
+    </linearGradient>
+    <linearGradient id="hail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#40f0ff" stop-opacity="0.85"/>
+      <stop offset="60%" stop-color="#2080ff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#1040a0" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="deflector" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff8c0" stop-opacity="1"/>
+      <stop offset="40%" stop-color="#40e0ff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#1040a0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a2840"/>
+      <stop offset="100%" stop-color="#0a1020"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.1" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Deep space -->
+  <rect width="1200" height="720" fill="url(#void)"/>
+  <rect width="1200" height="720" fill="url(#nebula)"/>
+
+  <!-- Stars -->
+  <g fill="#e8f0ff" opacity="0.9">
+    <circle cx="80" cy="60" r="1.4"/><circle cx="160" cy="120" r="1"/><circle cx="240" cy="40" r="1.2"/>
+    <circle cx="320" cy="90" r="0.9"/><circle cx="400" cy="30" r="1.5"/><circle cx="480" cy="150" r="1"/>
+    <circle cx="560" cy="55" r="1.1"/><circle cx="640" cy="100" r="0.8"/><circle cx="720" cy="25" r="1.3"/>
+    <circle cx="800" cy="80" r="1"/><circle cx="880" cy="45" r="1.4"/><circle cx="960" cy="130" r="0.9"/>
+    <circle cx="1040" cy="35" r="1.2"/><circle cx="1120" cy="95" r="1"/><circle cx="70" cy="200" r="0.8"/>
+    <circle cx="190" cy="250" r="1.1"/><circle cx="300" cy="180" r="0.7"/><circle cx="450" cy="220" r="1"/>
+    <circle cx="610" cy="190" r="0.9"/><circle cx="770" cy="240" r="1.2"/><circle cx="930" cy="200" r="0.8"/>
+    <circle cx="1080" cy="260" r="1"/><circle cx="150" cy="340" r="0.9"/><circle cx="980" cy="320" r="1.1"/>
+    <circle cx="50" cy="480" r="1"/><circle cx="1100" cy="500" r="1.3"/><circle cx="250" cy="560" r="0.8"/>
+    <circle cx="850" cy="580" r="1"/><circle cx="1050" cy="620" r="0.9"/><circle cx="40" cy="650" r="1.1"/>
+  </g>
+  <!-- Brighter guide stars -->
+  <g filter="url(#glow)">
+    <circle cx="180" cy="90" r="2.2" fill="#a0d8ff"/>
+    <circle cx="920" cy="70" r="2.5" fill="#fff0c0"/>
+    <circle cx="1050" cy="180" r="2" fill="#80f0ff"/>
+  </g>
+
+  <!-- Distant planet (cage echo — small dark disc with faint bars) -->
+  <g opacity="0.55" transform="translate(140,520)">
+    <circle cx="0" cy="0" r="48" fill="#2a2018" stroke="#5a4830" stroke-width="2"/>
+    <g stroke="#6a5840" stroke-width="1.5" opacity="0.7">
+      <line x1="-40" y1="-20" x2="40" y2="-20"/>
+      <line x1="-42" y1="0" x2="42" y2="0"/>
+      <line x1="-40" y1="20" x2="40" y2="20"/>
+      <line x1="-15" y1="-42" x2="-15" y2="42"/>
+      <line x1="0" y1="-45" x2="0" y2="45"/>
+      <line x1="15" y1="-42" x2="15" y2="42"/>
+    </g>
+    <text x="0" y="72" text-anchor="middle" fill="#8a7858" font-family="Georgia, serif" font-size="11" opacity="0.85">YESTERDAY'S CAGE</text>
+  </g>
+
+  <!-- Hailing beam from ship toward the open dark -->
+  <g filter="url(#soft)" opacity="0.9">
+    <path d="M 620 360 L 1180 200 L 1180 420 Z" fill="url(#hail)"/>
+  </g>
+  <!-- Pulse rings on the beam -->
+  <g fill="none" stroke="#60e8ff" stroke-opacity="0.35" stroke-width="1.5">
+    <ellipse cx="780" cy="330" rx="28" ry="42"/>
+    <ellipse cx="900" cy="310" rx="36" ry="52"/>
+    <ellipse cx="1030" cy="290" rx="44" ry="62"/>
+  </g>
+
+  <!-- Enterprise-ish silhouette (stylized, not logo clone) -->
+  <g transform="translate(380,300)" filter="url(#soft)">
+    <!-- Secondary hull / engineering -->
+    <ellipse cx="80" cy="55" rx="95" ry="28" fill="url(#hull)" stroke="#c8d8e8" stroke-width="1"/>
+    <!-- Neck -->
+    <path d="M 40 20 L 70 20 L 95 -5 L 55 -5 Z" fill="#9aacc0" stroke="#c8d8e8" stroke-width="0.8"/>
+    <!-- Saucer -->
+    <ellipse cx="20" cy="-25" rx="110" ry="38" fill="url(#hull)" stroke="#e0ecf8" stroke-width="1.2"/>
+    <ellipse cx="20" cy="-25" rx="38" ry="14" fill="#2a3850" opacity="0.55"/>
+    <circle cx="20" cy="-25" r="8" fill="#60d0ff" opacity="0.7" filter="url(#glow)"/>
+    <!-- Nacelle pylons -->
+    <path d="M 50 40 L 20 95" stroke="#7a8a9a" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 110 40 L 140 95" stroke="#7a8a9a" stroke-width="6" stroke-linecap="round"/>
+    <!-- Nacelles -->
+    <rect x="-30" y="88" width="110" height="22" rx="11" fill="url(#nacelle)" stroke="#b0c0d0" stroke-width="1"/>
+    <rect x="90" y="88" width="110" height="22" rx="11" fill="url(#nacelle)" stroke="#b0c0d0" stroke-width="1"/>
+    <rect x="-28" y="92" width="28" height="14" rx="4" fill="#20e0ff" opacity="0.85" filter="url(#glow)"/>
+    <rect x="92" y="92" width="28" height="14" rx="4" fill="#20e0ff" opacity="0.85" filter="url(#glow)"/>
+    <!-- Deflector -->
+    <circle cx="175" cy="55" r="14" fill="url(#deflector)" filter="url(#glow)"/>
+    <circle cx="175" cy="55" r="6" fill="#fff8d0"/>
+  </g>
+
+  <!-- LCARS-ish bridge strip (left) -->
+  <g transform="translate(36,40)">
+    <rect width="220" height="210" rx="8" fill="url(#panel)" stroke="#f0a040" stroke-width="2"/>
+    <rect x="10" y="10" width="200" height="18" rx="3" fill="#f0a040"/>
+    <text x="20" y="23" fill="#1a1020" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="700">HAILING FREQUENCIES</text>
+    <rect x="10" y="40" width="90" height="28" rx="4" fill="#cc4040"/>
+    <text x="55" y="58" text-anchor="middle" fill="#fff" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="700">OPEN</text>
+    <rect x="110" y="40" width="90" height="28" rx="4" fill="#3080c0"/>
+    <text x="155" y="58" text-anchor="middle" fill="#fff" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="700">ENGAGE</text>
+    <rect x="10" y="78" width="200" height="12" rx="2" fill="#e08030"/>
+    <rect x="10" y="98" width="130" height="12" rx="2" fill="#c06020"/>
+    <rect x="150" y="98" width="60" height="12" rx="2" fill="#4080a0"/>
+    <rect x="10" y="120" width="60" height="40" rx="3" fill="#f0c040"/>
+    <rect x="80" y="120" width="60" height="40" rx="3" fill="#60a0d0"/>
+    <rect x="150" y="120" width="60" height="40" rx="3" fill="#d05050"/>
+    <text x="110" y="185" text-anchor="middle" fill="#f0c080" font-family="Georgia, serif" font-size="12">FIRST CONTACT</text>
+    <text x="110" y="202" text-anchor="middle" fill="#80a0c0" font-family="Helvetica, Arial, sans-serif" font-size="9">8 SEP 1966 · 60 YEARS</text>
+  </g>
+
+  <!-- Caption -->
+  <text x="600" y="680" text-anchor="middle" fill="#c8d8f0" font-family="Georgia, serif" font-size="20">Open the channel. Name the hail.</text>
+  <text x="600" y="706" text-anchor="middle" fill="#7080a0" font-family="Helvetica, Arial, sans-serif" font-size="12">cortex dream · 2026-09-08 · after the last cage, the stars speak back</text>
+</svg>

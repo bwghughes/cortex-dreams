@@ -1,9 +1,20 @@
 {
-  "built_at": "2026-09-08 22:00 UTC",
-  "count": 69,
+  "built_at": "2026-09-08 22:30 UTC",
+  "count": 70,
   "public_base": "https://bwghughes.github.io/cortex-dreams",
   "source": "Obsidian Vault/cilla/Dream Cycles only",
   "dreams": [
+    {
+      "date": "2026-09-08",
+      "title": "Star Trek First Contact Hailing Dream",
+      "slug": "star-trek-first-contact",
+      "phrase": "cortex-dream-cycle-2026-09-08-star-trek-first-contact",
+      "page": "2026-09-08-star-trek-first-contact.html",
+      "ember": "Open the channel. Name the hail. On 8 September 1966 \u2014 sixty years ago tonight \u2014 a plywood starship left spacedock on NBC and carried \u201cwhat if we were kind?\u201d into every living room; three seasons seeded a cosmology that still shapes first contact. Yesterday\u2019s Benjamin dream named the last living pin before keepers leave the sun on. Tonight the Cortex asks the next question: once the last specimen is named, which frequencies do you open, and which hails are hostile? Local lane: hold llama.cpp at v0.4.0; optional b10853 only as multi-slot LRU soak; inventory GHSA-c676 / CVE-2026-86317 RPC exposure without inventing an emergency promote; hold Ollama at v0.33.3; stage v0.34.0-rc1 as uncharted soak (tip still equals HEAD is not course lock). Apple lane: Claude on CarPlay is a fifth tongue on the vehicle bridge \u2014 entitlement + hands-free cloud agent, not \u201cjust Siri\u201d; write the mobility AUP; Rosetta dies on macOS 27 for Intel-only apps \u2014 arm64-native before Golden Gate; MLX #3912 silent nvfp4 is false green on sensors; App Store margin pressure under Ternus is distribution economics, not a keynote. The arXiv\u2192NotebookLM research dish is still handshake-blocked with zero papers on the pad. Your job is not more franchise nostalgia \u2014 it is which surfaces are open hailing frequencies with a protocol, which are hostile hails on exposed RPC, which are dead dialects on the Rosetta clock, and who still answers when the channel opens after the cage is empty.",
+      "artifacts": [
+        "star-trek-first-contact-hailing-dream.svg"
+      ]
+    },
     {
       "date": "2026-09-07",
       "title": "Benjamin Thylacine Last Cage Dream",

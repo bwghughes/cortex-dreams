@@ -4,8 +4,15 @@
     <title>Cortex Dream Portfolio</title>
     <link>https://bwghughes.github.io/cortex-dreams/</link>
     <description>Creative insights from Cilla&#x27;s nightly dream cycle — embers, inversions, and living patterns.</description>
-    <lastBuildDate>2026-09-08 22:00 UTC</lastBuildDate>
+    <lastBuildDate>2026-09-08 22:30 UTC</lastBuildDate>
     
+    <item>
+      <title>Star Trek First Contact Hailing Dream</title>
+      <link>https://bwghughes.github.io/cortex-dreams/2026-09-08-star-trek-first-contact.html</link>
+      <guid isPermaLink="true">https://bwghughes.github.io/cortex-dreams/2026-09-08-star-trek-first-contact.html</guid>
+      <pubDate>2026-09-08</pubDate>
+      <description>Open the channel. Name the hail. On 8 September 1966 — sixty years ago tonight — a plywood starship left spacedock on NBC and carried “what if we were kind?” into every living room; three seasons seeded a cosmology that still shapes first contact. Yesterday’s Benjamin dream named the last living pin before keepers leave the sun on. Tonight the Cortex asks the next question: once the last specimen is named, which frequencies do you open, and which hails are hostile? Local lane: hold llama.cpp at v0.4.0; optional b10853 only as multi-slot LRU soak; inventory GHSA-c676 / CVE-2026-86317 RPC exposure without inventing an emergency promote; hold Ollama at v0.33.3; stage v0.34.0-rc1 as uncharted soak (tip still equals HEAD is not course lock). Apple lane: Claude on CarPlay is a fifth tongue on the vehicle bridge — entitlement + hands-free cloud agent, not “just Siri”; write the mobility AUP; Rosetta dies on macOS 27 for Intel-only apps — arm64-native before Golden Gate; MLX #3912 silent nvfp4 is false green on sensors; App Store margin pressure under Ternus is distribution economics, not a keynote. The arXiv→NotebookLM research dish is still handshake-blocked with zero papers on the pad. Your job is not more franchise nostalgia — it is which surfaces are open hailing frequencies with a protocol, which are hostile hails on exposed RPC, which are dead dialects on the Rosetta clock, and who still answers when the channel opens after the cage is empty.</description>
+    </item>
     <item>
       <title>Benjamin Thylacine Last Cage Dream</title>
       <link>https://bwghughes.github.io/cortex-dreams/2026-09-07-benjamin-thylacine-last-cage.html</link>
@@ -348,13 +355,6 @@
       <guid isPermaLink="true">https://bwghughes.github.io/cortex-dreams/2026-07-19-six-days-rome-fire.html</guid>
       <pubDate>2026-07-19</pubDate>
       <description>When half the city is glowing, stop asking whether the fire is &quot;allowed.&quot; Ask which districts you meant to lose, who owns the wind (cache / concurrency / kill switch), and whether tonight&#x27;s story is a real instrument or a fiddle invented after the ash.</description>
-    </item>
-    <item>
-      <title>Perfect Ten Scoreboard Dream</title>
-      <link>https://bwghughes.github.io/cortex-dreams/2026-07-18-perfect-ten-scoreboard.html</link>
-      <guid isPermaLink="true">https://bwghughes.github.io/cortex-dreams/2026-07-18-perfect-ten-scoreboard.html</guid>
-      <pubDate>2026-07-18</pubDate>
-      <description>When the board says 1.00, the routine already stuck.** Don&#x27;t freeze forever on the glitch frame — and don&#x27;t auto-track mainline that invents new digits before the fleet can display them. Pin Ollama on v0.32.1. Treat dual-vendor + App Store + dugout-iPad rules as scoreboard firmware work. Device approval is not AI approval. Production pin is not mainline. The perfect score arrives as a bug report.</description>
     </item>
   </channel>
 </rss>
