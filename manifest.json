@@ -1,9 +1,20 @@
 {
-  "built_at": "2026-09-09 22:01 UTC",
-  "count": 70,
+  "built_at": "2026-09-09 22:26 UTC",
+  "count": 71,
   "public_base": "https://bwghughes.github.io/cortex-dreams",
   "source": "Obsidian Vault/cilla/Dream Cycles only",
   "dreams": [
+    {
+      "date": "2026-09-09",
+      "title": "Grace Hopper First Bug Dream",
+      "slug": "grace-hopper-first-bug",
+      "phrase": "cortex-dream-cycle-2026-09-09-grace-hopper-first-bug",
+      "page": "2026-09-09-grace-hopper-first-bug.html",
+      "ember": "Name the moth, not the myth. On 9 September 1947 \u2014 seventy-nine years ago tonight \u2014 Grace Hopper\u2019s crew taped a moth into the Harvard Mark II logbook and wrote \u201cFirst actual case of bug being found\u201d; the wing is still in the Smithsonian while every later crash learned to speak in insects. Yesterday\u2019s Star Trek dream opened the channel and asked which hails are hostile. Tonight the Cortex asks the next question: once the channel is open, what walks into the panel with wings? Local lane: hold Ollama at v0.33.3; stage v0.34.0-rc3 as open-relay soak (tip still equals HEAD is not a pin); treat arXiv 2609.07115 Ollama in the Wild as exposure receipt, not vibes; keep llama.cpp at v0.4.0; optional b10868 only as sensor soak; continue OWUI \u22650.11.3 and vLLM v0.28.0 floors. Apple lane: Surprise and Shine is plywood; Sonera neural sensing is a multi-year biometric DPIA before any SKU; Apple TV jumping to 8\u201312 GB makes every conference-room screen an AI endpoint in the asset matrix; Ollama inside ChatGPT Desktop is dual-hat habitat \u2014 cloud chrome, local weights \u2014 write the AUP that names both; UK device-level child-safety is forced fleet debugging, not a slogan; MLX #3912 silent nvfp4 is still false green. The research dish selected six papers and still cannot board (NotebookLM auth missing). Your job is not more debugging folklore \u2014 it is which surfaces are honest logbooks that tape the moth, which RCs are still open relays humming with the panel ajar, which sensing panels will collect the next living failure, and who still opens the chassis after the keynote lights go down.",
+      "artifacts": [
+        "grace-hopper-first-bug-dream.svg"
+      ]
+    },
     {
       "date": "2026-09-08",
       "title": "Star Trek First Contact Hailing Dream",

@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="Grace Hopper first bug dream: open relay panel, moth taped in the logbook, first contact channel still glowing behind the found wing">
+  <defs>
+    <linearGradient id="lab" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1420"/>
+      <stop offset="45%" stop-color="#2a1e28"/>
+      <stop offset="100%" stop-color="#0e0c12"/>
+    </linearGradient>
+    <linearGradient id="brass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8c878"/>
+      <stop offset="50%" stop-color="#b88840"/>
+      <stop offset="100%" stop-color="#6a4820"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3a4858"/>
+      <stop offset="50%" stop-color="#1e2834"/>
+      <stop offset="100%" stop-color="#121820"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f4ecd8"/>
+      <stop offset="100%" stop-color="#d8c8a0"/>
+    </linearGradient>
+    <linearGradient id="wing" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d8c8a8"/>
+      <stop offset="40%" stop-color="#a89070"/>
+      <stop offset="100%" stop-color="#5a4830"/>
+    </linearGradient>
+    <radialGradient id="hailglow" cx="18%" cy="22%" r="35%">
+      <stop offset="0%" stop-color="#40f0ff" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#2060a0" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="mothglow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- lab night -->
+  <rect width="1200" height="720" fill="url(#lab)"/>
+  <rect width="1200" height="720" fill="url(#hailglow)"/>
+
+  <!-- residual first-contact stars (yesterday's open channel still faintly open) -->
+  <g fill="#c8d8f0" opacity="0.55">
+    <circle cx="90" cy="70" r="1.5"/>
+    <circle cx="160" cy="120" r="1"/>
+    <circle cx="240" cy="55" r="1.2"/>
+    <circle cx="320" cy="95" r="0.8"/>
+    <circle cx="70" cy="180" r="1"/>
+    <circle cx="200" cy="200" r="0.7"/>
+  </g>
+  <path d="M40 40 L180 90 L40 140 Z" fill="#40e0ff" opacity="0.08"/>
+  <text x="48" y="36" fill="#70c8e8" font-family="ui-monospace, Menlo, monospace" font-size="11" opacity="0.55">OPEN HAILING — RESIDUAL</text>
+
+  <!-- machine chassis -->
+  <rect x="80" y="160" width="720" height="460" rx="18" fill="url(#panel)" stroke="#6a7888" stroke-width="3"/>
+  <rect x="110" y="190" width="660" height="400" rx="8" fill="#0c1018" stroke="#4a5868" stroke-width="2"/>
+
+  <!-- relay rows -->
+  <g>
+    <g transform="translate(140,220)">
+      <rect width="120" height="70" rx="4" fill="#1a2430" stroke="#708090"/>
+      <circle cx="30" cy="35" r="12" fill="#c04040" filter="url(#soft)"/>
+      <circle cx="60" cy="35" r="12" fill="#40c060" opacity="0.85"/>
+      <circle cx="90" cy="35" r="12" fill="#c0a040"/>
+      <text x="8" y="62" fill="#8aa0b0" font-family="ui-monospace, Menlo, monospace" font-size="10">RELAY A</text>
+    </g>
+    <g transform="translate(290,220)">
+      <rect width="120" height="70" rx="4" fill="#1a2430" stroke="#708090"/>
+      <circle cx="30" cy="35" r="12" fill="#40c060"/>
+      <circle cx="60" cy="35" r="12" fill="#40c060"/>
+      <circle cx="90" cy="35" r="12" fill="#c04040" filter="url(#soft)"/>
+      <text x="8" y="62" fill="#8aa0b0" font-family="ui-monospace, Menlo, monospace" font-size="10">RELAY B</text>
+    </g>
+    <g transform="translate(440,220)">
+      <rect width="120" height="70" rx="4" fill="#1a2430" stroke="#708090"/>
+      <circle cx="30" cy="35" r="12" fill="#40c060"/>
+      <circle cx="60" cy="35" r="12" fill="#c0a040"/>
+      <circle cx="90" cy="35" r="12" fill="#40c060"/>
+      <text x="8" y="62" fill="#8aa0b0" font-family="ui-monospace, Menlo, monospace" font-size="10">RELAY C</text>
+    </g>
+    <g transform="translate(590,220)">
+      <rect width="120" height="70" rx="4" fill="#1a2430" stroke="#a08040"/>
+      <circle cx="30" cy="35" r="12" fill="#c04040" filter="url(#soft)"/>
+      <circle cx="60" cy="35" r="12" fill="#c04040" filter="url(#soft)"/>
+      <circle cx="90" cy="35" r="12" fill="#202830"/>
+      <text x="8" y="62" fill="#d0a060" font-family="ui-monospace, Menlo, monospace" font-size="10">PANEL OPEN</text>
+    </g>
+  </g>
+
+  <!-- open panel door -->
+  <path d="M700 320 L860 280 L860 520 L700 560 Z" fill="#243040" stroke="#90a0b0" stroke-width="2" opacity="0.95"/>
+  <path d="M710 340 L840 310 L840 480 L710 510 Z" fill="#15202c" stroke="#607080"/>
+  <text x="720" y="400" fill="#90b0c0" font-family="ui-monospace, Menlo, monospace" font-size="12" transform="rotate(-8 720 400)">MARK II</text>
+  <text x="718" y="420" fill="#7090a0" font-family="ui-monospace, Menlo, monospace" font-size="10" transform="rotate(-8 718 420)">9 SEP 1947</text>
+
+  <!-- logbook -->
+  <g transform="translate(180,340)">
+    <rect x="0" y="0" width="380" height="220" rx="6" fill="url(#paper)" stroke="#a89060" stroke-width="2"/>
+    <rect x="18" y="18" width="8" height="184" rx="2" fill="#c04040" opacity="0.7"/>
+    <text x="40" y="42" fill="#3a3020" font-family="Georgia, serif" font-size="16" font-weight="600">Harvard Mark II — Relay Log</text>
+    <text x="40" y="68" fill="#5a4830" font-family="Georgia, serif" font-size="13">9 September 1947 · 15:45</text>
+    <line x1="40" y1="82" x2="340" y2="82" stroke="#c8b890" stroke-width="1"/>
+    <text x="40" y="110" fill="#2a2418" font-family="Georgia, serif" font-size="15">“First actual case of bug</text>
+    <text x="40" y="132" fill="#2a2418" font-family="Georgia, serif" font-size="15">being found.”</text>
+    <text x="40" y="162" fill="#6a5840" font-family="Georgia, serif" font-size="12" font-style="italic">— G. Hopper &amp; crew</text>
+    <text x="40" y="198" fill="#8a7040" font-family="ui-monospace, Menlo, monospace" font-size="11">STILL TAPED · SMITHSONIAN</text>
+  </g>
+
+  <!-- the moth -->
+  <g transform="translate(430,430)" filter="url(#mothglow)">
+    <ellipse cx="0" cy="0" rx="28" ry="14" fill="url(#wing)" opacity="0.95"/>
+    <ellipse cx="-18" cy="-6" rx="22" ry="10" fill="#c8b898" opacity="0.9" transform="rotate(-25)"/>
+    <ellipse cx="18" cy="-6" rx="22" ry="10" fill="#b8a888" opacity="0.9" transform="rotate(25)"/>
+    <ellipse cx="0" cy="2" rx="6" ry="10" fill="#3a3020"/>
+    <circle cx="-2" cy="-6" r="1.5" fill="#f0e8d0"/>
+    <circle cx="2" cy="-6" r="1.5" fill="#f0e8d0"/>
+    <!-- tape X -->
+    <path d="M-36 -18 L36 18 M-36 18 L36 -18" stroke="#e8d8a0" stroke-width="3" opacity="0.85"/>
+    <path d="M-36 -18 L36 18 M-36 18 L36 -18" stroke="#a08040" stroke-width="1" opacity="0.7"/>
+  </g>
+
+  <!-- brass nameplate -->
+  <g transform="translate(860,200)">
+    <rect width="280" height="120" rx="8" fill="url(#brass)" stroke="#f0d890" stroke-width="2"/>
+    <text x="20" y="38" fill="#2a1c08" font-family="Georgia, serif" font-size="18" font-weight="700">FIRST BUG</text>
+    <text x="20" y="64" fill="#3a2810" font-family="ui-monospace, Menlo, monospace" font-size="12">9 September 1947</text>
+    <text x="20" y="88" fill="#4a3818" font-family="Georgia, serif" font-size="13">Not a metaphor.</text>
+    <text x="20" y="108" fill="#4a3818" font-family="Georgia, serif" font-size="13">It had wings.</text>
+  </g>
+
+  <!-- right rail captions -->
+  <g transform="translate(860,360)" fill="#a8b8c8" font-family="ui-monospace, Menlo, monospace" font-size="12">
+    <text x="0" y="0" fill="#70d0e8">AFTER FIRST CONTACT</text>
+    <text x="0" y="28">open the panel</text>
+    <text x="0" y="48">tape the moth</text>
+    <text x="0" y="68">name the exposure</text>
+    <text x="0" y="100" fill="#d0a060">RC ≠ production pin</text>
+    <text x="0" y="120">wild study ≠ folklore</text>
+    <text x="0" y="140">silent quant ≠ green</text>
+    <text x="0" y="160">event day ≠ logbook</text>
+  </g>
+
+  <!-- footer -->
+  <text x="80" y="680" fill="#8090a0" font-family="ui-monospace, Menlo, monospace" font-size="13">cortex dream · 2026-09-09 · grace hopper first bug · after star trek first contact</text>
+  <text x="80" y="702" fill="#607080" font-family="Georgia, serif" font-size="14" font-style="italic">Name the moth, not the myth.</text>
+</svg>
