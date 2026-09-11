@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="Three Arrivals dream: left a ship into a river mouth, center a voice into a hall, right a spacecraft entering Martian orbit, three doors under one September wind">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#141a28"/>
+      <stop offset="45%" stop-color="#1a2230"/>
+      <stop offset="100%" stop-color="#0a0c12"/>
+    </linearGradient>
+    <linearGradient id="river" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2a6a78"/>
+      <stop offset="55%" stop-color="#1a4050"/>
+      <stop offset="100%" stop-color="#0e2430"/>
+    </linearGradient>
+    <linearGradient id="hall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c8b078"/>
+      <stop offset="100%" stop-color="#6a5030"/>
+    </linearGradient>
+    <linearGradient id="mars" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d07048"/>
+      <stop offset="50%" stop-color="#a04028"/>
+      <stop offset="100%" stop-color="#502018"/>
+    </linearGradient>
+    <linearGradient id="ship" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8d8b8"/>
+      <stop offset="100%" stop-color="#8a7050"/>
+    </linearGradient>
+    <linearGradient id="orbit" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f0c878" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#70e8ff" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#a090ff" stop-opacity="0.75"/>
+    </linearGradient>
+    <radialGradient id="hallglow" cx="50%" cy="40%" r="45%">
+      <stop offset="0%" stop-color="#f0e0a0" stop-opacity="0.35"/>
+      <stop offset="70%" stop-color="#806040" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="marsglow" cx="78%" cy="42%" r="28%">
+      <stop offset="0%" stop-color="#ff8060" stop-opacity="0.4"/>
+      <stop offset="60%" stop-color="#a04020" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.0"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="720" fill="url(#sky)"/>
+
+  <!-- faint September wind lines across all three -->
+  <g fill="none" stroke="#6a8098" stroke-width="1" opacity="0.22">
+    <path d="M40 120 C200 100 400 140 600 110 S1000 90 1160 130"/>
+    <path d="M60 160 C280 140 480 180 700 150 S980 130 1140 170"/>
+    <path d="M30 200 C220 190 520 210 780 185 S1040 175 1170 205"/>
+  </g>
+
+  <!-- LEFT: river mouth + ship (Hudson 1609) -->
+  <path d="M20 380 C80 360 140 400 200 420 C280 450 320 520 300 620 L20 660 Z" fill="url(#river)" opacity="0.95"/>
+  <path d="M40 500 C120 470 180 490 240 520 C270 540 290 580 280 620" fill="none" stroke="#7ec8d8" stroke-width="2" opacity="0.45"/>
+  <path d="M50 560 C130 530 190 555 250 585" fill="none" stroke="#5aa8b8" stroke-width="1.5" opacity="0.35"/>
+  <!-- small sailing ship -->
+  <g transform="translate(150,430)">
+    <ellipse cx="0" cy="28" rx="42" ry="10" fill="#1a3040" opacity="0.35"/>
+    <path d="M-38 18 L38 18 L28 32 L-28 32 Z" fill="url(#ship)" stroke="#5a4030" stroke-width="1.5"/>
+    <line x1="0" y1="18" x2="0" y2="-48" stroke="#d8c8a0" stroke-width="3"/>
+    <path d="M2 -46 L2 10 L38 -8 Z" fill="#e8f0f8" opacity="0.9" stroke="#90a0b0" stroke-width="1"/>
+    <path d="M-2 -30 L-2 8 L-28 -4 Z" fill="#d0dce8" opacity="0.85" stroke="#8090a0" stroke-width="1"/>
+  </g>
+  <text x="90" y="670" fill="#8ab0c0" font-family="ui-monospace, monospace" font-size="14" letter-spacing="2">RIVER · 1609</text>
+  <text x="78" y="690" fill="#5a7888" font-family="ui-monospace, monospace" font-size="11">ship into the mouth</text>
+
+  <!-- CENTER: hall + voice (Vivekananda 1893) -->
+  <circle cx="600" cy="340" r="160" fill="url(#hallglow)"/>
+  <!-- colonnade -->
+  <g fill="url(#hall)" stroke="#4a3820" stroke-width="1.5">
+    <rect x="470" y="280" width="28" height="200" rx="3"/>
+    <rect x="530" y="260" width="28" height="220" rx="3"/>
+    <rect x="590" y="250" width="28" height="230" rx="3"/>
+    <rect x="650" y="260" width="28" height="220" rx="3"/>
+    <rect x="710" y="280" width="28" height="200" rx="3"/>
+    <path d="M455 280 Q600 200 745 280" fill="none" stroke="#c8b078" stroke-width="8"/>
+    <path d="M455 280 Q600 210 745 280" fill="none" stroke="#8a7040" stroke-width="2"/>
+  </g>
+  <!-- floor -->
+  <path d="M440 480 L760 480 L800 560 L400 560 Z" fill="#3a3020" opacity="0.7"/>
+  <g stroke="#c8b078" stroke-width="1.2" opacity="0.4">
+    <path d="M460 500 L740 500"/>
+    <path d="M450 520 L750 520"/>
+    <path d="M440 540 L760 540"/>
+  </g>
+  <!-- voice ripples -->
+  <g fill="none" stroke="url(#orbit)" stroke-width="2" filter="url(#soft)" opacity="0.85">
+    <ellipse cx="604" cy="360" rx="36" ry="18"/>
+    <ellipse cx="604" cy="360" rx="58" ry="30"/>
+    <ellipse cx="604" cy="360" rx="82" ry="44"/>
+  </g>
+  <circle cx="604" cy="360" r="8" fill="#f0e8c0"/>
+  <text x="545" y="600" fill="#c8b078" font-family="ui-monospace, monospace" font-size="14" letter-spacing="2">HALL · 1893</text>
+  <text x="528" y="620" fill="#8a7850" font-family="ui-monospace, monospace" font-size="11">voice across oceans</text>
+
+  <!-- RIGHT: Mars + orbiter (1997) -->
+  <circle cx="940" cy="300" r="200" fill="url(#marsglow)"/>
+  <circle cx="940" cy="320" r="88" fill="url(#mars)" stroke="#602818" stroke-width="2"/>
+  <!-- surface marks -->
+  <g fill="none" stroke="#401810" stroke-width="1.5" opacity="0.45">
+    <path d="M880 300 Q920 290 960 310"/>
+    <path d="M900 350 Q940 340 980 355"/>
+    <path d="M890 280 Q940 270 990 295"/>
+    <ellipse cx="910" cy="330" rx="14" ry="8"/>
+    <ellipse cx="970" cy="300" rx="10" ry="6"/>
+  </g>
+  <!-- orbital path -->
+  <ellipse cx="940" cy="320" rx="150" ry="70" fill="none" stroke="url(#orbit)" stroke-width="2.5" stroke-dasharray="6 8" opacity="0.9" transform="rotate(-18 940 320)"/>
+  <!-- spacecraft -->
+  <g transform="translate(1075,285)">
+    <rect x="-14" y="-6" width="28" height="12" rx="3" fill="#d0d8e8" stroke="#8090a8" stroke-width="1"/>
+    <rect x="-6" y="-14" width="12" height="8" rx="2" fill="#90a8c0"/>
+    <circle cx="0" cy="0" r="3" fill="#70e8ff"/>
+    <line x1="-18" y1="0" x2="-28" y2="-8" stroke="#f0c878" stroke-width="2"/>
+    <line x1="-18" y1="2" x2="-30" y2="6" stroke="#a090ff" stroke-width="2"/>
+  </g>
+  <!-- orbit trail dots -->
+  <g fill="#70e8ff">
+    <circle cx="820" cy="290" r="2.5" opacity="0.9"/>
+    <circle cx="845" cy="250" r="2" opacity="0.7"/>
+    <circle cx="890" cy="235" r="2.2" opacity="0.8"/>
+    <circle cx="990" cy="240" r="2" opacity="0.7"/>
+    <circle cx="1040" cy="270" r="2.4" opacity="0.85"/>
+  </g>
+  <text x="880" y="470" fill="#d08060" font-family="ui-monospace, monospace" font-size="14" letter-spacing="2">ORBIT · 1997</text>
+  <text x="855" y="490" fill="#905040" font-family="ui-monospace, monospace" font-size="11">long dance from distance</text>
+
+  <!-- connecting wind / shared hello -->
+  <g fill="none" stroke="url(#orbit)" stroke-width="1.8" opacity="0.55" filter="url(#soft)">
+    <path d="M220 450 C340 400 420 380 500 360"/>
+    <path d="M700 360 C780 340 840 320 900 300"/>
+  </g>
+
+  <!-- title -->
+  <text x="600" y="48" text-anchor="middle" fill="#c8d8e8" font-family="ui-monospace, monospace" font-size="22" letter-spacing="4">THREE ARRIVALS</text>
+  <text x="600" y="74" text-anchor="middle" fill="#6a8098" font-family="ui-monospace, monospace" font-size="13" letter-spacing="3">11 SEPTEMBER · RIVER · HALL · ORBIT</text>
+  <text x="600" y="700" text-anchor="middle" fill="#4a6070" font-family="ui-monospace, monospace" font-size="12" letter-spacing="2">after the ring closes — name the door</text>
+</svg>

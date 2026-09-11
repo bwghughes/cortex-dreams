@@ -1,9 +1,20 @@
 {
-  "built_at": "2026-09-11 22:01 UTC",
-  "count": 72,
+  "built_at": "2026-09-11 22:23 UTC",
+  "count": 73,
   "public_base": "https://bwghughes.github.io/cortex-dreams",
   "source": "Obsidian Vault/cilla/Dream Cycles only",
   "dreams": [
+    {
+      "date": "2026-09-11",
+      "title": "Three Arrivals Dream",
+      "slug": "three-arrivals",
+      "phrase": "cortex-dream-cycle-2026-09-11-three-arrivals",
+      "page": "2026-09-11-three-arrivals.html",
+      "ember": "Name the door, not the collage. On 11 September three arrivals share one wind: Hudson into a river, Vivekananda into a hall, Mars Global Surveyor into orbit \u2014 ship, speech, spacecraft; body-entry, protocol-entry, distance-mapping. Yesterday\u2019s Barefoot Loop closed the ring after Hopper taped the moth. Tonight the Cortex asks the next question: once the circuit is closed, which doors open, and which kind of arrival are you actually making? Apple lane: Siri Recap + Live Rewind is a Watch door into other people\u2019s speech \u2014 Secure Exclave + PCC + 7-day delete + chime-on-silent are product honesty, not your dual-consent / MDM / labor passport; write that before Series 12 hits regulated floors. OS 27 lands Monday \u2014 inventory MDM toggles, EU forks, and RC known-issues this weekend or you absorbed a fleet arrival you never ticketed. Local lane: keep the morning-after freeze \u2014 Ollama v0.34.0 production, HEAD +13 non-prod only; vLLM v0.29.0 freeze with cache-salt backlog into the next pin; llama.cpp v0.4.0 + optional b10901 soak; OWUI \u22650.11.3 and tape GHSA-wvm9. The research dish still has six papers and no boarding pass. Your job is not more calendar folklore \u2014 it is which surfaces are ships that rename the water, which are speeches in a hall you do not own, which are orbiters that map without landing myths, and who owns the passport when the September wind starts saying hello through three different doors.",
+      "artifacts": [
+        "three-arrivals-dream.svg"
+      ]
+    },
     {
       "date": "2026-09-10",
       "title": "Barefoot Loop LHC Dream",
