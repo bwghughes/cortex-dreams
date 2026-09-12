@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="Lascaux Rice First Mark dream: left a cave wall with bison charcoal, right a lunar trajectory arc from Rice, same September wind carrying charcoal and rocket fuel">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0e1218"/>
+      <stop offset="40%" stop-color="#161c24"/>
+      <stop offset="100%" stop-color="#080a0e"/>
+    </linearGradient>
+    <linearGradient id="cave" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2a2218"/>
+      <stop offset="55%" stop-color="#1a140e"/>
+      <stop offset="100%" stop-color="#0c0a08"/>
+    </linearGradient>
+    <linearGradient id="ochre" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c87838"/>
+      <stop offset="50%" stop-color="#a85828"/>
+      <stop offset="100%" stop-color="#7a3c18"/>
+    </linearGradient>
+    <linearGradient id="bison" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d8a060"/>
+      <stop offset="100%" stop-color="#8a5030"/>
+    </linearGradient>
+    <linearGradient id="moontrail" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#70e8ff" stop-opacity="0.15"/>
+      <stop offset="40%" stop-color="#f0c878" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#e8f0ff" stop-opacity="0.95"/>
+    </linearGradient>
+    <radialGradient id="moonglow" cx="78%" cy="28%" r="22%">
+      <stop offset="0%" stop-color="#f8f0d8" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#c8b878" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="torch" cx="28%" cy="55%" r="30%">
+      <stop offset="0%" stop-color="#e8a050" stop-opacity="0.22"/>
+      <stop offset="60%" stop-color="#603010" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.8"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="720" fill="url(#sky)"/>
+
+  <!-- faint September wind lines -->
+  <g fill="none" stroke="#6a8090" stroke-width="1" opacity="0.2">
+    <path d="M40 100 C220 80 480 120 700 95 S1000 70 1160 110"/>
+    <path d="M50 140 C260 125 520 155 780 130 S1020 115 1150 150"/>
+    <path d="M30 180 C240 170 560 190 820 165 S1050 155 1170 185"/>
+  </g>
+
+  <!-- LEFT: Lascaux cave wall -->
+  <path d="M20 120 C80 100 140 90 220 100 C300 115 340 180 360 280 C380 400 340 520 280 600 C200 680 80 700 20 680 Z" fill="url(#cave)" opacity="0.98"/>
+  <circle cx="280" cy="400" r="200" fill="url(#torch)"/>
+
+  <!-- cave mouth rim -->
+  <path d="M40 140 C120 110 200 115 280 150 C320 175 350 230 355 300" fill="none" stroke="#4a3a28" stroke-width="6" opacity="0.55"/>
+  <path d="M30 200 C100 160 180 155 260 190" fill="none" stroke="#3a2a1a" stroke-width="3" opacity="0.4"/>
+
+  <!-- bison silhouette (charcoal ochre) -->
+  <g transform="translate(120,340)" opacity="0.92">
+    <ellipse cx="70" cy="40" rx="78" ry="36" fill="url(#bison)" stroke="#5a3018" stroke-width="2"/>
+    <path d="M-20 20 C-10 -10 20 -30 50 -18 C70 -10 85 10 90 30" fill="url(#ochre)" stroke="#5a3018" stroke-width="1.5"/>
+    <ellipse cx="95" cy="10" rx="28" ry="18" fill="#b07040" stroke="#5a3018" stroke-width="1.5"/>
+    <path d="M110 0 L130 -8 L125 12 Z" fill="#8a5030"/>
+    <!-- horns -->
+    <path d="M100 -5 Q95 -28 88 -22" fill="none" stroke="#d8b080" stroke-width="3" stroke-linecap="round"/>
+    <path d="M108 -2 Q112 -26 118 -18" fill="none" stroke="#d8b080" stroke-width="3" stroke-linecap="round"/>
+    <!-- legs -->
+    <rect x="20" y="68" width="10" height="36" rx="3" fill="#6a3a20"/>
+    <rect x="45" y="70" width="10" height="34" rx="3" fill="#6a3a20"/>
+    <rect x="85" y="68" width="10" height="36" rx="3" fill="#6a3a20"/>
+    <rect x="110" y="70" width="10" height="34" rx="3" fill="#6a3a20"/>
+    <!-- charcoal stipple marks -->
+    <g fill="#c89050" opacity="0.55">
+      <circle cx="40" cy="30" r="2.2"/>
+      <circle cx="55" cy="22" r="1.6"/>
+      <circle cx="75" cy="35" r="2"/>
+      <circle cx="30" cy="48" r="1.4"/>
+      <circle cx="95" cy="45" r="1.8"/>
+    </g>
+  </g>
+
+  <!-- second smaller bison suggestion -->
+  <g transform="translate(200,470) scale(0.55)" opacity="0.55">
+    <ellipse cx="70" cy="40" rx="70" ry="30" fill="#8a5a30"/>
+    <ellipse cx="95" cy="15" rx="24" ry="14" fill="#7a4a28"/>
+    <path d="M100 -2 Q96 -20 90 -14" fill="none" stroke="#c8a070" stroke-width="3"/>
+  </g>
+
+  <text x="70" y="650" fill="#c8a070" font-family="ui-monospace, monospace" font-size="14" letter-spacing="2">CAVE · 1940</text>
+  <text x="55" y="672" fill="#7a6040" font-family="ui-monospace, monospace" font-size="11">charcoal already waiting</text>
+
+  <!-- CENTER hinge: first mark -->
+  <g opacity="0.85">
+    <circle cx="600" cy="360" r="54" fill="none" stroke="#8a9aaa" stroke-width="1.5" opacity="0.35"/>
+    <circle cx="600" cy="360" r="28" fill="none" stroke="#c8b878" stroke-width="2" opacity="0.55"/>
+    <text x="600" y="356" text-anchor="middle" fill="#e8d8a0" font-family="ui-monospace, monospace" font-size="13" letter-spacing="3">FIRST</text>
+    <text x="600" y="376" text-anchor="middle" fill="#e8d8a0" font-family="ui-monospace, monospace" font-size="13" letter-spacing="3">MARK</text>
+  </g>
+
+  <!-- RIGHT: Rice Moon trajectory -->
+  <circle cx="940" cy="200" r="180" fill="url(#moonglow)"/>
+  <!-- Earth-ish pad -->
+  <ellipse cx="780" cy="560" rx="90" ry="28" fill="#1a2830" opacity="0.7"/>
+  <rect x="760" y="520" width="40" height="40" rx="4" fill="#3a4a58" stroke="#6a8090" stroke-width="1.5"/>
+  <text x="720" y="600" fill="#7a90a0" font-family="ui-monospace, monospace" font-size="11">RICE · 1962</text>
+
+  <!-- trajectory arc -->
+  <path d="M780 520 C820 420 880 300 960 220" fill="none" stroke="url(#moontrail)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M780 520 C820 420 880 300 960 220" fill="none" stroke="#f0e8c0" stroke-width="1.2" opacity="0.7" stroke-dasharray="4 8"/>
+
+  <!-- trajectory stipple -->
+  <g fill="#f0d878" filter="url(#soft)">
+    <circle cx="800" cy="480" r="3"/>
+    <circle cx="830" cy="420" r="2.6"/>
+    <circle cx="865" cy="355" r="2.4"/>
+    <circle cx="900" cy="295" r="2.2"/>
+    <circle cx="930" cy="250" r="2"/>
+  </g>
+
+  <!-- Moon -->
+  <circle cx="980" cy="190" r="48" fill="#e8e0c8" stroke="#b0a888" stroke-width="2"/>
+  <circle cx="965" cy="175" r="10" fill="#c8c0a8" opacity="0.55"/>
+  <circle cx="995" cy="200" r="14" fill="#b8b098" opacity="0.4"/>
+  <circle cx="975" cy="205" r="7" fill="#a8a088" opacity="0.35"/>
+
+  <!-- small star field -->
+  <g fill="#d0d8e8" opacity="0.7">
+    <circle cx="700" cy="80" r="1.4"/>
+    <circle cx="850" cy="60" r="1.2"/>
+    <circle cx="920" cy="100" r="1.5"/>
+    <circle cx="1050" cy="90" r="1.3"/>
+    <circle cx="1100" cy="160" r="1.1"/>
+    <circle cx="1080" cy="280" r="1.4"/>
+    <circle cx="1120" cy="340" r="1.2"/>
+  </g>
+
+  <text x="900" y="650" fill="#a8c0d0" font-family="ui-monospace, monospace" font-size="14" letter-spacing="2">MOON · SPEECH</text>
+  <text x="875" y="672" fill="#607888" font-family="ui-monospace, monospace" font-size="11">trajectory before boots</text>
+
+  <!-- bottom title band -->
+  <rect x="0" y="690" width="1200" height="30" fill="#0a0c10" opacity="0.85"/>
+  <text x="600" y="710" text-anchor="middle" fill="#8a9aaa" font-family="ui-monospace, monospace" font-size="12" letter-spacing="3">12 SEPT · LASCAUX WALL · RICE TRAJECTORY · SAME WIND TWO FIRSTS</text>
+</svg>
