@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="Metal Remembers dream: left a tamping iron corridor through a skull silhouette with rearranged furniture sparks, right fifty spinning RAMAC platters keeping a record, bridge sparks between wound and disk">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0c1016"/>
+      <stop offset="45%" stop-color="#141a22"/>
+      <stop offset="100%" stop-color="#07090c"/>
+    </linearGradient>
+    <linearGradient id="wound" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3a1a14"/>
+      <stop offset="55%" stop-color="#1c100c"/>
+      <stop offset="100%" stop-color="#0a0806"/>
+    </linearGradient>
+    <linearGradient id="iron" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c8b090"/>
+      <stop offset="40%" stop-color="#8a7a60"/>
+      <stop offset="100%" stop-color="#4a4030"/>
+    </linearGradient>
+    <linearGradient id="platter" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7a8a9a"/>
+      <stop offset="50%" stop-color="#3a4a5a"/>
+      <stop offset="100%" stop-color="#1a2430"/>
+    </linearGradient>
+    <linearGradient id="spark" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffb060" stop-opacity="0.1"/>
+      <stop offset="50%" stop-color="#ffd080" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#88c8ff" stop-opacity="0.15"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffc878" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ffc878" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="720" fill="url(#bg)"/>
+
+  <!-- left panel: wound / corridor -->
+  <rect x="40" y="60" width="520" height="560" rx="18" fill="url(#wound)" stroke="#3a2a22" stroke-width="1.5"/>
+  <text x="300" y="100" text-anchor="middle" fill="#d8b090" font-family="Georgia, serif" font-size="22" letter-spacing="2">GAGE · 1848</text>
+  <text x="300" y="128" text-anchor="middle" fill="#8a7060" font-family="Georgia, serif" font-size="13">iron finds a corridor</text>
+
+  <!-- skull silhouette -->
+  <ellipse cx="300" cy="320" rx="120" ry="145" fill="#1a1410" stroke="#5a4030" stroke-width="2"/>
+  <ellipse cx="300" cy="455" rx="55" ry="40" fill="#1a1410" stroke="#5a4030" stroke-width="1.5"/>
+  <ellipse cx="260" cy="300" rx="22" ry="16" fill="#0c0a08"/>
+  <ellipse cx="340" cy="300" rx="22" ry="16" fill="#0c0a08"/>
+  <path d="M280 360 Q300 380 320 360" fill="none" stroke="#4a3020" stroke-width="2"/>
+
+  <!-- tamping iron through corridor -->
+  <g transform="rotate(-28 300 300)">
+    <rect x="80" y="288" width="440" height="18" rx="4" fill="url(#iron)" stroke="#2a2418" stroke-width="1"/>
+    <rect x="70" y="280" width="28" height="34" rx="3" fill="#a09070"/>
+    <rect x="500" y="284" width="40" height="26" rx="2" fill="#6a5a40"/>
+  </g>
+
+  <!-- rearranged furniture sparks -->
+  <circle cx="210" cy="240" r="18" fill="url(#glow)"/>
+  <circle cx="390" cy="250" r="14" fill="url(#glow)"/>
+  <circle cx="250" cy="400" r="12" fill="url(#glow)"/>
+  <path d="M200 250 L230 270 M380 240 L360 265 M240 390 L270 370" stroke="#ffc878" stroke-width="1.5" opacity="0.7" filter="url(#soft)"/>
+  <text x="300" y="560" text-anchor="middle" fill="#a88870" font-family="Georgia, serif" font-size="14">personality rearranges the furniture</text>
+  <text x="300" y="585" text-anchor="middle" fill="#6a5040" font-family="Georgia, serif" font-size="12">no longer Gage</text>
+
+  <!-- right panel: RAMAC platters -->
+  <rect x="640" y="60" width="520" height="560" rx="18" fill="#101820" stroke="#2a3a4a" stroke-width="1.5"/>
+  <text x="900" y="100" text-anchor="middle" fill="#a8c0d8" font-family="Georgia, serif" font-size="22" letter-spacing="2">RAMAC · 1956</text>
+  <text x="900" y="128" text-anchor="middle" fill="#6a8098" font-family="Georgia, serif" font-size="13">metal that keeps a record</text>
+
+  <!-- fifty-ish platter stack (stylized) -->
+  <g transform="translate(900 360)">
+    <!-- spindle -->
+    <rect x="-8" y="-160" width="16" height="320" rx="3" fill="#4a5a6a"/>
+    <!-- platters -->
+    <ellipse cx="0" cy="-140" rx="160" ry="18" fill="url(#platter)" stroke="#8aa0b0" stroke-width="1" opacity="0.95"/>
+    <ellipse cx="0" cy="-115" rx="160" ry="18" fill="url(#platter)" stroke="#8aa0b0" stroke-width="1" opacity="0.9"/>
+    <ellipse cx="0" cy="-90" rx="160" ry="18" fill="url(#platter)" stroke="#8aa0b0" stroke-width="1" opacity="0.88"/>
+    <ellipse cx="0" cy="-65" rx="160" ry="18" fill="url(#platter)" stroke="#8aa0b0" stroke-width="1" opacity="0.86"/>
+    <ellipse cx="0" cy="-40" rx="160" ry="18" fill="url(#platter)" stroke="#8aa0b0" stroke-width="1" opacity="0.84"/>
+    <ellipse cx="0" cy="-15" rx="160" ry="18" fill="url(#platter)" stroke="#8aa0b0" stroke-width="1" opacity="0.82"/>
+    <ellipse cx="0" cy="10" rx="160" ry="18" fill="url(#platter)" stroke="#8aa0b0" stroke-width="1" opacity="0.8"/>
+    <ellipse cx="0" cy="35" rx="160" ry="18" fill="url(#platter)" stroke="#8aa0b0" stroke-width="1" opacity="0.78"/>
+    <ellipse cx="0" cy="60" rx="160" ry="18" fill="url(#platter)" stroke="#8aa0b0" stroke-width="1" opacity="0.76"/>
+    <ellipse cx="0" cy="85" rx="160" ry="18" fill="url(#platter)" stroke="#8aa0b0" stroke-width="1" opacity="0.74"/>
+    <ellipse cx="0" cy="110" rx="160" ry="18" fill="url(#platter)" stroke="#8aa0b0" stroke-width="1" opacity="0.72"/>
+    <ellipse cx="0" cy="135" rx="160" ry="18" fill="url(#platter)" stroke="#8aa0b0" stroke-width="1" opacity="0.7"/>
+    <!-- read head -->
+    <path d="M120 -20 L190 -40 L195 -35 L125 -15 Z" fill="#c8d8e8" opacity="0.85"/>
+    <circle cx="0" cy="0" r="10" fill="#d0e0f0"/>
+  </g>
+
+  <text x="900" y="560" text-anchor="middle" fill="#90a8c0" font-family="Georgia, serif" font-size="14">fifty disks spin</text>
+  <text x="900" y="585" text-anchor="middle" fill="#5a7088" font-family="Georgia, serif" font-size="12">I will keep what you were</text>
+
+  <!-- bridge sparks between panels -->
+  <path d="M560 300 C600 280, 600 340, 640 320" stroke="url(#spark)" stroke-width="3" fill="none" filter="url(#soft)"/>
+  <path d="M560 360 C600 340, 600 400, 640 380" stroke="url(#spark)" stroke-width="2.5" fill="none" opacity="0.8" filter="url(#soft)"/>
+  <path d="M560 420 C600 400, 600 460, 640 440" stroke="url(#spark)" stroke-width="2" fill="none" opacity="0.65" filter="url(#soft)"/>
+  <circle cx="600" cy="340" r="6" fill="#ffd080" opacity="0.9"/>
+  <circle cx="600" cy="400" r="4" fill="#88c8ff" opacity="0.8"/>
+
+  <!-- footer -->
+  <text x="600" y="670" text-anchor="middle" fill="#7a8a9a" font-family="Georgia, serif" font-size="16" letter-spacing="1.5">13 SEPTEMBER · METAL REMEMBERS</text>
+  <text x="600" y="696" text-anchor="middle" fill="#4a5a6a" font-family="Georgia, serif" font-size="12">wound corridor · spinning platter · continuous record</text>
+</svg>
