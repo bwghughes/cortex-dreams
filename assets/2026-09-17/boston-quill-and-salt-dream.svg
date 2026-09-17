@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Boston Quill and Salt: colonial ship and constitution quill on one calendar square">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0c1424"/>
+      <stop offset="50%" stop-color="#1a2740"/>
+      <stop offset="100%" stop-color="#24344f"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1d4a5c"/>
+      <stop offset="100%" stop-color="#0a1c28"/>
+    </linearGradient>
+    <linearGradient id="parchment" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f0e2c4"/>
+      <stop offset="100%" stop-color="#d4c09a"/>
+    </linearGradient>
+    <linearGradient id="hull" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8b5a2b"/>
+      <stop offset="100%" stop-color="#4a2f14"/>
+    </linearGradient>
+    <radialGradient id="inkpot" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#2a1a12"/>
+      <stop offset="100%" stop-color="#0a0604"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#sky)"/>
+  <g fill="#d7e6ff" opacity="0.5">
+    <circle cx="90" cy="60" r="1.4"/>
+    <circle cx="200" cy="110" r="1.1"/>
+    <circle cx="330" cy="45" r="1.5"/>
+    <circle cx="470" cy="90" r="1.2"/>
+    <circle cx="610" cy="35" r="1.6"/>
+    <circle cx="760" cy="80" r="1.1"/>
+    <circle cx="920" cy="55" r="1.4"/>
+    <circle cx="1050" cy="100" r="1.2"/>
+    <circle cx="1140" cy="40" r="1.0"/>
+  </g>
+
+  <text x="600" y="46" text-anchor="middle" fill="#9eb6c9" font-family="Georgia, serif" font-size="18" letter-spacing="3">17 SEPTEMBER · BOSTON QUILL &amp; SALT</text>
+  <text x="600" y="72" text-anchor="middle" fill="#6f879c" font-family="Georgia, serif" font-size="13" letter-spacing="2">1630 ARBELLA · 1787 CONSTITUTION · ONE SQUARE</text>
+
+  <!-- shared calendar square -->
+  <rect x="340" y="120" width="520" height="300" rx="8" fill="#152033" stroke="#4a6a82" stroke-width="2" opacity="0.85"/>
+  <text x="600" y="148" text-anchor="middle" fill="#7a93a8" font-family="Georgia, serif" font-size="12" letter-spacing="2">SAME CALENDAR SQUARE</text>
+
+  <!-- left: ship / salt -->
+  <g transform="translate(390,210)">
+    <ellipse cx="90" cy="130" rx="110" ry="18" fill="#3a6a7a" opacity="0.45"/>
+    <path d="M20,120 Q90,95 160,120 L150,135 Q90,150 30,135 Z" fill="url(#hull)"/>
+    <rect x="85" y="40" width="6" height="80" fill="#5c4030"/>
+    <path d="M91,45 L140,95 L91,100 Z" fill="#e8dcc8" opacity="0.9"/>
+    <path d="M85,55 L40,100 L85,105 Z" fill="#d4c4a8" opacity="0.85"/>
+    <circle cx="40" cy="155" r="3" fill="#c9b896" opacity="0.7"/>
+    <circle cx="70" cy="160" r="2.5" fill="#b8a67e" opacity="0.6"/>
+    <circle cx="120" cy="158" r="2.8" fill="#c9b896" opacity="0.65"/>
+    <text x="90" y="185" text-anchor="middle" fill="#a8c4d4" font-family="Georgia, serif" font-size="14">SALT · 1630</text>
+    <text x="90" y="205" text-anchor="middle" fill="#6f879c" font-family="Georgia, serif" font-size="11">Arbella drops anchor</text>
+  </g>
+
+  <!-- right: quill / ink -->
+  <g transform="translate(700,200)">
+    <rect x="20" y="50" width="130" height="100" rx="4" fill="url(#parchment)" stroke="#a89068" stroke-width="1.5"/>
+    <line x1="40" y1="75" x2="130" y2="75" stroke="#8a7050" stroke-width="1.2" opacity="0.5"/>
+    <line x1="40" y1="90" x2="120" y2="90" stroke="#8a7050" stroke-width="1.2" opacity="0.45"/>
+    <line x1="40" y1="105" x2="125" y2="105" stroke="#8a7050" stroke-width="1.2" opacity="0.4"/>
+    <line x1="40" y1="120" x2="110" y2="120" stroke="#8a7050" stroke-width="1.2" opacity="0.35"/>
+    <path d="M150,30 L175,140 L165,142 L140,35 Z" fill="#2c1810"/>
+    <path d="M140,35 L150,30 L155,42 Z" fill="#c4a882"/>
+    <ellipse cx="175" cy="155" rx="18" ry="10" fill="url(#inkpot)"/>
+    <ellipse cx="175" cy="150" rx="12" ry="5" fill="#1a0e08"/>
+    <text x="85" y="185" text-anchor="middle" fill="#d4c4a0" font-family="Georgia, serif" font-size="14">INK · 1787</text>
+    <text x="85" y="205" text-anchor="middle" fill="#6f879c" font-family="Georgia, serif" font-size="11">quill still argues</text>
+  </g>
+
+  <!-- sea below -->
+  <rect y="480" width="1200" height="320" fill="url(#sea)"/>
+  <path d="M0,500 Q200,485 400,505 T800,495 T1200,510 L1200,800 L0,800 Z" fill="#132830" opacity="0.55"/>
+  <path d="M0,560 Q180,545 360,565 T720,555 T1200,570" stroke="#4a7a8a" stroke-width="2" fill="none" opacity="0.35"/>
+  <path d="M0,620 Q220,605 440,625 T880,615 T1200,630" stroke="#3d6a78" stroke-width="1.5" fill="none" opacity="0.3"/>
+
+  <!-- tide line connecting ink and salt -->
+  <path d="M250,470 Q600,430 950,470" stroke="#c9a86c" stroke-width="2" fill="none" opacity="0.55" stroke-dasharray="8 6"/>
+  <text x="600" y="455" text-anchor="middle" fill="#c9a86c" font-family="Georgia, serif" font-size="13" letter-spacing="1">ink and salt trade places when the tide is high enough</text>
+
+  <!-- bottom captions -->
+  <g font-family="Georgia, serif" fill="#8aa4b8">
+    <text x="200" y="700" text-anchor="middle" font-size="13">salt harbor holds people</text>
+    <text x="600" y="700" text-anchor="middle" font-size="13">one square · two foundings</text>
+    <text x="1000" y="700" text-anchor="middle" font-size="13">founding ink still argues</text>
+  </g>
+  <text x="600" y="755" text-anchor="middle" fill="#5a7388" font-family="Georgia, serif" font-size="12">private AI · freeze as permanent landing · Health/ATT as charter · M8 as paper harbor</text>
+</svg>

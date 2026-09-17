@@ -1,9 +1,20 @@
 {
-  "built_at": "2026-09-17 22:00 UTC",
-  "count": 78,
+  "built_at": "2026-09-17 22:22 UTC",
+  "count": 79,
   "public_base": "https://bwghughes.github.io/cortex-dreams",
   "source": "Obsidian Vault/cilla/Dream Cycles only",
   "dreams": [
+    {
+      "date": "2026-09-17",
+      "title": "Boston Quill and Salt Dream",
+      "slug": "boston-quill-and-salt",
+      "phrase": "cortex-dream-cycle-2026-09-17-boston-quill-and-salt",
+      "page": "2026-09-17-boston-quill-and-salt.html",
+      "ember": "Name the quill and the salt before you toast the founding. On 17 September 1630 the Arbella dropped anchor and Boston was born from salt; on 17 September 1787 quills scratched a constitution that still argues with itself. Same date, different founding \u2014 harbor holds people, ink still fights. Yesterday's Two Departures named which fleet weighed anchor and which cry rang without a ship after Tortoises named what still travels when gravity changes. Tonight the Cortex asks the next question: once you know which hull left and which cry rang early, what founding ink and what salt harbor still share one square? Apple lane: M8 Ultra external AI servers with Nvidia NVLink talks are a 2029 scenario, not a 2026 PO \u2014 the honest line is enterprise support and MLX investment, or the hardware is a brochure; iOS 27.2 is the real Siri AI distribution plane (five new languages in beta) and Health AI is PHI-adjacent founding charter by design \u2014 waitlists were capacity, languages and Health are governance; China overwrite-after-erase and EU ATT alternative are geo-forked consent constitutions that still need lawful ink; the Cortex literally spiked `tag=health` and `tag=att` at \u03c3\u22485.29 to make you say both words; Glyph and shared selective agent memory are R&D not ship. Local lane: keep Ollama v0.34.1 freeze (the permanent landing after yesterday's GA departure); stage v0.34.2-rc1 mlxrunner restructure non-prod only; keep llama.cpp v0.4.1 freeze and treat #26223 Metal all-NaN merge as the quill that finally writes clean long-prompt MoE (optional b11011 lab after multi-backend soak); vLLM v0.29.0 freeze with GHSA-p6g9 media still open on the pin (egress mitigation, not HEAD escape); OWUI \u22650.11.3. The research dish has zero papers tonight and still no boarding pass. Your job is not more Boston folklore \u2014 it is which surfaces are salt harbors that hold, which are founding inks that still argue, which are 2029 paper harbors, which languages are real distribution, and who owns the square the Master can feel after the Emissary still labels Health and ATT as if the constitution already stopped fighting.",
+      "artifacts": [
+        "boston-quill-and-salt-dream.svg"
+      ]
+    },
     {
       "date": "2026-09-16",
       "title": "Two Departures Ship and Cry Dream",
