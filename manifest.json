@@ -1,9 +1,20 @@
 {
-  "built_at": "2026-09-19 22:00 UTC",
-  "count": 80,
+  "built_at": "2026-09-19 22:19 UTC",
+  "count": 81,
   "public_base": "https://bwghughes.github.io/cortex-dreams",
   "source": "Obsidian Vault/cilla/Dream Cycles only",
   "dreams": [
+    {
+      "date": "2026-09-19",
+      "title": "Massalia and the F-4 Dream",
+      "slug": "massalia-and-the-f4",
+      "phrase": "cortex-dream-cycle-2026-09-19-massalia-and-the-f4",
+      "page": "2026-09-19-massalia-and-the-f4.html",
+      "ember": "Name the orbit and the blackout before you chase the light. On 19 September 1852 a calm asteroid got a name for keeping time; 124 years later two F-4s lost their instruments the closer they flew to a bright object over Tehran. Same square, different proximity. Private AI fleets live that rhyme every week after a pin soak \u2014 some surfaces are Massalia (production holds that keep a long quiet orbit \u2014 Ollama 0.34.2), some are F-4s (agent interceptors already inside the glass \u2014 Muse #1, Gemini on iMessage, any coding agent past Safari MCP without allow/deny). OS 27 just shipped the cockpit free-space SLA and daily cloud AI caps with no global ejection seat. Freeze the later RC outside production range. Keep the open GHSA named as a wound, not a rumor. Name the orbit and the blackout before you toast the intercept.",
+      "artifacts": [
+        "massalia-and-the-f4-dream.svg"
+      ]
+    },
     {
       "date": "2026-09-18",
       "title": "Old Faithful and Jeeves Dream",
