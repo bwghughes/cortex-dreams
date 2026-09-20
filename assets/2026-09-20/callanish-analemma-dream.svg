@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Callanish Analemma Dream</title>
+  <desc id="desc">Callanish standing stones keep slow time while Magellan's fleet sails west and the Sun draws a year-long figure-8 over both calendars — two days before equinox.</desc>
+  <defs>
+    <radialGradient id="sky" cx="48%" cy="28%" r="80%">
+      <stop offset="0%" stop-color="#2a3a5a"/>
+      <stop offset="45%" stop-color="#121c33"/>
+      <stop offset="100%" stop-color="#060a14"/>
+    </radialGradient>
+    <linearGradient id="stoneFace" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c9c2b4"/>
+      <stop offset="55%" stop-color="#8d8576"/>
+      <stop offset="100%" stop-color="#4e483d"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a3a52" stop-opacity="0.0"/>
+      <stop offset="20%" stop-color="#16344c" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0a1624" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="analemmaStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd27a" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="#ffe7a8" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#ffb347" stop-opacity="0.35"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff8e0"/>
+      <stop offset="40%" stop-color="#ffd27a" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ff8a3d" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="720" fill="url(#sky)"/>
+
+  <!-- stars -->
+  <g fill="#dce8ff" opacity="0.7">
+    <circle cx="80" cy="60" r="1.4"/>
+    <circle cx="160" cy="110" r="1.1"/>
+    <circle cx="240" cy="40" r="1.7"/>
+    <circle cx="420" cy="80" r="1.2"/>
+    <circle cx="560" cy="35" r="1.5"/>
+    <circle cx="700" cy="95" r="1.1"/>
+    <circle cx="860" cy="50" r="1.6"/>
+    <circle cx="980" cy="120" r="1.2"/>
+    <circle cx="1100" cy="70" r="1.4"/>
+    <circle cx="1040" cy="200" r="1.0"/>
+    <circle cx="180" cy="200" r="1.1"/>
+  </g>
+
+  <!-- horizon sea -->
+  <rect x="0" y="470" width="1200" height="250" fill="url(#sea)"/>
+  <path d="M0 478 Q300 468 600 480 T1200 470 L1200 720 L0 720 Z" fill="#0c1826" opacity="0.35"/>
+
+  <!-- Callanish stones (left) -->
+  <g transform="translate(180 430)">
+    <ellipse cx="140" cy="95" rx="210" ry="28" fill="#0a1018" opacity="0.45"/>
+    <!-- circle suggestion -->
+    <ellipse cx="140" cy="70" rx="150" ry="48" fill="none" stroke="#7f8fa8" stroke-width="1.2" stroke-dasharray="4 8" opacity="0.35"/>
+    <!-- stones -->
+    <g filter="url(#softGlow)">
+      <rect x="20" y="-10" width="28" height="110" rx="4" fill="url(#stoneFace)" transform="rotate(-6 34 45)"/>
+      <rect x="58" y="-40" width="34" height="150" rx="5" fill="url(#stoneFace)" transform="rotate(3 75 35)"/>
+      <rect x="105" y="-55" width="40" height="170" rx="6" fill="url(#stoneFace)"/>
+      <rect x="158" y="-35" width="30" height="140" rx="4" fill="url(#stoneFace)" transform="rotate(-4 173 35)"/>
+      <rect x="200" y="-15" width="26" height="115" rx="4" fill="url(#stoneFace)" transform="rotate(7 213 42)"/>
+      <rect x="240" y="5" width="22" height="95" rx="3" fill="url(#stoneFace)" transform="rotate(-8 251 52)"/>
+      <rect x="80" y="20" width="18" height="70" rx="3" fill="url(#stoneFace)" opacity="0.85"/>
+      <rect x="270" y="25" width="16" height="60" rx="3" fill="url(#stoneFace)" opacity="0.8"/>
+    </g>
+    <text x="140" y="145" text-anchor="middle" fill="#c9d6ea" font-family="Georgia, serif" font-size="20" letter-spacing="1.5">CALLANISH</text>
+    <text x="140" y="168" text-anchor="middle" fill="#8093ad" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13">keeps slow time</text>
+  </g>
+
+  <!-- Analemma figure-8 in the sky -->
+  <g transform="translate(600 210)" filter="url(#softGlow)">
+    <path d="M0 -120
+             C 55 -120 70 -70 70 -30
+             C 70 20 30 45 0 55
+             C -30 45 -70 20 -70 -30
+             C -70 -70 -55 -120 0 -120
+             M0 55
+             C 45 70 55 110 40 145
+             C 20 185 -20 185 -40 145
+             C -55 110 -45 70 0 55"
+          fill="none" stroke="url(#analemmaStroke)" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- sun near equinox crossing (middle of the 8) -->
+    <circle cx="8" cy="50" r="42" fill="url(#sunGlow)"/>
+    <circle cx="8" cy="50" r="14" fill="#fff4d0"/>
+    <circle cx="8" cy="50" r="5" fill="#ffffff"/>
+  </g>
+  <text x="600" y="400" text-anchor="middle" fill="#ffe2a8" font-family="Georgia, serif" font-size="18" letter-spacing="2">ANALEMMA</text>
+  <text x="600" y="424" text-anchor="middle" fill="#a89068" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13">same 8 over both calendars · T-2 to equinox</text>
+
+  <!-- Magellan fleet (right, small ships sailing west-ish leftward feel but on right side of canvas sailing into open) -->
+  <g transform="translate(880 455)" opacity="0.95">
+    <!-- three caravels silhouette -->
+    <g fill="#d7e2ef">
+      <!-- hulls -->
+      <path d="M0 40 Q30 55 70 40 L65 48 Q30 62 5 48 Z"/>
+      <path d="M90 28 Q125 42 170 28 L164 36 Q125 50 95 36 Z"/>
+      <path d="M185 45 Q210 56 245 45 L240 52 Q210 62 190 52 Z" opacity="0.85"/>
+      <!-- masts -->
+      <rect x="32" y="0" width="2.5" height="42" fill="#b8c6d6"/>
+      <rect x="125" y="-10" width="2.5" height="42" fill="#b8c6d6"/>
+      <rect x="210" y="10" width="2" height="36" fill="#b8c6d6" opacity="0.9"/>
+      <!-- sails -->
+      <path d="M34 4 L58 18 L34 28 Z" fill="#f0e6d0" opacity="0.9"/>
+      <path d="M127 -6 L160 10 L127 22 Z" fill="#f0e6d0"/>
+      <path d="M212 14 L232 24 L212 32 Z" fill="#e8dcc4" opacity="0.85"/>
+    </g>
+    <!-- wake -->
+    <path d="M0 50 Q40 58 80 52" fill="none" stroke="#7eb0c8" stroke-width="1.2" opacity="0.45"/>
+    <path d="M90 40 Q130 48 175 38" fill="none" stroke="#7eb0c8" stroke-width="1.2" opacity="0.4"/>
+    <text x="120" y="88" text-anchor="middle" fill="#c9d6ea" font-family="Georgia, serif" font-size="18" letter-spacing="1.5">MAGELLAN 1519</text>
+    <text x="120" y="110" text-anchor="middle" fill="#8093ad" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13">fleet sails; stones already stood</text>
+  </g>
+
+  <!-- title strip -->
+  <text x="600" y="48" text-anchor="middle" fill="#e8eef8" font-family="Georgia, serif" font-size="28" letter-spacing="3">CALLANISH ANALEMMA</text>
+  <text x="600" y="78" text-anchor="middle" fill="#8fa3bf" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14">20 September · stones · fleet · figure-8 · equinox near</text>
+</svg>
