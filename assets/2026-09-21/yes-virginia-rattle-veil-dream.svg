@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Yes Virginia Rattle Veil Dream</title>
+  <desc id="desc">Torn rattle on the left desk of measurement; a glowing veil on the right that no amount of tearing can remove; editorial ink and a rising sun between them — Yes, Virginia, there is a Santa Claus.</desc>
+  <defs>
+    <radialGradient id="sky" cx="50%" cy="22%" r="85%">
+      <stop offset="0%" stop-color="#3a2a48"/>
+      <stop offset="40%" stop-color="#1a1528"/>
+      <stop offset="100%" stop-color="#07060f"/>
+    </radialGradient>
+    <linearGradient id="deskL" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4a3a2a"/>
+      <stop offset="100%" stop-color="#1c140e"/>
+    </linearGradient>
+    <linearGradient id="deskR" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a3548"/>
+      <stop offset="100%" stop-color="#0e141c"/>
+    </linearGradient>
+    <linearGradient id="veil" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c9b8ff" stop-opacity="0.15"/>
+      <stop offset="45%" stop-color="#ffe7b0" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#9ad7ff" stop-opacity="0.25"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff8e0"/>
+      <stop offset="35%" stop-color="#ffd27a" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#ff8a3d" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="veilBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="720" fill="url(#sky)"/>
+
+  <!-- faint newspaper lines -->
+  <g opacity="0.12" stroke="#d8c9a8" stroke-width="1">
+    <line x1="80" y1="90" x2="420" y2="90"/>
+    <line x1="80" y1="110" x2="380" y2="110"/>
+    <line x1="80" y1="130" x2="400" y2="130"/>
+    <line x1="780" y1="90" x2="1120" y2="90"/>
+    <line x1="800" y1="110" x2="1120" y2="110"/>
+    <line x1="790" y1="130" x2="1120" y2="130"/>
+  </g>
+
+  <!-- left desk: Emissary / rattle -->
+  <rect x="90" y="430" width="380" height="180" rx="8" fill="url(#deskL)" opacity="0.92"/>
+  <text x="280" y="415" text-anchor="middle" fill="#c9b8a0" font-family="Georgia, serif" font-size="18" letter-spacing="2">EMISSARY</text>
+  <!-- torn rattle pieces -->
+  <g transform="translate(200,500)" filter="url(#softGlow)">
+    <ellipse cx="0" cy="0" rx="42" ry="28" fill="none" stroke="#e8c87a" stroke-width="3" stroke-dasharray="8 6" opacity="0.85"/>
+    <circle cx="-18" cy="-6" r="7" fill="#ffb347" opacity="0.7"/>
+    <circle cx="12" cy="8" r="5" fill="#ff8a3d" opacity="0.65"/>
+    <circle cx="22" cy="-10" r="4" fill="#ffe7a8" opacity="0.55"/>
+    <path d="M-50,20 L-20,-18 M30,-22 L55,18 M-8,30 L40,22" stroke="#a88a5a" stroke-width="2" opacity="0.7"/>
+  </g>
+  <text x="280" y="575" text-anchor="middle" fill="#a89880" font-family="Georgia, serif" font-size="14">torn rattle</text>
+  <text x="280" y="595" text-anchor="middle" fill="#7a6a58" font-family="Georgia, serif" font-size="12">atoms counted · noise explained</text>
+
+  <!-- right desk: Master / veil -->
+  <rect x="730" y="430" width="380" height="180" rx="8" fill="url(#deskR)" opacity="0.92"/>
+  <text x="920" y="415" text-anchor="middle" fill="#b8c8e0" font-family="Georgia, serif" font-size="18" letter-spacing="2">MASTER</text>
+  <g transform="translate(920,520)" filter="url(#veilBlur)">
+    <path d="M-90,-55 Q-40,-90 0,-40 Q40,-90 90,-55 Q70,10 90,55 Q20,90 -20,55 Q-70,90 -90,55 Q-70,10 -90,-55 Z"
+          fill="url(#veil)" stroke="#e8d9ff" stroke-width="1.5" opacity="0.9"/>
+    <path d="M-60,-20 Q0,-50 60,-20 Q30,20 0,40 Q-30,20 -60,-20" fill="none" stroke="#ffe7b0" stroke-width="1.2" opacity="0.6"/>
+  </g>
+  <text x="920" y="575" text-anchor="middle" fill="#a8b8d0" font-family="Georgia, serif" font-size="14">the veil</text>
+  <text x="920" y="595" text-anchor="middle" fill="#6a7a98" font-family="Georgia, serif" font-size="12">no tearing removes it</text>
+
+  <!-- center sun / editorial ink -->
+  <g filter="url(#softGlow)">
+    <circle cx="600" cy="280" r="90" fill="url(#sunGlow)" opacity="0.85"/>
+    <circle cx="600" cy="280" r="28" fill="#fff3c8"/>
+    <circle cx="600" cy="280" r="18" fill="#ffd27a"/>
+  </g>
+  <!-- ink plume -->
+  <path d="M600,320 Q585,360 595,400 Q610,430 600,470" fill="none" stroke="#d4b878" stroke-width="2.5" opacity="0.55"/>
+  <ellipse cx="600" cy="478" rx="14" ry="8" fill="#2a1c10" opacity="0.85"/>
+  <rect x="592" y="470" width="16" height="28" rx="2" fill="#3a2a18"/>
+  <text x="600" y="200" text-anchor="middle" fill="#ffe7b0" font-family="Georgia, serif" font-size="22" letter-spacing="1">Yes, Virginia</text>
+  <text x="600" y="228" text-anchor="middle" fill="#c9b890" font-family="Georgia, serif" font-size="14" font-style="italic">21 September 1897 · editorial ink still rising</text>
+
+  <!-- bridge line between modes -->
+  <path d="M470,520 Q600,480 730,520" fill="none" stroke="#d8c9a8" stroke-width="1.5" stroke-dasharray="6 8" opacity="0.45"/>
+
+  <text x="600" y="680" text-anchor="middle" fill="#8a7a68" font-family="Georgia, serif" font-size="13">rattle vs veil · settlement claims vs production pin · day-7 noise vs private-AI faith</text>
+</svg>

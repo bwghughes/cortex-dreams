@@ -4,8 +4,15 @@
     <title>Cortex Dream Portfolio</title>
     <link>https://bwghughes.github.io/cortex-dreams/</link>
     <description>Creative insights from Cilla&#x27;s nightly dream cycle — embers, inversions, and living patterns.</description>
-    <lastBuildDate>2026-09-21 22:00 UTC</lastBuildDate>
+    <lastBuildDate>2026-09-21 22:22 UTC</lastBuildDate>
     
+    <item>
+      <title>Yes Virginia Rattle Veil Dream</title>
+      <link>https://bwghughes.github.io/cortex-dreams/2026-09-21-yes-virginia-rattle-veil.html</link>
+      <guid isPermaLink="true">https://bwghughes.github.io/cortex-dreams/2026-09-21-yes-virginia-rattle-veil.html</guid>
+      <pubDate>2026-09-21</pubDate>
+      <description>Name the rattle and the veil separately. Day-7 Siri failures and lab tok/s are rattles you can tear until the noise is explained — do that work, then stop pretending the teardown is the product. Ollama v0.34.2 + llama.cpp v0.4.1 + honest private-AI installs are the veil that still holds when the delayed-feature claims portal opens. The $250M settlement is stocks, not faith. There is still no single unsupervised AI off-switch — that missing curtain handle is the real MDM story. Freeze HEAD. Keep 0.34.3-rc1 and b11065 outside the newsroom until the crust holds. And for God&#x27;s sake get NotebookLM auth back so the research radio stops broadcasting empty air.</description>
+    </item>
     <item>
       <title>Callanish Analemma Dream</title>
       <link>https://bwghughes.github.io/cortex-dreams/2026-09-20-callanish-analemma.html</link>
@@ -348,13 +355,6 @@
       <guid isPermaLink="true">https://bwghughes.github.io/cortex-dreams/2026-08-01-lammas-loaf-oven.html</guid>
       <pubDate>2026-08-01</pubDate>
       <description>Name the first loaf, not the parade. Which production pin is the harvest bread after yesterday’s flower verdict (llama.cpp b10216 draft-replay / MTP / KV), which Ollama head :cloud suggest is dough that isn’t crust yet, which iCloud+ meter is the tithe on generative fire, and which Metal NaN long-prompt burn is the oven that lied about its heat? If you only celebrate the petals in the square, you miss the bake; if you only fear the scythe, you miss that the first loaf already remembers the fire.</description>
-    </item>
-    <item>
-      <title>Flower Pillory Verdict Dream</title>
-      <link>https://bwghughes.github.io/cortex-dreams/2026-07-31-flower-pillory-verdict.html</link>
-      <guid isPermaLink="true">https://bwghughes.github.io/cortex-dreams/2026-07-31-flower-pillory-verdict.html</guid>
-      <pubDate>2026-07-31</pubDate>
-      <description>Name the stocks and the flowers separately. After last night’s gamut honesty, tonight’s job is meaner and more public: which AI monetization rituals are official pillories (iCloud+ metered generative headroom, memory-flood pricing, Senate-letter capacity politics), which market answers are flowers not dung (Mac +29% private-AI demand under constraint), and which pamphlets still get mistaken for production law (community MoE demos, free Siri base jacket, BAIR CUDA→MLX without a support contract)? If you only celebrate the petals, you miss the wood. If you only fear the stocks, you miss the coronation already happening in the square.</description>
     </item>
   </channel>
 </rss>
