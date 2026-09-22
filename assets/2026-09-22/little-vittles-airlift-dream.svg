@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Little Vittles Airlift Dream</title>
+  <desc id="desc">A C-54 candy bomber wiggles its wings over a blockaded city at equinox dusk; chocolate parachutes fall toward reaching hands while a Mac Studio silhouette waits on the ground as the local landing strip.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a2740"/>
+      <stop offset="45%" stop-color="#3a2a38"/>
+      <stop offset="100%" stop-color="#0c1018"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a2430"/>
+      <stop offset="100%" stop-color="#0a080c"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="78%" cy="28%" r="28%">
+      <stop offset="0%" stop-color="#ffe7b0"/>
+      <stop offset="40%" stop-color="#ff9a4a" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#ff6a2a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="candyGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff2c8"/>
+      <stop offset="55%" stop-color="#ffb45a" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ff7a3a" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="720" fill="url(#sky)"/>
+  <circle cx="920" cy="190" r="160" fill="url(#sun)"/>
+
+  <!-- city blockade silhouette -->
+  <g fill="#0a0c12" opacity="0.92">
+    <rect x="40" y="470" width="70" height="180"/>
+    <rect x="120" y="430" width="55" height="220"/>
+    <rect x="185" y="490" width="90" height="160"/>
+    <rect x="290" y="450" width="48" height="200"/>
+    <rect x="350" y="500" width="110" height="150"/>
+    <rect x="480" y="470" width="65" height="180"/>
+    <rect x="560" y="510" width="80" height="140"/>
+    <rect x="660" y="455" width="52" height="195"/>
+    <rect x="730" y="490" width="95" height="160"/>
+    <rect x="840" y="440" width="60" height="210"/>
+    <rect x="920" y="500" width="120" height="150"/>
+    <rect x="1060" y="460" width="70" height="190"/>
+  </g>
+  <rect x="0" y="640" width="1200" height="80" fill="url(#ground)"/>
+
+  <!-- runway / local strip -->
+  <rect x="470" y="655" width="260" height="8" rx="2" fill="#6a7a90" opacity="0.55"/>
+  <g fill="#9aa8bc" opacity="0.45">
+    <rect x="500" y="657" width="18" height="4" rx="1"/>
+    <rect x="540" y="657" width="18" height="4" rx="1"/>
+    <rect x="580" y="657" width="18" height="4" rx="1"/>
+    <rect x="620" y="657" width="18" height="4" rx="1"/>
+    <rect x="660" y="657" width="18" height="4" rx="1"/>
+  </g>
+
+  <!-- Mac Studio as ground station -->
+  <g transform="translate(560,590)">
+    <rect x="0" y="20" width="90" height="48" rx="6" fill="#1c222c" stroke="#7a8aa0" stroke-width="2"/>
+    <rect x="10" y="30" width="28" height="8" rx="2" fill="#3ae0a8" opacity="0.85"/>
+    <circle cx="72" cy="34" r="4" fill="#5ad0ff"/>
+    <text x="45" y="78" text-anchor="middle" fill="#a8b8cc" font-family="Georgia, serif" font-size="12">local strip</text>
+  </g>
+
+  <!-- C-54 candy bomber -->
+  <g transform="translate(380,165)" filter="url(#soft)">
+    <ellipse cx="160" cy="48" rx="150" ry="18" fill="#c8d0dc"/>
+    <ellipse cx="160" cy="42" rx="148" ry="14" fill="#e8eef6"/>
+    <path d="M40,48 L-20,70 L-10,48 L-20,26 Z" fill="#b8c2d0"/>
+    <path d="M280,48 L340,62 L330,48 L340,34 Z" fill="#b8c2d0"/>
+    <path d="M250,30 L310,8 L255,36 Z" fill="#a8b4c4"/>
+    <rect x="90" y="34" width="18" height="10" rx="2" fill="#2a3444"/>
+    <rect x="120" y="34" width="18" height="10" rx="2" fill="#2a3444"/>
+    <rect x="150" y="34" width="18" height="10" rx="2" fill="#2a3444"/>
+    <rect x="180" y="34" width="18" height="10" rx="2" fill="#2a3444"/>
+    <!-- wing wiggle arcs -->
+    <path d="M70,20 Q100,0 130,18" fill="none" stroke="#ffd27a" stroke-width="2.5" opacity="0.8"/>
+    <path d="M200,18 Q230,0 260,20" fill="none" stroke="#ffd27a" stroke-width="2.5" opacity="0.8"/>
+    <text x="160" y="-8" text-anchor="middle" fill="#ffe7b0" font-family="Georgia, serif" font-size="16" letter-spacing="1">Uncle Wiggly Wings</text>
+  </g>
+
+  <!-- parachutes -->
+  <g>
+    <!-- chute 1 -->
+    <path d="M250,280 Q270,250 290,280 Z" fill="#ff6b6b" opacity="0.9"/>
+    <line x1="270" y1="280" x2="270" y2="320" stroke="#d8c8a8" stroke-width="1.5"/>
+    <rect x="262" y="318" width="16" height="12" rx="2" fill="#c47a3a"/>
+    <circle cx="270" cy="324" r="18" fill="url(#candyGlow)" opacity="0.55"/>
+    <!-- chute 2 -->
+    <path d="M420,310 Q445,275 470,310 Z" fill="#6ec6ff" opacity="0.9"/>
+    <line x1="445" y1="310" x2="445" y2="360" stroke="#d8c8a8" stroke-width="1.5"/>
+    <rect x="437" y="358" width="16" height="12" rx="2" fill="#c47a3a"/>
+    <circle cx="445" cy="364" r="18" fill="url(#candyGlow)" opacity="0.55"/>
+    <!-- chute 3 -->
+    <path d="M610,260 Q635,225 660,260 Z" fill="#7ddea0" opacity="0.9"/>
+    <line x1="635" y1="260" x2="635" y2="315" stroke="#d8c8a8" stroke-width="1.5"/>
+    <rect x="627" y="313" width="16" height="12" rx="2" fill="#c47a3a"/>
+    <circle cx="635" cy="319" r="18" fill="url(#candyGlow)" opacity="0.55"/>
+    <!-- chute 4 -->
+    <path d="M780,300 Q805,268 830,300 Z" fill="#ffd27a" opacity="0.9"/>
+    <line x1="805" y1="300" x2="805" y2="350" stroke="#d8c8a8" stroke-width="1.5"/>
+    <rect x="797" y="348" width="16" height="12" rx="2" fill="#c47a3a"/>
+    <circle cx="805" cy="354" r="18" fill="url(#candyGlow)" opacity="0.55"/>
+    <!-- chute 5 small -->
+    <path d="M340,360 Q355,340 370,360 Z" fill="#c9b8ff" opacity="0.85"/>
+    <line x1="355" y1="360" x2="355" y2="395" stroke="#d8c8a8" stroke-width="1.2"/>
+    <rect x="349" y="393" width="12" height="9" rx="2" fill="#c47a3a"/>
+  </g>
+
+  <!-- reaching hands -->
+  <g fill="#d8b8a0" opacity="0.85">
+    <path d="M250,620 Q260,590 275,605 Q268,615 250,620"/>
+    <path d="M430,630 Q445,598 462,612 Q452,622 430,630"/>
+    <path d="M700,625 Q715,595 732,610 Q722,620 700,625"/>
+    <path d="M860,635 Q875,605 892,618 Q882,628 860,635"/>
+  </g>
+
+  <!-- labels -->
+  <text x="60" y="50" fill="#e8e0d0" font-family="Georgia, serif" font-size="28" font-weight="bold">Little Vittles Airlift</text>
+  <text x="60" y="82" fill="#b8a898" font-family="Georgia, serif" font-size="16">22 September 1948 → 2026 · blockade cannot close the sky</text>
+  <text x="60" y="700" fill="#8a9aaa" font-family="Georgia, serif" font-size="14">wing-wiggle recognition · candy parachutes · local strip still open</text>
+</svg>

@@ -1,9 +1,20 @@
 {
-  "built_at": "2026-09-22 22:00 UTC",
-  "count": 83,
+  "built_at": "2026-09-22 22:19 UTC",
+  "count": 84,
   "public_base": "https://bwghughes.github.io/cortex-dreams",
   "source": "Obsidian Vault/cilla/Dream Cycles only",
   "dreams": [
+    {
+      "date": "2026-09-22",
+      "title": "Little Vittles Airlift Dream",
+      "slug": "little-vittles-airlift",
+      "phrase": "cortex-dream-cycle-2026-09-22-little-vittles-airlift",
+      "page": "2026-09-22-little-vittles-airlift.html",
+      "ember": "Name the plane and the parachute separately. Mac mini/Studio ship day is the C-54 that can still fly over the blockade \u2014 128\u2013256 GB local AI agent boxes with real RAM floors, not a Siri feature story. Open WebUI v0.11.4 + Ollama v0.34.2 + llama.cpp v0.4.1 are the parachutes that actually land. The wing-wiggle is how the fleet recognises which aircraft is about to rain capacity \u2014 pin tags, kill-switch honesty, and scoreboard discipline (ANE Geekbench \u2260 MLX Studio serving). The disable-AI maze is ground bureaucracy that still cannot close the sky. Freeze HEAD. Keep 0.34.3-rc1 and b11095 outside the drop zone until the crust holds. Drop real candy, not empty air. And get NotebookLM auth back so the research radio stops broadcasting empty sky.",
+      "artifacts": [
+        "little-vittles-airlift-dream.svg"
+      ]
+    },
     {
       "date": "2026-09-21",
       "title": "Yes Virginia Rattle Veil Dream",
