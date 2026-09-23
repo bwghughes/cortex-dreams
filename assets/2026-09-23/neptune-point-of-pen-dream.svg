@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Neptune Point of the Pen Dream</title>
+  <desc id="desc">A quill draws a predicted ghost orbit on black paper while a cold telescope finds a living blue world one degree away; equinox balance line cuts the night.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#050814"/>
+      <stop offset="55%" stop-color="#0b1630"/>
+      <stop offset="100%" stop-color="#061018"/>
+    </linearGradient>
+    <radialGradient id="neptuneGlow" cx="68%" cy="42%" r="28%">
+      <stop offset="0%" stop-color="#7ec8ff"/>
+      <stop offset="35%" stop-color="#3a7fd4" stop-opacity="0.95"/>
+      <stop offset="70%" stop-color="#1a4a8a" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0a1a30" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="penGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffe7b0"/>
+      <stop offset="55%" stop-color="#c9a06a" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#6a4a28" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="720" fill="url(#sky)"/>
+
+  <!-- star field -->
+  <g fill="#dce8ff" opacity="0.75">
+    <circle cx="80" cy="70" r="1.4"/>
+    <circle cx="160" cy="120" r="1.1"/>
+    <circle cx="240" cy="50" r="1.6"/>
+    <circle cx="320" cy="95" r="1.0"/>
+    <circle cx="410" cy="40" r="1.3"/>
+    <circle cx="520" cy="80" r="1.2"/>
+    <circle cx="610" cy="35" r="1.5"/>
+    <circle cx="700" cy="110" r="1.0"/>
+    <circle cx="790" cy="55" r="1.4"/>
+    <circle cx="880" cy="90" r="1.1"/>
+    <circle cx="970" cy="45" r="1.7"/>
+    <circle cx="1060" cy="100" r="1.2"/>
+    <circle cx="1120" cy="60" r="1.0"/>
+    <circle cx="180" cy="200" r="1.0"/>
+    <circle cx="980" cy="180" r="1.3"/>
+    <circle cx="60" cy="260" r="1.1"/>
+    <circle cx="1140" cy="240" r="1.2"/>
+  </g>
+
+  <!-- equinox hinge line -->
+  <line x1="40" y1="360" x2="1160" y2="360" stroke="#9bb8d8" stroke-opacity="0.28" stroke-width="1.5" stroke-dasharray="8 10"/>
+  <text x="60" y="350" fill="#9bb8d8" fill-opacity="0.55" font-family="Georgia, serif" font-size="14">equinox hinge</text>
+
+  <!-- paper / desk left -->
+  <g transform="translate(70,390)">
+    <rect x="0" y="0" width="420" height="260" rx="10" fill="#14110e" stroke="#3a3228" stroke-width="2"/>
+    <rect x="24" y="28" width="372" height="204" rx="4" fill="#1c1814" stroke="#4a4034" stroke-width="1"/>
+    <!-- grid of prediction -->
+    <g stroke="#5a6a7a" stroke-opacity="0.35" stroke-width="1" fill="none">
+      <ellipse cx="210" cy="120" rx="150" ry="70"/>
+      <ellipse cx="210" cy="120" rx="110" ry="50"/>
+      <ellipse cx="210" cy="120" rx="70" ry="32"/>
+      <line x1="40" y1="120" x2="380" y2="120"/>
+      <line x1="210" y1="40" x2="210" y2="200"/>
+    </g>
+    <!-- ghost predicted point -->
+    <circle cx="318" cy="88" r="7" fill="none" stroke="#a8c4e8" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.9"/>
+    <text x="330" y="78" fill="#a8c4e8" fill-opacity="0.7" font-family="Georgia, serif" font-size="13">ghost orbit</text>
+    <!-- ink coordinates -->
+    <text x="40" y="42" fill="#c9b48a" fill-opacity="0.8" font-family="Georgia, serif" font-size="15">Le Verrier · pen first</text>
+    <text x="40" y="220" fill="#8a7a62" fill-opacity="0.75" font-family="ui-monospace, monospace" font-size="12">δ ≈ 1° · t &lt; 1h · 1846-09-23</text>
+  </g>
+
+  <!-- quill -->
+  <g transform="translate(380,470)" filter="url(#soft)">
+    <circle cx="0" cy="0" r="40" fill="url(#penGlow)" opacity="0.55"/>
+    <path d="M -8 70 L 8 70 L 4 -10 L -4 -10 Z" fill="#d8c28a"/>
+    <path d="M -4 -10 Q 0 -90 18 -130 Q 6 -70 4 -10 Z" fill="#e8d6a8"/>
+    <path d="M 4 -10 Q 10 -55 28 -100 Q 12 -50 8 -10 Z" fill="#c4a86a"/>
+    <path d="M -2 70 L 0 92 L 2 70 Z" fill="#2a2218"/>
+    <ellipse cx="0" cy="98" rx="10" ry="4" fill="#1a4a8a" opacity="0.85"/>
+  </g>
+
+  <!-- telescope right -->
+  <g transform="translate(780,400)">
+    <rect x="40" y="160" width="180" height="18" rx="4" fill="#2a3038"/>
+    <rect x="110" y="100" width="24" height="70" fill="#3a424c"/>
+    <rect x="20" y="70" width="220" height="36" rx="18" fill="#4a5562" transform="rotate(-18 130 88)"/>
+    <circle cx="28" cy="58" r="22" fill="#1a222c" stroke="#6a7888" stroke-width="3" transform="rotate(-18 28 58)"/>
+    <circle cx="28" cy="58" r="10" fill="#0a1018" transform="rotate(-18 28 58)"/>
+    <text x="40" y="210" fill="#9bb8d8" fill-opacity="0.7" font-family="Georgia, serif" font-size="14">Galle · cold glass</text>
+  </g>
+
+  <!-- Neptune living disc -->
+  <g filter="url(#soft)">
+    <circle cx="820" cy="300" r="120" fill="url(#neptuneGlow)"/>
+    <circle cx="820" cy="300" r="58" fill="#2f6fb8"/>
+    <ellipse cx="820" cy="300" rx="58" ry="18" fill="#4f9ad8" opacity="0.35"/>
+    <ellipse cx="820" cy="285" rx="40" ry="12" fill="#a8d8ff" opacity="0.25"/>
+    <circle cx="800" cy="290" r="8" fill="#1a4a7a" opacity="0.5"/>
+    <text x="760" y="390" fill="#cfe6ff" fill-opacity="0.85" font-family="Georgia, serif" font-size="18">really exists</text>
+  </g>
+
+  <!-- one-degree mercy arc -->
+  <path d="M 470 250 Q 640 180 760 260" fill="none" stroke="#7ec8ff" stroke-opacity="0.45" stroke-width="2" stroke-dasharray="5 7"/>
+  <text x="560" y="200" fill="#7ec8ff" fill-opacity="0.7" font-family="Georgia, serif" font-size="15">one-degree mercy</text>
+
+  <!-- title plate -->
+  <g transform="translate(40,40)">
+    <rect x="0" y="0" width="520" height="86" rx="10" fill="#0a1020" fill-opacity="0.72" stroke="#2a4060" stroke-width="1"/>
+    <text x="22" y="36" fill="#e8f0ff" font-family="Georgia, serif" font-size="28">Neptune · Point of the Pen</text>
+    <text x="22" y="64" fill="#9bb8d8" font-family="Georgia, serif" font-size="16">23 September 1846 / 2026 — pen predicts, glass confirms</text>
+  </g>
+</svg>
